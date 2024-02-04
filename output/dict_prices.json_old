@@ -1,0 +1,870 @@
+[
+    {
+        "fullType": "Base.Belly_Turtleneck",
+        "price": 15.5
+    },
+    {
+        "fullType": "Military.Belly_Turtleneck_Military",
+        "price": 25.5
+    },
+    {
+        "fullType": "Vehicle.Vehicle_SeatCushion",
+        "price": 12.5
+    },
+    {
+        "fullType": "Accessory.Beaver_Mascot",
+        "price": 1500
+    },
+    {
+        "fullType": "Accessory.Beaver_Keychain",
+        "price": 500
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol1",
+        "price": 150
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol2",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Adidas_Pad_Jacket_ON",
+        "price": 50
+    },
+    {
+        "fullType": "Base.BellyButton_RingGoldRuby",
+        "price": 1000
+    },
+    {
+        "fullType": "Military.BellyButton_RingGoldRuby_Military",
+        "price": 1200
+    },
+    {
+        "fullType": "Vehicle.Vehicle_SeatCushion",
+        "price": 12.5
+    },
+    {
+        "fullType": "Accessory.Beaver_Mascot",
+        "price": 1500
+    },
+    {
+        "fullType": "Accessory.Beaver_Keychain",
+        "price": 500
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol1",
+        "price": 150
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol2",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Belly_Turtleneck",
+        "price": 15.5
+    },
+    {
+        "fullType": "Military.Belly_Turtleneck_Military",
+        "price": 25.5
+    },
+    {
+        "fullType": "Base.WildGarlicCataplasm",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.ANA_Classic_ON",
+        "price": 35.5
+    },
+    {
+        "fullType": "Base.PipeBomb",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.MakeupEyeshadow",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.Hat_GasMask",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Shirt_Scrubs",
+        "price": 20
+    },
+    {
+        "fullType": "Base.ToiletPaper",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.Mov_BinRound",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.PlasticCupWater",
+        "price": 2.5
+    },
+    {
+        "fullType": "Base.LightBulbOrange",
+        "price": 3.5
+    },
+    {
+        "fullType": "Base.Heather_Bomber",
+        "price": 50
+    },
+    {
+        "fullType": "Base.WaterBottleFull",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.Umbrella",
+        "price": 20.0
+    },
+    {
+        "fullType": "Base.NormalGasTank1",
+        "price": 25.0
+    },
+    {
+        "fullType": "Base.BarbedWire",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.NormalGasTank2",
+        "price": 30.0
+    },
+    {
+        "fullType": "Base.Glove_Mechanix_Pact",
+        "price": 15.5
+    },
+    {
+        "fullType": "Military.Shirt_CamoDesert_Military",
+        "price": 35.5
+    },
+    {
+        "fullType": "Base.Gravelbag",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.NormalGasTank3",
+        "price": 40.0
+    },
+    {
+        "fullType": "Base.USCM_Jacket",
+        "price": 40.0
+    },
+    {
+        "fullType": "Base.511_Pants_Rolled",
+        "price": 30.0
+    },
+    {
+        "fullType": "Base.Register2Carry",
+        "price": 20.0
+    },
+    {
+        "fullType": "Base.Bowl",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.CannedPineapple",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.Earring_Stone_Sapphire",
+        "price": 30.0
+    },
+    {
+        "fullType": "Base.Ashe_Necktie",
+        "price": 15.5
+    },
+    {
+        "fullType": "Base.ATA1100Trunk",
+        "price": 50.0
+    },
+    {
+        "fullType": "Base.UmbrellaBlack",
+        "price": 25.0
+    },
+    {
+        "fullType": "Base.FlameTrapRemote",
+        "price": 20.0
+    },
+    {
+        "fullType": "Base.Jacket_ArmyCamoDesert",
+        "price": 50.0
+    },
+    {
+        "fullType": "Base.Hat_BaseballCap_Reverse",
+        "price": 25.0
+    },
+    {
+        "fullType": "Base.Vest_Waistcoat",
+        "price": 20.0
+    },
+    {
+        "fullType": "Base.Bag_Savotta",
+        "price": 25.5
+    },
+    {
+        "fullType": "Base.Mov_WhiteComfyChair",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.Glove_Mustang",
+        "price": 15.5
+    },
+    {
+        "fullType": "Base.Vest_Hunting_Orange",
+        "price": 35.5
+    },
+    {
+        "fullType": "Base.Mov_ModernOven",
+        "price": 50.0
+    },
+    {
+        "fullType": "Base.Chempak_Tychem_ON",
+        "price": 100.0
+    },
+    {
+        "fullType": "Base.Corndog",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.Hat_BaseballCapGreen_Reverse",
+        "price": 25.0
+    },
+    {
+        "fullType": "Base.Mov_PosterOmega",
+        "price": 25.0
+    },
+    {
+        "fullType": "Base.Crayons",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.LightBulbCyan",
+        "price": 3.5
+    },
+    {
+        "fullType": "Base.PonchoYellowDOWN",
+        "price": 15.5
+    },
+    {
+        "fullType": "Base.AmmoStraps",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.Mov_RoadBarrier",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.Tac_Boots",
+        "price": 50.5
+    },
+    {
+        "fullType": "Base.CannedTomatoOpen",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.Mov_BlueRattanChair",
+        "price": 25.0
+    },
+    {
+        "fullType": "Base.SackProduce_Strawberry",
+        "price": 10.0
+    },
+    {
+        "fullType": "Base.UmbrellaRed",
+        "price": 20.0
+    },
+    {
+        "fullType": "Base.Toothpaste",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.SH_Nurse_2",
+        "price": 50.0
+    },
+    {
+        "fullType": "Base.Watermelon",
+        "price": 2.5
+    },
+    {
+        "fullType": "Base.NV_PNV_57",
+        "price": 275.0104990844727
+    },
+    {
+        "fullType": "Base.HuntingMag2",
+        "price": 150.0
+    },
+    {
+        "fullType": "Base.HuntingMag3",
+        "price": 200.0
+    },
+    {
+        "fullType": "Base.Tactical_Hood",
+        "price": 35.5
+    },
+    {
+        "fullType": "Base.Mov_WhiteSimpleChair",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.Mov_PlasticLowTable",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.SackProduce_Grapes",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.HuntingMag1",
+        "price": 150.0
+    },
+    {
+        "fullType": "Base.GrillBrush",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.SwallowtailCaterpillar",
+        "price": 10.5
+    },
+    {
+        "fullType": "Base.Fur_Jacket_ON",
+        "price": 75.5
+    },
+    {
+        "fullType": "Base.Hat_Sam_NV_OFF",
+        "price": 50.5104990844727
+    },
+    {
+        "fullType": "Base.Shorts_ShortDenim",
+        "price": 20
+    },
+    {
+        "fullType": "Base.Tie_Worn_Spiffo",
+        "price": 17.5
+    },
+    {
+        "fullType": "Base.PonchoGreen",
+        "price": 15.5
+    },
+    {
+        "fullType": "Base.CannedMushroomSoup",
+        "price": 5.5
+    },
+    {
+        "fullType": "Base.WhiskeyFull",
+        "price": 8.5
+    },
+    {
+        "fullType": "Base.Mov_GreenOven",
+        "price": 50.0
+    },
+    {
+        "fullType": "Base.Hat_SummerHat",
+        "price": 25.0
+    },
+    {
+        "fullType": "Base.VanSeatsTrunk2",
+        "price": 100.0
+    },
+    {
+        "fullType": "Base.Bag_Cat_Pack",
+        "price": 35.5
+    },
+    {
+        "fullType": "Base.PizzaRecipe",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.NoseRing_Gold",
+        "price": 20.0104990844727
+    },
+    {
+        "fullType": "Base.ATA500Trunk3",
+        "price": 100.0
+    },
+    {
+        "fullType": "Base.Rabbitmeat",
+        "price": 5.5
+    },
+    {
+        "fullType": "Military.Rabbitmeat_Military",
+        "price": 8.5
+    },
+    {
+        "fullType": "Vehicle.Vehicle_SeatCushion",
+        "price": 12.5
+    },
+    {
+        "fullType": "Accessory.Beaver_Mascot",
+        "price": 1500
+    },
+    {
+        "fullType": "Accessory.Beaver_Keychain",
+        "price": 500
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol1",
+        "price": 150
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol2",
+        "price": 250
+    },
+    {
+        "fullType": "Base.ATA500Trunk1",
+        "price": 50.0
+    },
+    {
+        "fullType": "Base.ATA500Trunk2",
+        "price": 100.0
+    },
+    {
+        "fullType": "Base.Aerosolbomb",
+        "price": 15.5
+    },
+    {
+        "fullType": "Base.Hot_Pants_Long",
+        "price": 20.0
+    },
+    {
+        "fullType": "Base.AlcoholRippedSheets",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.Shoes_Slippers",
+        "price": 20.0
+    },
+    {
+        "fullType": "Base.NV_PVS5",
+        "price": 410.0104990844727
+    },
+    {
+        "fullType": "Base.Jujubes",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.Saxophone",
+        "price": 50.0
+    },
+    {
+        "fullType": "Base.Trousers_SuitTEXTURE",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Vest_Hunting_Grey",
+        "price": 35.5
+    },
+    {
+        "fullType": "Base.NecklaceLong_Silver",
+        "price": 25.0104990844727
+    },
+    {
+        "fullType": "Base.WineEmpty2",
+        "price": 0.30000001192093
+    },
+    {
+        "fullType": "Base.HairDyeYellow",
+        "price": 15.5
+    },
+    {
+        "fullType": "Base.1916_Helmet_Visor_2",
+        "price": 50.0104990844727
+    },
+    {
+        "fullType": "Base.Bag_NormalHikingBag",
+        "price": 12.5000000476837
+    },
+    {
+        "fullType": "Base.Hat_Tactical_Boonie",
+        "price": 25.5
+    },
+    {
+        "fullType": "Base.FrontWindow3",
+        "price": 150.0
+    },
+    {
+        "fullType": "Base.FrontWindow2",
+        "price": 150.0
+    },
+    {
+        "fullType": "Base.Hat_MX_Helmet_Glass",
+        "price": 50.0
+    },
+    {
+        "fullType": "Base.Hat_Visor_WhiteTINT",
+        "price": 25.5
+    },
+    {
+        "fullType": "Base.FrontWindow1",
+        "price": 150.0
+    },
+    {
+        "fullType": "Base.Shorts_BoxingBlue",
+        "price": 20.0
+    },
+    {
+        "fullType": "Base.Peanuts",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.DumbBell",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.Tweezers",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.NV_PVS7",
+        "price": 410.0104990844727
+    },
+    {
+        "fullType": "Base.Socks_Long",
+        "price": 3.00000002384186
+    },
+    {
+        "fullType": "Base.Flour",
+        "price": 0.50000002384186
+    },
+    {
+        "fullType": "Base.GuitarElectricBlack",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Military_Cloak_OFF",
+        "price": 35.5104990844727
+    },
+    {
+        "fullType": "Base.NecklaceLong_Gold",
+        "price": 100.1049908447273
+    },
+    {
+        "fullType": "Base.GM15_Gasmask",
+        "price": 25.5
+    },
+    {
+        "fullType": "Base.Hat_FastFood_IceCream",
+        "price": 15.5
+    },
+    {
+        "fullType": "Base.Earring_LoopSmall_Gold_Both",
+        "price": 12.51049908447273
+    },
+    {
+        "fullType": "Base.CameraFilm",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.Belt_Pack_Duty_Loose",
+        "price": 15.5
+    },
+    {
+        "fullType": "Base.CandyPackage",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.NV_GPNVG_18",
+        "price": 275.0104990844727
+    },
+    {
+        "fullType": "Base.Scarf_White",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.ATA200Trunk1",
+        "price": 100.0
+    },
+    {
+        "fullType": "Base.ATA200Trunk2",
+        "price": 100.0
+    },
+    {
+        "fullType": "Base.Fork",
+        "price": 1.65
+    },
+    {
+        "fullType": "Base.ATA200Trunk3",
+        "price": 100.0
+    },
+    {
+        "fullType": "Base.Wool_Stocking_Mismatched",
+        "price": 15.5
+    },
+    {
+        "fullType": "Base.Jacket_Shellsuit_Teal",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Bag_BigHikingBag",
+        "price": 12.5000000476837
+    },
+    {
+        "fullType": "Base.Hat_GolfHatTINT",
+        "price": 15.5
+    },
+    {
+        "fullType": "Base.Swimsuit_TINT",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.Leather_Vest_Harry",
+        "price": 25.5
+    },
+    {
+        "fullType": "Base.Termites",
+        "price": 0.0099999997764826
+    },
+    {
+        "fullType": "Base.WaterSaucepanPasta",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.Vityaz_Visor",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Garter",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.SackProduce_Cabbage",
+        "price": 2
+    },
+    {
+        "fullType": "Base.Mov_WhiteWoodenChair",
+        "price": 12.5
+    },
+    {
+        "fullType": "Base.Belt_Pack_Gas_Loose_F_Tactical_Off",
+        "price": 15.5
+    },
+    {
+        "fullType": "Base.Ela_Pants",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Kawasaki_Jacket",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Shirt_CamoUrban",
+        "price": 25.5
+    },
+    {
+        "fullType": "Base.Shirt_FormalWhite",
+        "price": 15.5
+    },
+    {
+        "fullType": "Accessory.Beaver_Mascot",
+        "price": 1500
+    },
+    {
+        "fullType": "Accessory.Beaver_Keychain",
+        "price": 500
+    },
+    {
+        "fullType": "Military.Belly_Turtleneck_Military",
+        "price": 25.5
+    },
+    {
+        "fullType": "Military.Rabbitmeat_Military",
+        "price": 8.5
+    },
+    {
+        "fullType": "Military.BellyButton_RingGoldRuby_Military",
+        "price": 1200
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol1",
+        "price": 150
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol2",
+        "price": 250
+    },
+    {
+        "fullType": "Base.GolfBall",
+        "price": 0.10000000149012
+    },
+    {
+        "fullType": "Base.Mov_AirConditioner",
+        "price": 0.5
+    },
+    {
+        "fullType": "Accessory.Beaver_Mascot",
+        "price": 1500
+    },
+    {
+        "fullType": "Accessory.Beaver_Keychain",
+        "price": 500
+    },
+    {
+        "fullType": "Military.Belly_Turtleneck_Military",
+        "price": 25.5
+    },
+    {
+        "fullType": "Military.Rabbitmeat_Military",
+        "price": 8.5
+    },
+    {
+        "fullType": "Military.BellyButton_RingGoldRuby_Military",
+        "price": 1200
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol1",
+        "price": 150
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol2",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Apple",
+        "price": 0.20000000298023
+    },
+    {
+        "fullType": "Base.Tshirt_Profession_FiremanRed",
+        "price": 15.5
+    },
+    {
+        "fullType": "Base.Bag_Tactical_Belt_Front",
+        "price": 0.5
+    },
+    {
+        "fullType": "Military.Belly_Turtleneck_BellyButton_RingGoldRuby",
+        "price": 25.5
+    },
+    {
+        "fullType": "Vehicle.Vehicle_SeatCushion",
+        "price": 12.5
+    },
+    {
+        "fullType": "Accessory.Beaver_Mascot",
+        "price": 1500
+    },
+    {
+        "fullType": "Accessory.Beaver_Keychain",
+        "price": 500
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol1",
+        "price": 150
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol2",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Belly_Turtleneck",
+        "price": 15.5
+    },
+    {
+        "fullType": "Military.Belly_Turtleneck_BellyButton_RingGoldRuby",
+        "price": 25.5
+    },
+    {
+        "fullType": "Vehicle.Vehicle_SeatCushion",
+        "price": 12.5
+    },
+    {
+        "fullType": "Accessory.Beaver_Mascot",
+        "price": 1500
+    },
+    {
+        "fullType": "Accessory.Beaver_Keychain",
+        "price": 500
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol1",
+        "price": 150
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol2",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Belly_Turtleneck",
+        "price": 15.5
+    },
+    {
+        "fullType": "Military.Belly_Turtleneck_BellyButton_RingGoldRuby",
+        "price": 25.5
+    },
+    {
+        "fullType": "Base.Tshirt_ValleyStation",
+        "price": 15.5
+    },
+    {
+        "fullType": "Base.CannedRedRadish",
+        "price": 0.5
+    },
+    {
+        "fullType": "Base.Bracelet_ChainLeftSilver",
+        "price": 1000
+    },
+    {
+        "fullType": "Base.SET_PAD_Loose",
+        "price": 15.5
+    },
+    {
+        "fullType": "Military.Belly_Turtleneck",
+        "price": 25.5
+    },
+    {
+        "fullType": "Vehicle.Vehicle_SeatCushion",
+        "price": 12.5
+    },
+    {
+        "fullType": "Accessory.Beaver_Mascot",
+        "price": 1500
+    },
+    {
+        "fullType": "Accessory.Beaver_Keychain",
+        "price": 500
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol1",
+        "price": 150
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol2",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Belly_Turtleneck",
+        "price": 15.5
+    },
+    {
+        "fullType": "Military.Belly_Turtleneck_Military",
+        "price": 25.5
+    },
+    {
+        "fullType": "Vehicle.Vehicle_SeatCushion",
+        "price": 12.5
+    },
+    {
+        "fullType": "Accessory.Beaver_Mascot",
+        "price": 1500
+    },
+    {
+        "fullType": "Accessory.Beaver_Keychain",
+        "price": 500
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol1",
+        "price": 150
+    },
+    {
+        "fullType": "SkillBook.Mechanics_Vol2",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Belly_Turtleneck",
+        "price": 15.5
+    },
+    {
+        "fullType": "Military.Belly_Turtleneck_Military",
+        "price": 25.5
+    }
+]
