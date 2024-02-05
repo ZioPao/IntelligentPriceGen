@@ -3010,5 +3010,9 @@
     {
         "fullType": "Base.Jumper_TankTopDiamondTINT",
         "price": 75
+    },
+    {
+        "fullType": "Base.PancakesCraft",
+        "price": 100
     }
 ]
