@@ -17,7 +17,6 @@ I'll give you the following data in json form:
 - Item BulletDefense Stat (Could be empty)
 - Item Damage Stat (Could be empty)
 
-From this data, you'll need to return ONLY its price in dollars.
 Keep in mind:
 - Military items, guns, and weapons should cost AT LEAST $500, but generally (especially for guns) you can go much higher. Account for other attributes, such as damage or BulletDefense
 - Items listed with Category "Blunt" are weapons
@@ -27,12 +26,28 @@ Keep in mind:
 - Items with category Accessory can be valued pretty high, but no more than $2000
 - Items with category Skill Book should be valued higher than $100. For example, Vol.1 should be $500, then Vol.2 should be $1000, then Vol.3 should be $1500, and so on. This doesn't apply for magazines.
 - Items with the same name but different FullType must be set with the same price but listed as separate
-- Beaver related merch should cost higher than other items
+- Items that start with BBB. in their fulltype should be valued WAY higher than other items
 - Random stuff shouldn't be valued too high, such as Vehicle Parts, Food utensils, Make Up, random tools, etc.
 - Price can NEVER be 0. You can use at most 2 decimals though
 
-This is the JSON of the previously generated prices, use them to keep new prices consistent: \n\n{old_prices}\n\n
-Be concise and return a json with only the item FullType and its price. The item is: \n\n {new_prices}\n\n"""
+Choose between the following TAGS depending on the item name and category:
+- WEAPON
+- CLOTHING
+- MILITARY CLOTHING
+- JUNK
+- FOOD
+- COSMETIC
+- FIRSTAID
+- MOVEABLE (for items that start with Mov_)
+
+
+This is the JSON of the previously generated prices, use them to keep new prices/tags consistent: \n\n{old_prices}\n\n
+Be concise and return a json with ONLY the following attributes and NOTHING MORE:
+- The Item FullType (attribute : fullType)
+- The Generated price (attribute : price)
+- One of the aforementioned tags (attribute : tag) \n
+
+The item is: \n\n {new_prices}\n\n"""
 
 
 with open('data/items.json') as json_file:
@@ -43,7 +58,7 @@ with open('data/items.json') as json_file:
 # Setup LLM
 grammar_text = httpx.get("https://raw.githubusercontent.com/ggerganov/llama.cpp/master/grammars/json_arr.gbnf").text
 grammar = LlamaGrammar.from_string(grammar_text) 
-llm = LmmWorker(LmmEnum.Tess, grammar=grammar, n_ctx=1500, temperature=0.8)
+llm = LmmWorker(LmmEnum.Tess, grammar=grammar, n_ctx=1500, temperature=0.5)
 llm.set_sys_message(SYSTEM_MESSAGE)
 
 

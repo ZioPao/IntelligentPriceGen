@@ -32,6 +32,11 @@ class LmmEnum(Enum):
 
     }
 
+    def get_output_text(self, response):
+        pass
+
+
+
 
 
 class LmmWorker():
@@ -48,9 +53,15 @@ class LmmWorker():
     def set_sys_message(self, system_message : str):
         self.system_message = system_message
 
+    def get_output_text(self, response):
+        return response['choices'][0]['text']
+
 
     def run(self, prompt : str , system_message : str = None):
-        f_p = self.template.format(prompt=prompt) if self.hasSysMsg else self.template.format(prompt=prompt, system_message=system_message)
+        if self.hasSysMsg:
+            f_p = self.template.format(prompt=prompt, system_message=system_message)
+        else:
+            f_p = self.template.format(prompt=prompt)
 
         #print(f_p)
         response = self.llm(prompt=f_p, stop=["</s>"], max_tokens=2000, temperature=self.temperature, grammar=self.grammar)
@@ -60,5 +71,6 @@ class LmmWorker():
             print("Failed JSON parsing")
             print(response)
             text = ""
+
 
         return text
