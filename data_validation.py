@@ -17,9 +17,14 @@ with open(price_path.format(LmmEnum.Tess.name), 'r') as j:
 
 
 
-def check_fulltype(data_to_check):
+def check_fulltype(path):
     with open('items.json') as j:
         og_data = json.load(j)
+
+    with open(path, 'r') as file:
+        data_to_check = json.load(file)
+
+
 
     error_counter = 0
     for i in range(0, len(og_data)):
@@ -32,6 +37,9 @@ def check_fulltype(data_to_check):
             print("OG FType: {}".format(og_ftype))
             error_counter += 1
 
+            with open("output/fixed.json", 'w') as file:
+                data_to_check[i]['fullType'] = og_ftype
+                file.write(json.dumps(data_to_check, indent=4))
 
     print("Amount of errors: " + str(error_counter) )
 
@@ -51,4 +59,4 @@ def compare_prices(data1, data2):
             print("Model 2: {} => {}".format(fType2, price2))
 
 
-check_fulltype(data2)
+check_fulltype(price_path.format(LmmEnum.CapybaraHermes.name))

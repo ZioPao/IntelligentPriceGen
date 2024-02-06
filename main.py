@@ -29,7 +29,7 @@ Keep in mind:
 - Items with the same name but different FullType must be set with the same price but listed as separate.\n
 - Items that start with BBB in their fulltype should be valued WAY higher than other items.\n
 - Items that start with Mov_ in their fullType are furniture, and should cost a lot\n
-- Random stuff shouldn't be valued too high, such as Vehicle Parts, Food utensils, Make Up, random tools, etc.\n
+- Random stuff shouldn't be valued too high, such as Vehicle Parts, Food utensils, Make Up, random tools, etc. You can go as low as $5\n
 - Price can NEVER be 0. You can use at most 2 decimals though.\n\n
 
 Choose between the following TAGS depending on the item name and category:
@@ -81,7 +81,7 @@ for i in tqdm.tqdm(range(starting_point, len(data), 1)):
     spliced_data = str(data[i:i+1])
     print(spliced_data)
 
-    new_j = llm.run(prompt=BASE_PROMPT.format(new_prices=spliced_data, old_prices=prices[-35:]))    
+    new_j = llm.run(prompt=BASE_PROMPT.format(new_prices=spliced_data, old_prices=prices[-25:]))    
     print(new_j)
     prices = [*prices, *new_j]
 
