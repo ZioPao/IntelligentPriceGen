@@ -1,14 +1,20 @@
 import json
+from llm_worker import LmmEnum
 
-with open('output/dict_prices_1.json') as j:
+price_path = 'output/prices_{}.json'
+
+with open(price_path.format(LmmEnum.CapybaraHermes.name), 'r') as j:
     data1 = json.load(j)
-    
 
-with open('output/dict_prices_2.json') as j:
+
+with open(price_path.format(LmmEnum.Tess.name), 'r') as j:
     data2 = json.load(j)
 
-with open('output/dict_prices_3.json') as j:
-    data3 = json.load(j)
+
+
+
+
+
 
 
 def check_fulltype(data_to_check):
@@ -45,4 +51,4 @@ def compare_prices(data1, data2):
             print("Model 2: {} => {}".format(fType2, price2))
 
 
-check_fulltype(data3)
+check_fulltype(data2)

@@ -4,7 +4,7 @@ import json
 code_template = 'ShopItemsManager.AddItem("{fType}", {{["RANDOM"] = true}}, {basePrice}, 1, 0.25)'
 
 
-with open('output/dict_prices.json') as json_file:
+with open('output/dict_prices_2.json') as json_file:
     prices_dict = json.load(json_file)
 
 
