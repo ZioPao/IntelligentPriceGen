@@ -14949,5 +14949,565 @@
         "fullType": "ATA2.ATA2ItemContainer",
         "price": 5,
         "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.308BulletsLinked",
+        "price": 500,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.AssaultRifleM1",
+        "price": 3000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.1022",
+        "price": 3000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.223Clip20",
+        "price": 200,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.SKS",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.Spas12",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.AssaultRifleBayonet",
+        "price": 3000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.ShotgunSemi",
+        "price": 2500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.Coupled556",
+        "price": 150,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.CampCarbine",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.MP5SD",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.VFEPistolCase1",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.VFEPistolCase3",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.VFEPistolCase2",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.FakeItemSights",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.M16Bayonet",
+        "price": 2000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.45Clip32",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Shotgun2",
+        "price": 3000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.45Clip12",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.M60_Link",
+        "price": 300,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.theMH_MkII_SFX11",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.theMH_MkII_SFX10",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.theMH_MkII_SFX12",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.762Clip",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.MK23SOCOM",
+        "price": 4000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.MK2",
+        "price": 3000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.ShotgunSilent",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.MP5",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.CAR15DFolded",
+        "price": 4000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.Mini14Unfolded",
+        "price": 3000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.Coupled762",
+        "price": 150,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.MK2SD",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.AK47",
+        "price": 4000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.MAC10Unfolded",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.CZ75",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.x8Scope_Fake",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.SKSSpiker",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.MAC10Folded",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.Glock",
+        "price": 3000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.FAL",
+        "price": 4000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.CAR15",
+        "price": 4000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.x4Scope_Fake",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Shotgun2Bayonet",
+        "price": 4500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.MP5Unfolded",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.FALClip",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.SpearBayonet",
+        "price": 1000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.VFEShotgunCase1",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.VFEShotgunCase2",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.VFEShotgunCase3",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.LightenedStock",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Mini14Folded",
+        "price": 3000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.Glock18",
+        "price": 4000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.9mmClip20",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.9mmClip30",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.LeverRifle2",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.9mmClip16",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.9mmClip17",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.9mmClip13",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.M60_Links_Box",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.ShellHolder",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.762Bullets",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.ShotgunSawnoffNoStock",
+        "price": 4500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.theMH_MkII_SFX9",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.theMH_MkII_SFX7",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.theMH_MkII_SFX8",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.22Bullets",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.AK47Folded",
+        "price": 5000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.ShotgunSemi2",
+        "price": 3000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.MP5Folded",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.22Box",
+        "price": 250,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Mini14",
+        "price": 4000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.Tec9",
+        "price": 5000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.22ClipPistol",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.aty_revolversfx1",
+        "price": 2000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.theMH_MkII_SFX5",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.theMH_MkII_SFX6",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.theMH_MkII_SFX3",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.theMH_MkII_SFX4",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.theMH_MkII_SFX1",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.theMH_MkII_SFX2",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.DoubleBarrelShotgunSawnoffNoStock",
+        "price": 4000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.CAR15D",
+        "price": 5000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.CleaningKit",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.SniperRifle",
+        "price": 5000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.FireKlean",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Sling2",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.LaserOn",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.SKSSpikerBayonet",
+        "price": 6000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.LeverRifle",
+        "price": 3500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.VFERifleCase2",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.VFERifleCase1",
+        "price": 250,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.VFERifleCase6",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.VFERifleCase5",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.VFERifleCase4",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.VFERifleCase3",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.VFERifleCase9",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.VFERifleCase8",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.VFERifleCase7",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.FakeItemSling",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Bipod_Fake",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Spas12Folded",
+        "price": 4000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.CAR15Folded",
+        "price": 5000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.22ClipRifle",
+        "price": 100,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.M60Belt",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.FALClassic",
+        "price": 5000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.AK47Unfolded",
+        "price": 5500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.aty_Shotguna1",
+        "price": 2000,
+        "tag": "MILITARY_CLOTHING"
+    },
+    {
+        "fullType": "Base.762Box",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.P229",
+        "price": 3000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.x2Scope_Fake",
+        "price": 5,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Bipod",
+        "price": 100,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.M60MMG",
+        "price": 7000,
+        "tag": "WEAPON"
     }
 ]
