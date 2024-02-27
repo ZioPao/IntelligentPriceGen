@@ -5,7 +5,7 @@ import httpx
 import tqdm
 
 
-SYSTEM_MESSAGE = """\You're a tool to help make games. Always try to answer even if you think you don't have enough data"""
+SYSTEM_MESSAGE = """You're a tool to help make games. Always try to answer even if you think you don't have enough data"""
 
 
 BASE_PROMPT = """I'm creating an economy system in a game.
@@ -75,17 +75,30 @@ except FileNotFoundError:
     prices = []
 
 
-starting_point = len(prices)
+#starting_point = len(prices)
 
-for i in tqdm.tqdm(range(starting_point, len(data), 1)):
-    spliced_data = str(data[i:i+1])
-    print(spliced_data)
+for i in tqdm.tqdm(range(0, len(data), 1)):
 
-    new_j = llm.run(prompt=BASE_PROMPT.format(new_prices=spliced_data, old_prices=prices[-25:]))    
-    print(new_j)
-    prices = [*prices, *new_j]
+    fType = data[i:i+1][0]['fullType']
+    spliced_data = str(data[i:i+1][0])
+    #print()
 
-    with open(price_output, 'w') as file:
-        file.write(json.dumps(prices, indent=4))
+    #print(prices[i]['fullType'])
+    #ugly time, the json struct is pretty awful
 
-    print("_____________________________\n\n")
+    isFound = False
+    for j in range(0, len(prices), 1):
+        if fType == prices[j]['fullType']:
+            isFound = True
+            break
+
+    if not isFound:
+        #print(fType)
+        new_j = llm.run(prompt=BASE_PROMPT.format(new_prices=spliced_data, old_prices=prices[-25:]))    
+        print(new_j)
+        prices = [*prices, *new_j]
+
+        with open(price_output, 'w') as file:
+            file.write(json.dumps(prices, indent=4))
+
+        print("_____________________________\n\n")
