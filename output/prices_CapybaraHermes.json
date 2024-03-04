@@ -228,5 +228,10 @@
         "fullType": "Base.308BulletsLinked",
         "price": 2,
         "tag": "AMMO"
+    },
+    {
+        "fullType": "Base.308BulletsMold",
+        "price": 50,
+        "tag": "AMMO"
     }
 ]
