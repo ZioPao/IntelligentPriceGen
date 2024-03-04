@@ -19,7 +19,7 @@ I'll give you the following data in json form:
 
 Keep in mind:
 - Weapons must be valued pretty high (AT LEAST $2500), but generally (especially for guns) you can go much higher. Account for other attributes, such as its weight and damage.\n
-- Single bullets should cost a FRACTIONof a clip or ammo boxex, like $1 or $2 per single bullet. These items must be set with the tag AMMO.
+- Single bullets should cost a FRACTION of a clip or ammo boxex, like $1 or $2 per single bullet. These items must be set with the tag AMMO.
 - Military items and military clothing items must be valued pretty high (AT LEAST $2000). Use their attributes, such as bullet defense, to guess an estimate.\n
 - Items listed with Category "Blunt" are weapons.\n
 - Some items can have the "BulletDefense" attribute. If it's higher than 0, the cost of the item should increase dramatically.\n
@@ -52,7 +52,7 @@ Be concise and return a json with ONLY the following attributes and NOTHING MORE
 - The Generated price (attribute : price)
 - One of the aforementioned tags (attribute : tag) \n
 
-The item is: \n\n {new_prices}\n\n"""
+The items to consider are: \n\n {new_prices}\n\n"""
 
 
 with open('data/items.json') as json_file:
@@ -66,7 +66,7 @@ price_output = 'output/prices_' + lmm_type.name + '.json'
 # Setup LLM
 grammar_text = httpx.get("https://raw.githubusercontent.com/ggerganov/llama.cpp/master/grammars/json_arr.gbnf").text
 grammar = LlamaGrammar.from_string(grammar_text) 
-llm = LmmWorker(lmm_type, grammar=grammar, n_gpu_layers=57, n_ctx=3000, n_batch=512, temperature=0.5, print_tokens=False)
+llm = LmmWorker(lmm_type, grammar=grammar, n_gpu_layers=57, n_ctx=3000, n_batch=1024, print_tokens=False)
 llm.set_sys_message(SYSTEM_MESSAGE)
 
 
@@ -84,10 +84,12 @@ prices = sorted(prices, key=lambda d: d['fullType'])
 
 #starting_point = len(prices)
 
-for i in tqdm.tqdm(range(0, len(data), 1)):
+amount_of_data = 10
+
+for i in tqdm.tqdm(range(0, len(data), amount_of_data)):
 
     fType = data[i:i+1][0]['fullType']
-    spliced_data = str(data[i:i+1][0])
+    spliced_data = str(data[i:i+amount_of_data])
     #print()
 
     #print(prices[i]['fullType'])
@@ -101,7 +103,7 @@ for i in tqdm.tqdm(range(0, len(data), 1)):
 
     if not isFound:
         #print(fType)
-        new_j = llm.run(prompt=BASE_PROMPT.format(new_prices=spliced_data, old_prices=prices[-25:]))    
+        new_j = llm.run(prompt=BASE_PROMPT.format(new_prices=spliced_data, old_prices=prices[-10:]))    
         print(new_j)
         prices = [*prices, *new_j]
 

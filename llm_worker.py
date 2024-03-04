@@ -7,37 +7,53 @@ class LmmEnum(Enum):
     CapybaraHermes = {
         "path" : "models/capybarahermes-2.5-mistral-7b.Q5_K_M.gguf",
         "template" : '<|im_start|>system\n{system_message}<|im_end|>\n<|im_start|>user\n{prompt}<|im_end|>\n<|im_start|>assistant',
-        "hasSysMsg" : True
+        "hasSysMsg" : True,
+        "temperature" : 0.5
+    }
+    MistralQuant = {
+        "path": "F:/models/llm/gguf/mistral-7b-q51.gguf",
+        "template" : '{prompt}',
+        "hasSysMsg" : False,
+        "temperature" : 0.15
     }
     Solar = {
         "path": "models/solar-10.7b-instruct-v1.0-uncensored.Q4_K_M.gguf",
         "template": "### User:\n{prompt}\n\n### Assistant:",
-        "hasSysMsg" : False
+        "hasSysMsg" : False,
+        "temperature" : 0.5
     }
     Dolphin = {
         "path": "models/dolphin-2.6-mistral-7b.Q3_K_M.gguf",
         "template": '<|im_start|>system\n{system_message}<|im_end|>\n<|im_start|>user\n{prompt}<|im_end|>\n<|im_start|>assistant',
-        "hasSysMsg" : True
+        "hasSysMsg" : True,
+        "temperature" : 0.5
     }
     NousCapybara = {
         "path": "models/nous-capybara-34b.Q5_K_S.gguf",
         "template": 'USER: {prompt} ASSISTANT:',
-        "hasSysMsg" : False
+        "hasSysMsg" : False,
+        "temperature" : 0.5
+
     }
     Tess = {
         "path": "models/tess-34b-v1.5b.Q4_K_M.gguf",
         "template": "SYSTEM: {system_message}\nUSER:{prompt}\nASSISTANT:",
-        "hasSysMsg" : True
+        "hasSysMsg" : True,
+        "temperature" : 0.5
+
     }
     StableCode = {
         "path": "models/stable-code-3b.gguf",
         "template": '{prompt}',
-        "hasSysMsg": False
+        "hasSysMsg": False,
+        "temperature" : 0.5
     }
     WizardCoder = {
         "path": "C:/Users/picch/Desktop/llamacpp/models/wizardcoder-33b-v1.1.Q4_K_M.gguf",
         "template": '{prompt}',
-        "hasSysMsg": False
+        "hasSysMsg": False,
+        "temperature" : 0.1
+
     }
 
 
@@ -51,7 +67,7 @@ class LmmEnum(Enum):
 
 
 class LmmWorker():
-    def __init__(self, lmm_type : LmmEnum, grammar = None, n_ctx : int = 0, n_gpu_layers : int = -1, temperature : int = 0.25, n_batch : int = 256, print_tokens : bool = False):
+    def __init__(self, lmm_type : LmmEnum, grammar = None, n_ctx : int = 0, n_gpu_layers : int = -1, n_batch : int = 256, print_tokens : bool = False):
         self.model_type = lmm_type
         self.model_path = lmm_type.value['path']
         self.template = lmm_type.value['template']
@@ -59,7 +75,7 @@ class LmmWorker():
         self.llm = Llama(model_path=self.model_path, n_batch=n_batch, n_ctx=n_ctx, n_gpu_layers=n_gpu_layers, verbose=True, use_mlock=True)
 
         self.grammar = grammar
-        self.temperature = temperature
+        self.temperature = lmm_type.value['temperature']
 
         self.n_ctx = n_ctx
         
