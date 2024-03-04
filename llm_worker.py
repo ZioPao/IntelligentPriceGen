@@ -28,9 +28,20 @@ class LmmEnum(Enum):
         "path": "models/tess-34b-v1.5b.Q4_K_M.gguf",
         "template": "SYSTEM: {system_message}\nUSER:{prompt}\nASSISTANT:",
         "hasSysMsg" : True
-
-
     }
+    StableCode = {
+        "path": "models/stable-code-3b.gguf",
+        "template": '{prompt}',
+        "hasSysMsg": False
+    }
+    WizardCoder = {
+        "path": "C:/Users/picch/Desktop/llamacpp/models/wizardcoder-33b-v1.1.Q4_K_M.gguf",
+        "template": '{prompt}',
+        "hasSysMsg": False
+    }
+
+
+
 
     def get_output_text(self, response):
         pass

@@ -19,6 +19,7 @@ I'll give you the following data in json form:
 
 Keep in mind:
 - Weapons must be valued pretty high (AT LEAST $2500), but generally (especially for guns) you can go much higher. Account for other attributes, such as its weight and damage.\n
+- Single bullets should cost a FRACTIONof a clip or ammo boxex, like $1 or $2 per single bullet. These items must be set with the tag AMMO.
 - Military items and military clothing items must be valued pretty high (AT LEAST $2000). Use their attributes, such as bullet defense, to guess an estimate.\n
 - Items listed with Category "Blunt" are weapons.\n
 - Some items can have the "BulletDefense" attribute. If it's higher than 0, the cost of the item should increase dramatically.\n
@@ -34,6 +35,7 @@ Keep in mind:
 
 Choose between the following TAGS depending on the item name and category:
 - WEAPON
+- AMMO
 - CLOTHING
 - MILITARY_CLOTHING
 - FOOD
@@ -74,6 +76,11 @@ try:
 except FileNotFoundError:
     prices = []
 
+
+
+# Order data
+data = sorted(data, key=lambda d: d['fullType'])
+prices = sorted(prices, key=lambda d: d['fullType'])
 
 #starting_point = len(prices)
 
