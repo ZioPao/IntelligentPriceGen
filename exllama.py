@@ -1,7 +1,5 @@
-#model_directory = "F:\models\llm\exl2\TinyLlama-1B-32k-exl2"
-model_directory = "F:\models\llm\exl2\OpenHermes-2.5-Code-290k-13B-8.0bpw-h8-exl2"
-
-
+model_directory = "F:\models\llm\exl2\TinyLlama-1B-32k-exl2"
+#model_directory = "F:\models\llm\exl2\OpenHermes-2.5-Code-290k-13B-8.0bpw-h8-exl2"
 
 import json
 from exllamav2 import(
@@ -15,6 +13,15 @@ from exllamav2.generator import (
     ExLlamaV2BaseGenerator,
     ExLlamaV2Sampler
 )
+
+from lmformatenforcer.characterlevelparser import CharacterLevelParser
+from lmformatenforcer.integrations.exllamav2 import ExLlamaV2TokenEnforcerFilter
+from typing import Optional
+
+
+from lmformatenforcer import JsonSchemaParser
+from pydantic import BaseModel
+
 
 # Initialize model and cache
 
@@ -48,12 +55,6 @@ generator.warmup()
 
 
 
-#########################
-
-from lmformatenforcer.characterlevelparser import CharacterLevelParser
-from lmformatenforcer.integrations.exllamav2 import ExLlamaV2TokenEnforcerFilter
-from typing import Optional
-
 def exllamav2_with_format_enforcer(prompt: str, parser: Optional[CharacterLevelParser] = None) -> str:
     if parser is None:
         settings.filters = []
@@ -68,16 +69,6 @@ def exllamav2_with_format_enforcer(prompt: str, parser: Optional[CharacterLevelP
     return json.loads(stripped_r)
 
 
-from lmformatenforcer import JsonSchemaParser
-from pydantic import BaseModel
-
-
-
-def display_header(text):
-    print(text)
-
-def display_content(text):
-    print(text)
 
 class AnswerFormat(BaseModel):
     fullType: str
@@ -85,16 +76,7 @@ class AnswerFormat(BaseModel):
     tag : str
 
 BASE_PROMPT = """Consider this JSON: {new_prices}\n\n
-
-I'm creating an economy system in a game.
-I'll give you the following data in json form:
-- Item Name
-- Item FullType (You can understand better what it is)
-- Item Weight
-- Item Categories (Could be empty)
-- Item BulletDefense Stat (Could be empty)
-- Item Damage Stat (Could be empty)
-
+I'm creating an economy system in a game. You must guess a PRICE and a TAG for this item.
 Keep in mind:
 - Weapons must be valued pretty high (AT LEAST $2500), but generally (especially for guns) you can go much higher. Account for other attributes, such as its weight and damage.\n
 - Single bullets should cost a FRACTION of a clip or ammo boxex, like $1 or $2 per single bullet. These items must be set with the tag AMMO.
@@ -110,7 +92,6 @@ Keep in mind:
 - Items that start with Mov_ in their fullType are furniture, and should cost a lot\n
 - Random stuff shouldn't be valued too high, such as Vehicle Parts, Food utensils, Make Up, random tools, etc. You can go as low as $5\n
 - Price can NEVER be 0. You can use at most 2 decimals though.\n\n
-
 Choose between the following TAGS depending on the item name and category:
 - WEAPON
 - AMMO
@@ -123,18 +104,12 @@ Choose between the following TAGS depending on the item name and category:
 - FURNITURE
 
 Use ONLY the tags that have been specified here.
+You MUST answer using the following json schema: """
 
-This is the JSON of the previously generated prices, use them to keep new prices/tags consistent: \n\n{old_prices}\n\n
-You MUST answer using the following json schema:
-"""
-
-question_with_schema = f'{BASE_PROMPT}{AnswerFormat.schema_json()}'
-prompt = question_with_schema
 
 
 
 import tqdm
-parser = JsonSchemaParser(AnswerFormat.schema())
 
 
 with open('data/items.json') as json_file:
@@ -159,6 +134,11 @@ except FileNotFoundError:
 
 amount_of_data = 1
 
+
+schema = AnswerFormat.model_json_schema()
+parser = JsonSchemaParser(schema)
+
+
 for i in tqdm.tqdm(range(0, len(data), amount_of_data)):
 
     fType = data[i:i+1][0]['fullType']
@@ -175,12 +155,13 @@ for i in tqdm.tqdm(range(0, len(data), amount_of_data)):
     #         break
 
     if not isFound:
-        #print(fType)
-        new_p = f'{BASE_PROMPT.format(new_prices=spliced_data, old_prices=prices[-10:])}{AnswerFormat.schema_json()}'
+        print(fType)
+        new_p = f'{BASE_PROMPT.format(new_prices=spliced_data)}{schema}'
 
         new_j = exllamav2_with_format_enforcer(prompt=new_p, parser=parser)    
         print(new_j)
-        prices = [*prices, *new_j]
+        #prices = [*prices, *new_j]
+        prices.append(new_j)
 
         with open(price_output, 'w') as file:
             file.write(json.dumps(prices, indent=4))

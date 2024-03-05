@@ -47,12 +47,10 @@ Choose between the following TAGS depending on the item name and category:
 Use ONLY the tags that have been specified here.
 
 This is the JSON of the previously generated prices, use them to keep new prices/tags consistent: \n\n{old_prices}\n\n
-Be concise and return a json with ONLY the following attributes and NOTHING MORE:
-- The Item FullType, completely the same as the input one (attribute : fullType)
-- The Generated price (attribute : price)
-- One of the aforementioned tags (attribute : tag) \n
-
-The items to consider are: \n\n {new_prices}\n\n"""
+Be concise and return a JSON structured as such:
+{{ fullType: str, price: number, tag: string
+}}
+The items to consider are: {new_prices}"""
 
 
 with open('data/items.json') as json_file:
@@ -66,7 +64,7 @@ price_output = 'output/prices_' + lmm_type.name + '.json'
 # Setup LLM
 grammar_text = httpx.get("https://raw.githubusercontent.com/ggerganov/llama.cpp/master/grammars/json_arr.gbnf").text
 grammar = LlamaGrammar.from_string(grammar_text) 
-llm = LmmWorker(lmm_type, grammar=grammar, n_gpu_layers=57, n_ctx=3000, n_batch=1024, print_tokens=False)
+llm = LmmWorker(lmm_type, grammar=grammar, n_gpu_layers=57, n_ctx=3000, n_batch=512, print_tokens=False)
 llm.set_sys_message(SYSTEM_MESSAGE)
 
 
@@ -84,7 +82,7 @@ prices = sorted(prices, key=lambda d: d['fullType'])
 
 #starting_point = len(prices)
 
-amount_of_data = 10
+amount_of_data = 1
 
 for i in tqdm.tqdm(range(0, len(data), amount_of_data)):
 
@@ -103,11 +101,15 @@ for i in tqdm.tqdm(range(0, len(data), amount_of_data)):
 
     if not isFound:
         #print(fType)
-        new_j = llm.run(prompt=BASE_PROMPT.format(new_prices=spliced_data, old_prices=prices[-10:]))    
-        print(new_j)
-        prices = [*prices, *new_j]
+        try:
+            new_j = llm.run(prompt=BASE_PROMPT.format(new_prices=spliced_data, old_prices=prices[-5:]))    
+            print(new_j)
+            prices = [*prices, *new_j]
 
-        with open(price_output, 'w') as file:
-            file.write(json.dumps(prices, indent=4))
+            with open(price_output, 'w') as file:
+                file.write(json.dumps(prices, indent=4))
+        except Exception:
+            i=i-amount_of_data
+            pass
 
         print("_____________________________\n\n")

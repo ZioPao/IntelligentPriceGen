@@ -1,23 +1,102 @@
 [
-    "fullType",
-    "price",
-    "tag",
-    "fullType",
-    "price",
-    "tag",
-    "fullType",
-    "price",
-    "tag",
-    "fullType",
-    "price",
-    "tag",
-    "fullType",
-    "price",
-    "tag",
-    "fullType",
-    "price",
-    "tag",
-    "fullType",
-    "price",
-    "tag"
+    {
+        "fullType": "Blunt",
+        "price": 2500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Blunt",
+        "price": 2500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Military_Clothing",
+        "price": 5000,
+        "tag": "MILITARY_CLOTHING"
+    },
+    {
+        "fullType": "Blunt",
+        "price": 2500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Blunt",
+        "price": 2500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Blunt",
+        "price": 2500,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Belly_Turtleneck",
+        "price": 2500,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Trunk",
+        "price": 500,
+        "tag": "FURNITURE"
+    },
+    {
+        "fullType": "Trunk",
+        "price": 500,
+        "tag": "FURNITURE"
+    },
+    {
+        "fullType": "Weapon",
+        "price": 0,
+        "tag": "BulletDefense"
+    },
+    {
+        "fullType": "WEAPON",
+        "price": 2000,
+        "tag": "Mov_BulletDefense"
+    },
+    {
+        "fullType": "Base.PipeBomb",
+        "price": 5,
+        "tag": "BulletDefense"
+    },
+    {
+        "fullType": "WEAPON",
+        "price": 2000,
+        "tag": "Mov_BulletDefense"
+    },
+    {
+        "fullType": "Base.Hat_GasMask",
+        "price": 2500,
+        "tag": "Gas Mask"
+    },
+    {
+        "fullType": "Base.ToiletPaper",
+        "price": 0,
+        "tag": "Base.ToiletPaper"
+    },
+    {
+        "fullType": "Base.LightBulbOrange",
+        "price": 2500,
+        "tag": "AMMO"
+    },
+    {
+        "fullType": "Base.Heather_Bomber",
+        "price": 1,
+        "tag": "Blunt"
+    },
+    {
+        "fullType": "Base.Umbrella",
+        "price": 4,
+        "tag": "BulletDefense"
+    },
+    {
+        "fullType": "Base.USCM_Jacket",
+        "price": 1,
+        "tag": "BulletDefense"
+    },
+    {
+        "fullType": "Base.CannedPineapple",
+        "price": 0,
+        "tag": "WEAPON"
+    }
 ]

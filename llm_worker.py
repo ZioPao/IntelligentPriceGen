@@ -1,14 +1,40 @@
 from enum import Enum
 from llama_cpp import Llama
 import json
+import sys
+import threading
+import _thread as thread
 
+
+def quit_function(fn_name):
+    # print to stderr, unbuffered in Python 2.
+    print('{0} took too long'.format(fn_name), file=sys.stderr)
+    sys.stderr.flush() # Python 3 stderr is likely buffered.
+    thread.interrupt_main() # raises KeyboardInterrupt
+
+def exit_after(s):
+    '''
+    use as decorator to exit process if 
+    function takes longer than s seconds
+    '''
+    def outer(fn):
+        def inner(*args, **kwargs):
+            timer = threading.Timer(s, quit_function, args=[fn.__name__])
+            timer.start()
+            try:
+                result = fn(*args, **kwargs)
+            finally:
+                timer.cancel()
+            return result
+        return inner
+    return outer
 
 class LmmEnum(Enum):
     CapybaraHermes = {
-        "path" : "models/capybarahermes-2.5-mistral-7b.Q5_K_M.gguf",
+        "path" : "F:/models/llm/gguf/capybarahermes-2.5-mistral-7b.Q5_K_M.gguf",
         "template" : '<|im_start|>system\n{system_message}<|im_end|>\n<|im_start|>user\n{prompt}<|im_end|>\n<|im_start|>assistant',
         "hasSysMsg" : True,
-        "temperature" : 0.5
+        "temperature" : 0.75
     }
     MistralQuant = {
         "path": "F:/models/llm/gguf/mistral-7b-q51.gguf",
@@ -29,7 +55,7 @@ class LmmEnum(Enum):
         "temperature" : 0.5
     }
     NousCapybara = {
-        "path": "models/nous-capybara-34b.Q5_K_S.gguf",
+        "path": "F:/models/llm/gguf/nous-capybara-34b.Q5_K_S.gguf",
         "template": 'USER: {prompt} ASSISTANT:',
         "hasSysMsg" : False,
         "temperature" : 0.5
@@ -72,7 +98,14 @@ class LmmWorker():
         self.model_path = lmm_type.value['path']
         self.template = lmm_type.value['template']
         self.hasSysMsg = lmm_type.value['hasSysMsg']
-        self.llm = Llama(model_path=self.model_path, n_batch=n_batch, n_ctx=n_ctx, n_gpu_layers=n_gpu_layers, verbose=True, use_mlock=True)
+        self.llm = Llama(model_path=self.model_path,
+                         n_batch=n_batch,
+                         n_ctx=n_ctx,
+                         n_gpu_layers=n_gpu_layers,
+                        top_p=1,
+                        f16_kv=True,
+                         verbose=True,
+                         use_mlock=True)
 
         self.grammar = grammar
         self.temperature = lmm_type.value['temperature']
@@ -89,6 +122,7 @@ class LmmWorker():
         return response['choices'][0]['text']
 
 
+    @exit_after(15)
     def run(self, prompt : str , system_message : str = None):
         if self.hasSysMsg:
             f_p = self.template.format(prompt=prompt, system_message=system_message)
