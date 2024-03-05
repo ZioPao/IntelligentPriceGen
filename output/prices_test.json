@@ -1,5 +1,10 @@
 [
     {
+        "fullType": "ATA2.ATA2ItemContainer",
+        "price": 20,
+        "tag": "VARIOUS"
+    },
+    {
         "fullType": "ATA2.ATABullbar1Item",
         "tag": "VARIOUS",
         "price": 2000
@@ -3771,6 +3776,11 @@
         "price": 50
     },
     {
+        "fullType": "Base.ConeCarne",
+        "tag": "VARIOUS",
+        "price": 10
+    },
+    {
         "fullType": "Base.ConeCartra",
         "tag": "VARIOUS",
         "price": 50
@@ -4338,6 +4348,11 @@
         "price": 50
     },
     {
+        "fullType": "Base.DriedChickPeas",
+        "tag": "FOOD",
+        "price": 10
+    },
+    {
         "fullType": "Base.DriedKidneyBeans",
         "tag": "FOOD",
         "price": 50
@@ -4741,6 +4756,11 @@
         "fullType": "Base.FarmingMag1",
         "tag": "SKILL_BOOK",
         "price": 300
+    },
+    {
+        "fullType": "Base.Fast_Pants",
+        "price": 25,
+        "tag": "CLOTHING"
     },
     {
         "fullType": "Base.Fast_Pants_Rolled",
@@ -5332,6 +5352,11 @@
         "fullType": "Base.Glasses_X1000",
         "tag": "CLOTHING",
         "price": 250
+    },
+    {
+        "fullType": "Base.Glasses_X1000_OFF",
+        "tag": "CLOTHING",
+        "price": 25
     },
     {
         "fullType": "Base.Glasses_X1000_OFF_F",
@@ -6071,6 +6096,11 @@
     {
         "fullType": "Base.Hat_FastFood_Spifpo",
         "tag": "CLOTHING",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Hat_FastFood_Spifpo",
+        "tag": "MILITARY_CLOTHING",
         "price": 50
     },
     {
@@ -11216,6 +11246,11 @@
         "price": 50
     },
     {
+        "fullType": "Base.SackProduce_Corn",
+        "tag": "FOOD",
+        "price": 100
+    },
+    {
         "fullType": "Base.SackProduce_Corn_C",
         "tag": "FOOD",
         "price": 50
@@ -12963,6 +12998,11 @@
         "price": 10
     },
     {
+        "fullType": "Base.ToiletPaper",
+        "tag": "VARIOUS",
+        "price": 5
+    },
+    {
         "fullType": "Base.TomatoPaste",
         "tag": "FOOD",
         "price": 50
@@ -14348,6 +14388,11 @@
         "price": 50
     },
     {
+        "fullType": "Base.WoodenLance",
+        "tag": "WEAPON",
+        "price": 50
+    },
+    {
         "fullType": "Base.WoodenMallet",
         "tag": "TOOL_WEAPON",
         "price": 50
@@ -14578,6 +14623,11 @@
         "price": 50
     },
     {
+        "fullType": "Base.theMH_MkII_SFX11",
+        "tag": "VARIOUS",
+        "price": 10
+    },
+    {
         "fullType": "Base.theMH_MkII_SFX12",
         "tag": "VARIOUS",
         "price": 150
@@ -14593,6 +14643,11 @@
         "price": 10
     },
     {
+        "fullType": "Base.theMH_MkII_SFX4",
+        "tag": "VARIOUS",
+        "price": 25
+    },
+    {
         "fullType": "Base.theMH_MkII_SFX5",
         "tag": "VARIOUS",
         "price": 50
@@ -14606,6 +14661,11 @@
         "fullType": "Base.theMH_MkII_SFX7",
         "tag": "VARIOUS",
         "price": 10
+    },
+    {
+        "fullType": "Base.theMH_MkII_SFX8",
+        "tag": "VARIOUS",
+        "price": 25
     },
     {
         "fullType": "Base.theMH_MkII_SFX9",
@@ -15334,6 +15394,11 @@
         "price": 25
     },
     {
+        "fullType": "camping.SteelKnuckle",
+        "tag": "MILITARY_CLOTHING",
+        "price": 25
+    },
+    {
         "fullType": "camping.SteelKuckle",
         "tag": "VARIOUS",
         "price": 50
@@ -15474,6 +15539,11 @@
         "price": 10
     },
     {
+        "fullType": "farming.RemouladeEmpty",
+        "tag": "VARIOUS",
+        "price": 10
+    },
+    {
         "fullType": "farming.RemouladeFull",
         "tag": "FOOD",
         "price": 50
@@ -15534,73 +15604,23 @@
         "price": 300
     },
     {
-        "fullType": "ATA2.ATA2ItemContainer",
-        "price": 20,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ConeCarne",
+        "fullType": "Base.ConeCarry",
         "tag": "VARIOUS",
-        "price": 10
-    },
-    {
-        "fullType": "Base.DriedChickPeas",
-        "tag": "FOOD",
-        "price": 10
-    },
-    {
-        "fullType": "Base.Fast_Pants",
-        "price": 25,
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Glasses_X1000_OFF",
-        "tag": "CLOTHING",
-        "price": 25
-    },
-    {
-        "fullType": "Base.Hat_FastFood_Spifpo",
-        "tag": "MILITARY_CLOTHING",
         "price": 50
     },
     {
-        "fullType": "Base.SackProduce_Corn",
+        "fullType": "Base.DriedChickpeas",
         "tag": "FOOD",
         "price": 100
     },
     {
-        "fullType": "Base.ToiletPaper",
+        "fullType": "Base.Hat_FastFood_Spiffo",
+        "tag": "CLOTHING",
+        "price": 250
+    },
+    {
+        "fullType": "Base.String",
         "tag": "VARIOUS",
-        "price": 5
-    },
-    {
-        "fullType": "Base.WoodenLance",
-        "tag": "WEAPON",
-        "price": 50
-    },
-    {
-        "fullType": "Base.theMH_MkII_SFX11",
-        "tag": "VARIOUS",
-        "price": 10
-    },
-    {
-        "fullType": "Base.theMH_MkII_SFX4",
-        "tag": "VARIOUS",
-        "price": 25
-    },
-    {
-        "fullType": "Base.theMH_MkII_SFX8",
-        "tag": "VARIOUS",
-        "price": 25
-    },
-    {
-        "fullType": "camping.SteelKnuckle",
-        "tag": "MILITARY_CLOTHING",
-        "price": 25
-    },
-    {
-        "fullType": "farming.RemouladeEmpty",
-        "tag": "VARIOUS",
-        "price": 10
+        "price": 20
     }
 ]
