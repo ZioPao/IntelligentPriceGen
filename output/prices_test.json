@@ -3812,13 +3812,6 @@
     },
     {
         "fullType": "Base.CookieJelly",
-        "name": "Raspberry Shortbread",
-        "category": "[Food]",
-        "weight": 0.10000000149012,
-        "additionalData": {}
-    },
-    {
-        "fullType": "Base.CookieJelly",
         "tag": "FOOD",
         "price": 10
     },
