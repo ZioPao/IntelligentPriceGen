@@ -6,17 +6,21 @@ from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.callbacks.manager import CallbackManager
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
+from llama_cpp import Optional
 
 
 from examples import examples, OutputJsonData
 from gen_selector import FullTypeSelector
-from common import get_data, PRICES_JSON_PATH
+from common import get_data
+from langchain_community.llms.exllamav2 import ExLlamaV2
 import json
 import tqdm
 
 ##########################################################
 
 # Load data
+
+PRICES_JSON_PATH = 'output/prices_test_ex.json'
 data, prices = get_data()
 
 data = sorted(data, key=lambda d: d['fullType'])
@@ -24,7 +28,7 @@ prices = sorted(prices, key=lambda d: d['fullType'])
 
 
 
-model_path = "F:/models/llm/gguf/capybarahermes-2.5-mistral-7b.Q5_K_M.gguf"
+model_path = "F:\models\llm\exl2\CapybaraHermes-2.5-Mistral-7B-exl2"
 example_template ="""
 Input:
 - FullType = {fullType}, 
@@ -69,7 +73,7 @@ suffix = """
 
 Based on the data I'm giving you try to guess a price and a tag.
 Price must be an integer.
-Choose only one of the following tags: (WEAPON, AMMO, CLOTHING, MILITARY_CLOTHING, FOOD, FIRST_AID, VARIOUS, SKILL_BOOK, FURNITURE). Never make up a tag, choose only one that exist in the previous list.
+Choose only one of the following tags: (WEAPON, AMMO, CLOTHING, MILITARY_CLOTHING, FOOD, FIRST_AID, VARIOUS, SKILL_BOOK, FURNITURE).
 
 Keep in mind the following rules when deciding the price:
 - Price can never be 0
@@ -80,7 +84,7 @@ Keep in mind the following rules when deciding the price:
 - If the item in previous data same shares a lot of similiarity in the data, keep the price close
 - If an item doesn't have Weapon in their category, it cannot have the tag WEAPON
 
-Format the output data as such: [{{'tag': string, 'price' : integer}}].
+Format the output data as such, do not add anything else: [{{'tag': string, 'price' : integer}}].
 Return ONLY ONE ITEM, do not make up new items.
 
 
@@ -108,27 +112,29 @@ similar_prompt = FewShotPromptTemplate(
 )
 
 
-llm = LlamaCpp(
+from exllamav2.generator import (ExLlamaV2Sampler)
+
+
+settings = ExLlamaV2Sampler.Settings()
+settings.temperature = 0.85
+settings.top_k = 50
+settings.top_p = 0.8
+settings.token_repetition_penalty = 1.05
+
+callbacks = [StreamingStdOutCallbackHandler()]
+
+
+llm = ExLlamaV2(
     model_path=model_path,
-    temperature=0.65,
-    n_gpu_layers=-1,
-    n_batch=2000,
-    n_ctx=1536,
-
-    max_tokens=2000,
-    top_p=1,
-    f16_kv=True,
-    grammar_path ="json_grammar.gbnf", 
-    callback_manager=callback_manager,
-    verbose=True,  # Verbose is required to pass to the callback manager
-    
-)
-
-llm_chain = LLMChain(
-    prompt=similar_prompt,
-    llm=llm,
+    callbacks=callbacks,
     verbose=True,
-    )
+    settings=settings,
+    streaming=True,
+    max_new_tokens=150,
+)
+llm_chain = LLMChain(prompt=similar_prompt, llm=llm)
+
+
 
 prev_output = None
 prev_input = None
