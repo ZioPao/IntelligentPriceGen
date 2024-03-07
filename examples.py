@@ -80,6 +80,11 @@ examples = [
                   output=r"{{'price':'150', 'tag':'CAR_PARTS'}}").dict(),
 
 
+    ### Guns
+    ExamplesModel(fullType="Base.AssaultRifle", name="M16 Assault Rifle", weight='4', categories="[Weapon]",
+                  output=r"{{'price':'2500', 'tag':'WEAPON'}}").dict(),
+
+
     ## Beaver example
 
     ExamplesModel(fullType="Base.Tshirt_BBB_SittingBeaver", name="Sitting Beaver T-Shirt", weight='1', categories="[Clothing]",

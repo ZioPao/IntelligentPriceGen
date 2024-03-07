@@ -7,7 +7,7 @@ from langchain.callbacks.manager import CallbackManager
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 
-
+from lmformatenforcer import JsonSchemaParser
 from examples import examples, OutputJsonData
 from gen_selector import FullTypeSelector
 from common import get_data, PRICES_JSON_PATH
@@ -67,9 +67,11 @@ suffix = """
 
 ########## [END PREVIOUS DATA] ############
 
-Based on the data I'm giving you try to guess a price and a tag.
+Based on the data I'm giving you try to guess a price and choose a tag.
 Price must be an integer.
-Choose only one of the following tags: (WEAPON, AMMO, CLOTHING, MILITARY_CLOTHING, FOOD, FIRST_AID, VARIOUS, SKILL_BOOK, FURNITURE). Never make up a tag, choose only one that exist in the previous list.
+Choose only one of the following TAGS:
+(WEAPON, AMMO, CLOTHING, MILITARY_CLOTHING, FOOD, FIRST_AID, VARIOUS, SKILL_BOOK, FURNITURE).
+Never make up a tag, choose only one that exist in the previous list.
 
 Keep in mind the following rules when deciding the price:
 - Price can never be 0
@@ -103,14 +105,14 @@ similar_prompt = FewShotPromptTemplate(
     example_prompt=example_prompt,
     prefix="############ [START EXAMPLES] ############'\n",
     suffix=suffix,
-    input_variables=["prevData", "fullType", "name", "weight", "categories"],
+    input_variables=["prevData","fullType","name","weight", "categories"],
 
 )
 
 
 llm = LlamaCpp(
     model_path=model_path,
-    temperature=0.65,
+    temperature=0.5,
     n_gpu_layers=-1,
     n_batch=2000,
     n_ctx=1536,
@@ -124,6 +126,8 @@ llm = LlamaCpp(
     
 )
 
+
+
 llm_chain = LLMChain(
     prompt=similar_prompt,
     llm=llm,
@@ -133,7 +137,10 @@ llm_chain = LLMChain(
 prev_output = None
 prev_input = None
 
-for i in tqdm.tqdm(range(0, len(data), 1)):
+
+pbar = tqdm.tqdm(total=len(data))
+i=0
+while i < len(data):
     spliced_data = data[i:i+1][0]       # with the examples as I made them it becomes VERY specific with the format that it wants.
     fullType = spliced_data['fullType']
     name = spliced_data['name']
@@ -147,30 +154,41 @@ for i in tqdm.tqdm(range(0, len(data), 1)):
             break
 
     if not isFound:
-        result = llm_chain.invoke({
-            "prevData": example_template.format(
-                fullType=prev_input['fullType'],
-                name=prev_input['name'],
-                weight=prev_input['weight'],
-                categories=prev_input['category'],
-                output=prev_output
-                ) if prev_input and prev_output else "",
-            "fullType": fullType,
-            "name": name,
-            "weight": weight,
-            "categories": categories}
-        )
-        new_j = json.loads(result['text'])
-        new_j[0]['fullType'] = fullType
-        prices = [*prices, *new_j]
-        with open(PRICES_JSON_PATH, 'w') as file:
-            file.write(json.dumps(prices, indent=4))
+        try:
+            result = llm_chain.invoke({
+                "prevData": example_template.format(
+                    fullType=prev_input['fullType'],
+                    name=prev_input['name'],
+                    weight=prev_input['weight'],
+                    categories=prev_input['category'],
+                    output=prev_output
+                    ) if prev_input and prev_output else "",
+                "fullType": fullType,
+                "name": name,
+                "weight": weight,
+                "categories": categories}
+            )
+            new_j = json.loads(result['text'])
+
+            # check amount of data, if more than one then throw error
+            if len(new_j) > 1:
+                raise ValueError("Generated more than one price")
+
+            new_j[0]['fullType'] = fullType
+            prices = [*prices, *new_j]
+            with open(PRICES_JSON_PATH, 'w') as file:
+                file.write(json.dumps(prices, indent=4))
+        except Exception:
+            print("Failed execution, retrying")
+            i -=1
+            continue
 
 
         # SAVE PREVIOUS DATA
         prev_input = spliced_data
         prev_output = result['text']
 
-
+    i+=1
+    pbar.update(1)
     print("________________")
 
