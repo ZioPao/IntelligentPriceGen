@@ -1,38 +1,23 @@
 from langchain_community.embeddings import LlamaCppEmbeddings
-from langchain.prompts import FewShotPromptTemplate, PromptTemplate
-from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
-from langchain.output_parsers import PydanticOutputParser
-from langchain.prompts.example_selector import SemanticSimilarityExampleSelector, NGramOverlapExampleSelector, MaxMarginalRelevanceExampleSelector
-from langchain_community.vectorstores import Chroma
-from langchain.chains import LLMChain
 from langchain_community.llms import LlamaCpp
+from langchain.prompts import FewShotPromptTemplate, PromptTemplate
+from langchain.chains import LLMChain
+from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.callbacks.manager import CallbackManager
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
-import json
-
-import tqdm
-
-from pydantic import BaseModel, Field
-from typing import Deque, List, Optional, Tuple
 
 
 from examples import examples, OutputJsonData
 from gen_selector import FullTypeSelector
-
+from common import get_data, PRICES_JSON_PATH
+import json
+import tqdm
 
 ##########################################################
 
 # Load data
-with open('data/items.json') as json_file:
-    data = json.load(json_file)
-
-price_output = 'output/prices_test_new.json'
-try:
-    with open(price_output, 'r') as json_file:
-        prices = json.load(json_file)
-except FileNotFoundError:
-    prices = []
+data, prices = get_data()
 
 data = sorted(data, key=lambda d: d['fullType'])
 prices = sorted(prices, key=lambda d: d['fullType'])
@@ -68,22 +53,33 @@ embeddings = LlamaCppEmbeddings(model_path=model_path)
 # example_selector = SemanticSimilarityExampleSelector(vectorstore=vectorstore, k=4)
 
 
-example_selector = FullTypeSelector(examples)
+example_selector = FullTypeSelector(examples, 1)
 
 # Setup prompt
 
 suffix = """
+
 ########## [END EXAMPLES] ############
+
+########## [START PREVIOUS DATA] ############
+
+{prevData}
+
+########## [END PREVIOUS DATA] ############
 
 Based on the data I'm giving you try to guess a price and a tag.
 Price must be an integer.
-Choose one of the following tags: (WEAPON, AMMO, CLOTHING, MILITARY_CLOTHING, FOOD, FIRST_AID, VARIOUS, SKILL_BOOK, FURNITURE).
+Choose only one of the following tags: (WEAPON, AMMO, CLOTHING, MILITARY_CLOTHING, FOOD, FIRST_AID, VARIOUS, SKILL_BOOK, FURNITURE).
 
 Keep in mind the following rules when deciding the price:
 - Price can never be 0
-- Single bullets should cost less than ammo boxes
+- Prices can't exceed 1,0000
+- Clips should be priced at around 200
+- Ammo boxes should be priced at around 600
+- Bullet should be priced lower than 75
+- If item in previous same shares a lot of similiarity in the data, keep the price close
 
-Format the output data as such: [{{fullType: string, tag: string, price : integer}}]
+Format the output data as such: [{{fullType: string, tag: string, price : integer}}]. Return ONLY ONE ITEM, do not make up new items.
 
 
 ############ [START INPUT DATA] ###############
@@ -105,14 +101,14 @@ similar_prompt = FewShotPromptTemplate(
     example_prompt=example_prompt,
     prefix="############ [START EXAMPLES] ############'\n",
     suffix=suffix,
-    input_variables=["fullType", "name", "weight", "categories"],
+    input_variables=["prevData", "fullType", "name", "weight", "categories"],
 
 )
 
 
 llm = LlamaCpp(
     model_path=model_path,
-    temperature=0.75,
+    temperature=0.65,
     n_gpu_layers=-1,
     n_batch=2000,
     n_ctx=1536,
@@ -137,7 +133,8 @@ llm_chain = LLMChain(
     verbose=True,
     )
 
-
+prev_output = None
+prev_input = None
 
 for i in tqdm.tqdm(range(0, len(data), 1)):
     spliced_data = data[i:i+1][0]       # with the examples as I made them it becomes VERY specific with the format that it wants.
@@ -154,18 +151,29 @@ for i in tqdm.tqdm(range(0, len(data), 1)):
 
     if not isFound:
         result = llm_chain.invoke({
+            "prevData": example_template.format(
+                fullType=prev_input['fullType'],
+                name=prev_input['name'],
+                weight=prev_input['weight'],
+                categories=prev_input['category'],
+                output=prev_output
+                ) if prev_input and prev_output else "",
             "fullType": fullType,
             "name": name,
             "weight": weight,
             "categories": categories}
         )
         new_j = json.loads(result['text'])
+        new_j['fullType'] = fullType
         prices = [*prices, *new_j]
-        with open(price_output, 'w') as file:
+        with open(PRICES_JSON_PATH, 'w') as file:
             file.write(json.dumps(prices, indent=4))
 
 
-    new_j = json.loads(result['text'])
-    print(new_j)
+        # SAVE PREVIOUS DATA
+        prev_input = spliced_data
+        prev_output = result['text']
+
+
     print("________________")
 

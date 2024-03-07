@@ -1,78 +1,78 @@
 [
     {
         "fullType": "ATA2.ATA2ItemContainer",
-        "tag": "VARIOUS",
-        "price": 150
+        "price": 500,
+        "tag": "VARIOUS"
     },
     {
         "fullType": "ATA2.ATABullbar1Item",
-        "tag": "CAR_PARTS",
-        "price": 150
+        "price": 1000,
+        "tag": "CAR_PARTS"
     },
     {
         "fullType": "ATA2.ATABullbar2Item",
-        "tag": "CAR_PARTS",
-        "price": 500
+        "price": 1500,
+        "tag": "CAR_PARTS"
     },
     {
         "fullType": "ATA2.ATABullbar3Item",
-        "price": "300",
+        "price": 1800,
         "tag": "CAR_PARTS"
     },
     {
         "fullType": "ATA2.ATABullbarPoliceItem1",
-        "tag": "CAR_PARTS",
-        "price": 350
+        "price": 2000,
+        "tag": "CAR_PARTS"
     },
     {
         "fullType": "ATA2.ATAFendersWideItem",
-        "tag": "CAR_PARTS",
-        "price": 500
+        "price": 500,
+        "tag": "CAR_PARTS"
     },
     {
         "fullType": "ATA2.ATAFrontRoofLightItem",
         "tag": "CAR_PARTS",
-        "price": 1500
+        "price": 300
     },
     {
         "fullType": "ATA2.ATASkirtsSideItem",
-        "price": "1000",
-        "tag": "CAR_PARTS"
+        "tag": "CAR_PARTS",
+        "price": 450
     },
     {
         "fullType": "ATA2.ATASpoilerFrontItem",
         "tag": "CAR_PARTS",
-        "price": 150
+        "price": 450
     },
     {
         "fullType": "ATA2.ATASpoilerRear1Item",
         "tag": "CAR_PARTS",
-        "price": 100
+        "price": 650
     },
     {
         "fullType": "ATA2.ATASpoilerRear2Item",
-        "price": 100,
-        "tag": "CAR_PARTS"
+        "tag": "CAR_PARTS",
+        "price": 750
     },
     {
         "fullType": "BBB.MugBattery",
-        "tag": "FOOD",
-        "price": 2500
+        "tag": "VARIOUS",
+        "price": 50
     },
     {
         "fullType": "BBB.MugNoCoffee",
-        "price": 50,
-        "tag": "VARIOUS"
+        "tag": "VARIOUS",
+        "price": 50
     },
     {
         "fullType": "BBB.Shirt_BBB_FS_Logo",
-        "price": 2000,
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 2000
     },
     {
         "fullType": "BBB.Tshirt_BBB_24KGoldBeevar",
-        "price": "5000",
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 2500
     },
     {
         "fullType": "BBB.Tshirt_BBB_BusyBeaver",
@@ -81,8 +81,8 @@
     },
     {
         "fullType": "BBB.Tshirt_BBB_Griefed",
-        "price": 2500,
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 2500
     },
     {
         "fullType": "BBB.Tshirt_BBB_HailToTheBeaver",
@@ -91,8 +91,8 @@
     },
     {
         "fullType": "BBB.Tshirt_BBB_HangingwSpiffo",
-        "price": 2500,
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 2500
     },
     {
         "fullType": "BBB.Tshirt_BBB_JokinAround",
@@ -106,18 +106,18 @@
     },
     {
         "fullType": "BBB.Tshirt_BBB_Slay",
-        "price": 2000,
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 2500
     },
     {
         "fullType": "BBB.WaterMugBattery",
-        "price": "1",
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 250
     },
     {
         "fullType": "BBB.WaterMugNoCoffee",
         "tag": "VARIOUS",
-        "price": 50
+        "price": 100
     },
     {
         "fullType": "BCGRareWeapons.ReinforcedBaseballBat",
@@ -127,1516 +127,6036 @@
     {
         "fullType": "BCGRareWeapons.VikingAxe",
         "tag": "WEAPON",
-        "price": 15
+        "price": 300
     },
     {
         "fullType": "Base.1000Tank1",
-        "price": "15000",
-        "tag": "WEAPON"
+        "tag": "WEAPON",
+        "price": 500
     },
     {
         "fullType": "Base.1000Tank2",
-        "price": "150",
-        "tag": "WEAPON"
+        "tag": "WEAPON",
+        "price": 600
     },
     {
         "fullType": "Base.1000Tank3",
-        "price": "80",
-        "tag": "WEAPON"
+        "tag": "WEAPON",
+        "price": 650
     },
     {
         "fullType": "Base.1022",
-        "price": "35",
-        "tag": "WEAPON"
+        "tag": "WEAPON",
+        "price": 850
     },
     {
         "fullType": "Base.1916_Helmet",
         "tag": "MILITARY_CLOTHING",
-        "price": 5
+        "price": 50
     },
     {
         "fullType": "Base.1916_Helmet_ON",
         "tag": "MILITARY_CLOTHING",
-        "price": 250
+        "price": 75
     },
     {
         "fullType": "Base.1916_Helmet_Visor",
-        "price": 350,
-        "tag": "MILITARY_CLOTHING"
+        "tag": "MILITARY_CLOTHING",
+        "price": 150
     },
     {
         "fullType": "Base.1916_Helmet_Visor_2",
-        "price": 150,
-        "tag": "MILITARY_CLOTHING"
+        "tag": "MILITARY_CLOTHING",
+        "price": 150
     },
     {
         "fullType": "Base.223Box",
         "tag": "AMMO",
-        "price": 500
+        "price": "650"
     },
     {
         "fullType": "Base.223Bullets",
-        "price": 11,
-        "tag": "AMMO"
-    },
-    {
-        "fullType": "Base.223BulletsMold",
-        "price": "15",
-        "tag": "AMMO"
-    },
-    {
-        "fullType": "Base.223Clip",
-        "tag": "AMMO",
-        "price": 15
-    },
-    {
-        "fullType": "Base.223Clip20",
-        "price": 500,
-        "tag": "AMMO"
-    },
-    {
-        "fullType": "Base.22Box",
-        "tag": "AMMO",
-        "price": 350
-    },
-    {
-        "fullType": "Base.22Bullets",
-        "tag": "AMMO",
-        "price": 5
-    },
-    {
-        "fullType": "Base.22ClipPistol",
         "tag": "AMMO",
         "price": "35"
     },
     {
-        "fullType": "Base.22ClipRifle",
+        "fullType": "Base.223BulletsMold",
         "tag": "AMMO",
-        "price": 15
+        "price": "120"
     },
     {
-        "fullType": "Base.308Box",
-        "price": "350",
-        "tag": "AMMO"
+        "fullType": "Base.223Clip",
+        "tag": "AMMO",
+        "price": "200"
     },
     {
-        "fullType": "Base.308Bullets",
-        "price": 15,
-        "tag": "AMMO"
+        "fullType": "Base.223Clip20",
+        "tag": "AMMO",
+        "price": "200"
     },
     {
-        "fullType": "Base.308BulletsLinked",
-        "price": 11,
-        "tag": "AMMO"
+        "fullType": "Base.22Box",
+        "tag": "AMMO",
+        "price": "550"
     },
     {
-        "fullType": "Base.308BulletsMold",
+        "fullType": "Base.22Bullets",
         "tag": "AMMO",
         "price": "25"
     },
     {
+        "fullType": "Base.22ClipPistol",
+        "tag": "AMMO",
+        "price": "250"
+    },
+    {
+        "fullType": "Base.22ClipRifle",
+        "tag": "AMMO",
+        "price": "550"
+    },
+    {
+        "fullType": "Base.308Box",
+        "tag": "AMMO",
+        "price": "650"
+    },
+    {
+        "fullType": "Base.308Bullets",
+        "tag": "AMMO",
+        "price": "25"
+    },
+    {
+        "fullType": "Base.308BulletsLinked",
+        "tag": "AMMO",
+        "price": "35"
+    },
+    {
+        "fullType": "Base.308BulletsMold",
+        "tag": "AMMO",
+        "price": "15"
+    },
+    {
         "fullType": "Base.308Clip",
-        "price": 15,
-        "tag": "AMMO"
+        "tag": "AMMO",
+        "price": "17"
     },
     {
         "fullType": "Base.44Clip",
-        "price": 15,
-        "tag": "AMMO"
+        "tag": "AMMO",
+        "price": "175"
     },
     {
         "fullType": "Base.45Clip",
-        "price": 3,
-        "tag": "AMMO"
+        "tag": "AMMO",
+        "price": "175"
     },
     {
         "fullType": "Base.45Clip12",
-        "price": 20,
-        "tag": "AMMO"
+        "tag": "AMMO",
+        "price": "175"
     },
     {
         "fullType": "Base.45Clip32",
         "tag": "AMMO",
-        "price": 35
+        "price": "175"
     },
     {
         "fullType": "Base.500Tank1",
-        "price": 3500,
-        "tag": "WEAPON"
+        "tag": "WEAPON",
+        "price": "250"
     },
     {
         "fullType": "Base.500Tank2",
         "tag": "WEAPON",
-        "price": 4500
+        "price": "550"
     },
     {
         "fullType": "Base.500Tank3",
-        "price": "150",
-        "tag": "WEAPON"
+        "tag": "WEAPON",
+        "price": "550"
     },
     {
         "fullType": "Base.511_Pants",
-        "price": 450,
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": "850"
     },
     {
         "fullType": "Base.511_Pants_Rolled",
-        "price": 35,
-        "tag": "CLOTHING"
+        "tag": "MILITARY_CLOTHING",
+        "price": "950"
     },
     {
         "fullType": "Base.556Box",
         "tag": "AMMO",
-        "price": 350
+        "price": "550"
     },
     {
         "fullType": "Base.556Bullets",
         "tag": "AMMO",
-        "price": 11
+        "price": "25"
     },
     {
         "fullType": "Base.556Clip",
-        "price": 10,
-        "tag": "AMMO"
+        "tag": "AMMO",
+        "price": "200"
     },
     {
         "fullType": "Base.6B6_Helmet",
-        "price": "50",
-        "tag": "WEAPON"
-    },
-    {
-        "fullType": "Base.6B6_Visor",
-        "tag": "WEAPON",
+        "tag": "MILITARY_CLOTHING",
         "price": 1500
     },
     {
-        "fullType": "Base.6B6_Headset",
-        "tag": "WEAPON",
-        "price": 15000
+        "fullType": "Base.6B6_Helmet",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1500
     },
     {
-        "fullType": "Base.6B6_Earmuffs",
-        "tag": "WEAPON",
-        "price": 15000
+        "fullType": "Base.6B6_Visor",
+        "tag": "MILITARY_CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.6B6_Visor",
+        "tag": "MILITARY_CLOTHING",
+        "price": 350
     },
     {
         "fullType": "Base.6B6_Visor_UP",
-        "price": 150,
-        "tag": "WEAPON"
+        "tag": "MILITARY_CLOTHING",
+        "price": 450
     },
     {
         "fullType": "Base.762Box",
         "tag": "AMMO",
-        "price": 550
+        "price": 650
+    },
+    {
+        "fullType": "Base.762Box",
+        "tag": "AMMO",
+        "price": 650
+    },
+    {
+        "fullType": "Base.762Box",
+        "tag": "AMMO",
+        "price": 650
     },
     {
         "fullType": "Base.762Bullets",
         "tag": "AMMO",
-        "price": 12
+        "price": 150
+    },
+    {
+        "fullType": "Base.762Bullets",
+        "tag": "AMMO",
+        "price": 150
     },
     {
         "fullType": "Base.762Clip",
-        "price": "350",
-        "tag": "WEAPON"
+        "tag": "AMMO",
+        "price": 200
+    },
+    {
+        "fullType": "Base.762x39Rounds",
+        "tag": "AMMO",
+        "price": 550
+    },
+    {
+        "fullType": "Base.762x39Rounds",
+        "tag": "AMMO",
+        "price": 550
+    },
+    {
+        "fullType": "Base.762x39Rounds",
+        "tag": "AMMO",
+        "price": 550
+    },
+    {
+        "fullType": "Base.9mmBox",
+        "tag": "AMMO",
+        "price": 750
+    },
+    {
+        "fullType": "Base.9mmBox",
+        "tag": "AMMO",
+        "price": 750
+    },
+    {
+        "fullType": "Base.9mmBox",
+        "tag": "AMMO",
+        "price": 650
+    },
+    {
+        "fullType": "Base.9mmBox",
+        "tag": "AMMO",
+        "price": 650
+    },
+    {
+        "fullType": "Base.9mmBox",
+        "tag": "AMMO",
+        "price": 600
+    },
+    {
+        "fullType": "Base.9mmBox",
+        "tag": "AMMO",
+        "price": 600
+    },
+    {
+        "fullType": "Base.9mmBulletMold",
+        "tag": "AMMO",
+        "price": 250
+    },
+    {
+        "fullType": "Base.9mmBulletMold",
+        "tag": "AMMO",
+        "price": 250
+    },
+    {
+        "fullType": "Base.9mmBulletMold",
+        "tag": "AMMO",
+        "price": 225
+    },
+    {
+        "fullType": "Base.9mmBulletMold",
+        "tag": "AMMO",
+        "price": 225
+    },
+    {
+        "fullType": "Base.9mmBulletMold",
+        "tag": "AMMO",
+        "price": 225
+    },
+    {
+        "fullType": "Base.9mmBulletMold",
+        "tag": "AMMO",
+        "price": 225
+    },
+    {
+        "fullType": "Base.9mmBullets",
+        "tag": "AMMO",
+        "price": 150
     },
     {
         "fullType": "Base.9mmBulletsMold",
-        "tag": "AMMO",
-        "price": "15"
+        "price": 150,
+        "tag": "AMMO"
     },
     {
         "fullType": "Base.9mmClip",
         "tag": "AMMO",
-        "price": 35
+        "price": 175
+    },
+    {
+        "fullType": "Base.9mmClip",
+        "tag": "AMMO",
+        "price": 175
+    },
+    {
+        "fullType": "Base.9mmClip",
+        "tag": "AMMO",
+        "price": 150
+    },
+    {
+        "fullType": "Base.9mmClip",
+        "tag": "AMMO",
+        "price": 175
+    },
+    {
+        "fullType": "Base.9mmClip",
+        "tag": "AMMO",
+        "price": 200
+    },
+    {
+        "fullType": "Base.9mmClip",
+        "tag": "AMMO",
+        "price": 200
     },
     {
         "fullType": "Base.9mmClip13",
-        "price": 11,
+        "price": 250,
         "tag": "AMMO"
     },
     {
         "fullType": "Base.9mmClip16",
-        "price": "18",
+        "price": 225,
         "tag": "AMMO"
     },
     {
         "fullType": "Base.9mmClip17",
-        "price": 15,
+        "price": 225,
         "tag": "AMMO"
     },
     {
         "fullType": "Base.9mmClip20",
-        "tag": "AMMO",
-        "price": 9
-    },
-    {
-        "fullType": "Base.9mmClip30",
-        "price": "18",
+        "price": 250,
         "tag": "AMMO"
     },
     {
+        "fullType": "Base.9mmClip30",
+        "price": 300,
+        "tag": "AMMO"
+    },
+    {
+        "fullType": "Base.9mmRounds",
+        "tag": "AMMO",
+        "price": 175
+    },
+    {
+        "fullType": "Base.9mmRounds",
+        "tag": "AMMO",
+        "price": 175
+    },
+    {
+        "fullType": "Base.9mmRounds",
+        "tag": "AMMO",
+        "price": 125
+    },
+    {
+        "fullType": "Base.9mmRounds",
+        "tag": "AMMO",
+        "price": 125
+    },
+    {
+        "fullType": "Base.9mmRounds",
+        "tag": "AMMO",
+        "price": 125
+    },
+    {
+        "fullType": "Base.9mmRounds",
+        "tag": "AMMO",
+        "price": 125
+    },
+    {
         "fullType": "Base.AK47",
-        "price": 15000,
-        "tag": "WEAPON"
+        "tag": "WEAPON",
+        "price": 2500
     },
     {
         "fullType": "Base.AK47Folded",
         "tag": "WEAPON",
-        "price": "15"
+        "price": 800
+    },
+    {
+        "fullType": "Base.AK47Holster",
+        "tag": "VARIOUS",
+        "price": 12
+    },
+    {
+        "fullType": "Base.AK47Magazine",
+        "tag": "AMMO",
+        "price": 550
     },
     {
         "fullType": "Base.AK47Unfolded",
-        "price": 140000,
-        "tag": "WEAPON"
+        "tag": "WEAPON",
+        "price": 750
     },
     {
-        "fullType": "Base.ANA_Classity",
+        "fullType": "Base.ANA_Classic",
         "tag": "CLOTHING",
-        "price": "500"
+        "price": 100
     },
     {
-        "fullType": "Base.ANA_Classing_ON",
-        "price": 325,
-        "tag": "CLOTHING"
+        "fullType": "Base.ANA_Classic_ON",
+        "tag": "CLOTHING",
+        "price": 150
     },
     {
         "fullType": "Base.ANA_Hood",
         "tag": "CLOTHING",
-        "price": 1500
+        "price": 250
     },
     {
         "fullType": "Base.ANA_Hood_ON",
         "tag": "CLOTHING",
-        "price": 2500
+        "price": 250
     },
     {
         "fullType": "Base.ANA_Shirts",
         "tag": "CLOTHING",
-        "price": 10000
+        "price": 225
     },
     {
         "fullType": "Base.ANA_Shirts_ON",
-        "price": 500,
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 250
     },
     {
         "fullType": "Base.AP3",
-        "price": 18500,
-        "tag": "EQUIPMENT"
-    },
-    {
-        "fullType": "Base.ATA1000Trunk",
-        "price": 50,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA1000Trunk1",
-        "price": 150,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA1000Trunk2",
-        "price": 150,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA1000Trunk3",
-        "tag": "VARIOUS",
-        "price": 50
-    },
-    {
-        "fullType": "Base.ATA1100Trunk",
-        "price": 15,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA1100Trunk1",
-        "tag": "VARIOUS",
-        "price": 75
-    },
-    {
-        "fullType": "Base.ATA1100Trunk2",
-        "tag": "VARIOUS",
-        "price": 550
-    },
-    {
-        "fullType": "Base.ATA1100Trunk3",
-        "price": 500,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA1200Trunk",
-        "price": "150",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA1200Trunk1",
-        "tag": "VARIOUS",
-        "price": 150
-    },
-    {
-        "fullType": "Base.ATA1200Trunk2",
-        "tag": "VARIOUS",
-        "price": 500
-    },
-    {
-        "fullType": "Base.ATA1200Trunk3",
-        "price": "150",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA150Trunk",
-        "tag": "VARIOUS",
-        "price": 150
-    },
-    {
-        "fullType": "Base.ATA150Trunk1",
-        "price": 500,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA150Trunk2",
-        "tag": "VARIOUS",
-        "price": 150
-    },
-    {
-        "fullType": "Base.ATA150Trunk3",
-        "price": "150",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA200Trunk",
-        "price": 150,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA200Trunk1",
-        "price": 150,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA200Trunk2",
-        "price": "1500",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA200Trunk3",
-        "price": 350,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA250Trunk",
-        "price": 5000,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA250Trunk1",
-        "price": 150,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA250Trunk2",
-        "price": "50",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.ATA250Trunk3",
-        "tag": "VARIOUS",
+        "tag": "EQUIPMENT",
         "price": 450
     },
     {
+        "fullType": "Base.ATA1000Trunk",
+        "tag": "VEHICLE_PART",
+        "price": 850
+    },
+    {
+        "fullType": "Base.ATA1000Trunk1",
+        "tag": "VEHICLE_PART",
+        "price": 950
+    },
+    {
+        "fullType": "Base.ATA1000Trunk2",
+        "tag": "VEHICLE_PART",
+        "price": 1150
+    },
+    {
+        "fullType": "Base.ATA1000Trunk3",
+        "tag": "VEHICLE_PART",
+        "price": 1350
+    },
+    {
+        "fullType": "Base.ATA1100Trunk",
+        "tag": "VEHICLE_PART",
+        "price": 1450
+    },
+    {
+        "fullType": "Base.ATA1100Trunk1",
+        "tag": "VEHICLE_PART",
+        "price": 1500
+    },
+    {
+        "fullType": "Base.ATA1100Trunk2",
+        "tag": "VEHICLE_PART",
+        "price": 1500
+    },
+    {
+        "fullType": "Base.ATA1100Trunk3",
+        "tag": "VEHICLE_PART",
+        "price": 1800
+    },
+    {
+        "fullType": "Base.ATA1200Trunk",
+        "tag": "VEHICLE_PART",
+        "price": 1800
+    },
+    {
+        "fullType": "Base.ATA1200Trunk1",
+        "tag": "VEHICLE_PART",
+        "price": 1800
+    },
+    {
+        "fullType": "Base.ATA1200Trunk2",
+        "tag": "VEHICLE_PART",
+        "price": 1900
+    },
+    {
+        "fullType": "Base.ATA1200Trunk3",
+        "tag": "VEHICLE_PART",
+        "price": 1950
+    },
+    {
+        "fullType": "Base.ATA150Trunk",
+        "tag": "VEHICLE_PART",
+        "price": 1650
+    },
+    {
+        "fullType": "Base.ATA150Trunk1",
+        "tag": "VEHICLE_PART",
+        "price": 1750
+    },
+    {
+        "fullType": "Base.ATA150Trunk2",
+        "tag": "VEHICLE_PART",
+        "price": 1850
+    },
+    {
+        "fullType": "Base.ATA150Trunk3",
+        "tag": "VEHICLE_PART",
+        "price": 1950
+    },
+    {
+        "fullType": "Base.ATA200Trunk",
+        "tag": "VEHICLE_PART",
+        "price": 1950
+    },
+    {
+        "fullType": "Base.ATA200Trunk1",
+        "tag": "VEHICLE_PART",
+        "price": 1950
+    },
+    {
+        "fullType": "Base.ATA200Trunk2",
+        "tag": "VEHICLE_PART",
+        "price": 1950
+    },
+    {
+        "fullType": "Base.ATA200Trunk3",
+        "tag": "VEHICLE_PART",
+        "price": 1950
+    },
+    {
+        "fullType": "Base.ATA250Trunk",
+        "tag": "VEHICLE_PART",
+        "price": 1950
+    },
+    {
+        "fullType": "Base.ATA250Trunk1",
+        "tag": "VEHICLE_PART",
+        "price": 1950
+    },
+    {
+        "fullType": "Base.ATA250Trunk2",
+        "tag": "VEHICLE_PART",
+        "price": 1950
+    },
+    {
+        "fullType": "Base.ATA250Trunk3",
+        "tag": "VEHICLE_PART",
+        "price": 2150
+    },
+    {
         "fullType": "Base.ATA300Trunk",
-        "price": 100,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 2150
     },
     {
         "fullType": "Base.ATA300Trunk1",
-        "tag": "VARIOUS",
-        "price": 8000
+        "tag": "VEHICLE_PART",
+        "price": 2350
     },
     {
         "fullType": "Base.ATA300Trunk2",
-        "price": 250,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 2500
     },
     {
         "fullType": "Base.ATA300Trunk3",
-        "price": 500,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 3000
     },
     {
         "fullType": "Base.ATA400Trunk",
-        "price": 4500,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 3000
     },
     {
         "fullType": "Base.ATA400Trunk1",
-        "tag": "VARIOUS",
-        "price": 100
+        "tag": "VEHICLE_PART",
+        "price": 3300
     },
     {
         "fullType": "Base.ATA400Trunk2",
-        "tag": "VARIOUS",
-        "price": 500
+        "tag": "VEHICLE_PART",
+        "price": 3450
     },
     {
         "fullType": "Base.ATA400Trunk3",
-        "price": 4500,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 3650
     },
     {
         "fullType": "Base.ATA500Trunk",
-        "price": 1500,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 3750
     },
     {
         "fullType": "Base.ATA500Trunk1",
-        "tag": "VARIOUS",
-        "price": 600
+        "tag": "VEHICLE_PART",
+        "price": 4500
     },
     {
         "fullType": "Base.ATA500Trunk2",
-        "price": 35,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 5500
     },
     {
         "fullType": "Base.ATA500Trunk3",
-        "price": 150,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 6500
     },
     {
         "fullType": "Base.ATA600Trunk",
-        "tag": "VARIOUS",
-        "price": 800
+        "tag": "VEHICLE_PART",
+        "price": 7500
     },
     {
         "fullType": "Base.ATA600Trunk1",
-        "price": 350,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 8500
     },
     {
         "fullType": "Base.ATA600Trunk2",
-        "tag": "VARIOUS",
-        "price": 750
+        "tag": "VEHICLE_PART",
+        "price": 8500
     },
     {
         "fullType": "Base.ATA600Trunk3",
-        "price": "150",
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 9500
     },
     {
         "fullType": "Base.ATA700Trunk",
-        "price": 30,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 9500
     },
     {
         "fullType": "Base.ATA700Trunk1",
-        "tag": "VARIOUS",
-        "price": "50"
+        "tag": "VEHICLE_PART",
+        "price": 11000
     },
     {
         "fullType": "Base.ATA700Trunk2",
-        "tag": "VARIOUS",
-        "price": 400
+        "tag": "VEHICLE_PART",
+        "price": 12000
     },
     {
         "fullType": "Base.ATA700Trunk3",
-        "tag": "VARIOUS",
-        "price": "150"
+        "tag": "VEHICLE_PART",
+        "price": 15000
     },
     {
         "fullType": "Base.ATA800Trunk",
-        "tag": "VARIOUS",
-        "price": 4000
+        "tag": "VEHICLE_PART",
+        "price": 18000
     },
     {
         "fullType": "Base.ATA800Trunk1",
-        "price": 8000,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 19000
     },
     {
         "fullType": "Base.ATA800Trunk2",
-        "price": "100",
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 19500
     },
     {
         "fullType": "Base.ATA800Trunk3",
-        "tag": "VARIOUS",
-        "price": 40
+        "tag": "VEHICLE_PART",
+        "price": 23500
     },
     {
         "fullType": "Base.ATA900Trunk",
-        "price": 25000,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 23500
     },
     {
         "fullType": "Base.ATA900Trunk1",
-        "price": 1500,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 24500
     },
     {
         "fullType": "Base.ATA900Trunk2",
-        "price": 4000,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 35000
     },
     {
         "fullType": "Base.ATA900Trunk3",
-        "price": 150,
-        "tag": "VARIOUS"
+        "tag": "VEHICLE_PART",
+        "price": 45000
     },
     {
         "fullType": "Base.ATAFreestorageTrunk",
-        "tag": "FURNITURE",
-        "price": "500"
+        "tag": "VEHICLE_PART",
+        "price": 45000
     },
     {
         "fullType": "Base.ATAProtectionWheelsChain",
-        "price": 1500,
-        "tag": "VARIOUS"
+        "tag": "WEAPON_PART",
+        "price": 5000
     },
     {
         "fullType": "Base.ATARoofLightItem",
-        "price": "1",
-        "tag": "VARIOUS"
+        "tag": "VARIOUS",
+        "price": 1500
     },
     {
         "fullType": "Base.ATASleepingBag",
-        "price": "50",
-        "tag": "FURNITURE"
+        "tag": "CLOTHING",
+        "price": 400
     },
     {
         "fullType": "Base.Acorn",
-        "price": 3,
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 5
     },
     {
         "fullType": "Base.Adidas_Pad_Jacket",
-        "price": 500,
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 350
     },
     {
         "fullType": "Base.Adidas_Pad_Jacket_ON",
-        "price": "100",
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 325
     },
     {
         "fullType": "Base.Adidas_Track_Pants",
-        "price": 50,
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 150
     },
     {
         "fullType": "Base.Adidas_Track_Pants_Rolled",
-        "price": "850",
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 125
     },
     {
         "fullType": "Base.Aerosolbomb",
         "tag": "WEAPON",
-        "price": 15
+        "price": 250
     },
     {
         "fullType": "Base.AerosolbombRemote",
-        "price": "15",
-        "tag": "WEAPON"
+        "tag": "WEAPON",
+        "price": 350
     },
     {
         "fullType": "Base.AerosolbombSensorV1",
-        "price": 150,
-        "tag": "EXPLOSIVES"
+        "tag": "WEAPON",
+        "price": 450
     },
     {
         "fullType": "Base.AerosolbombSensorV2",
-        "price": "5",
-        "tag": "EXPLORA"
+        "tag": "WEAPON",
+        "price": 500
     },
     {
         "fullType": "Base.AerosolbombSensorV3",
-        "price": 35,
-        "tag": "WEAPON"
+        "tag": "WEAPON",
+        "price": 550
     },
     {
         "fullType": "Base.AerosolbombTriggered",
-        "price": 15,
-        "tag": "EXPLOSIVES"
+        "tag": "WEAPON",
+        "price": 450
     },
     {
         "fullType": "Base.AlarmClock",
-        "price": 150,
-        "tag": "VARIOUS"
+        "tag": "VARIOUS",
+        "price": 100
     },
     {
         "fullType": "Base.AlarmClock2",
-        "price": 500,
-        "tag": "VARIOUS"
+        "tag": "VARIOUS",
+        "price": 150
     },
     {
         "fullType": "Base.AlcoholBandage",
-        "price": 15,
-        "tag": "FIRST_AID"
+        "tag": "FIRST_AID",
+        "price": 250
     },
     {
         "fullType": "Base.AlcoholRippedSheets",
         "tag": "FIRST_AID",
-        "price": 15
+        "price": 150
     },
     {
         "fullType": "Base.AlcoholWipes",
-        "price": 1,
-        "tag": "FIRST_AID"
+        "tag": "FIRST_AID",
+        "price": 250
     },
     {
         "fullType": "Base.AlcoholedCottonBalls",
         "tag": "FIRST_AID",
-        "price": 15
+        "price": 450
     },
     {
         "fullType": "Base.Allsorts",
-        "price": "1",
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 650
     },
     {
         "fullType": "Base.Aluminum",
-        "price": 2,
-        "tag": "MATERIAL"
+        "tag": "MATERIAL",
+        "price": 150
     },
     {
         "fullType": "Base.AmericanLadyCaterpillar",
-        "price": "1",
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 5
     },
     {
         "fullType": "Base.AmmoStrap_Bullets",
-        "price": 5,
-        "tag": "WEAPON"
+        "tag": "WEAPON",
+        "price": 250
     },
     {
         "fullType": "Base.AmmoStrap_Shells",
-        "price": 5,
-        "tag": "VARIOUS"
+        "tag": "WEAPON",
+        "price": 300
     },
     {
         "fullType": "Base.AmmoStraps",
         "tag": "WEAPON",
-        "price": 15
+        "price": 350
     },
     {
         "fullType": "Base.Amplifier",
         "tag": "ELECTRONICS",
-        "price": 5
+        "price": 500
     },
     {
         "fullType": "Base.Anorak_Pants",
-        "price": "15",
-        "tag": "CLOTHING"
+        "tag": "MILITARY_CLOTHING",
+        "price": 650
     },
     {
         "fullType": "Base.Anorak_Pants_Rolled",
-        "price": 15,
-        "tag": "CLOTHING"
+        "tag": "MILITARY_CLOTHING",
+        "price": 650
     },
     {
-        "fullType": "Base.Antibelok_5_HazmatSuit",
-        "price": 3500,
-        "tag": "CLOTHING"
+        "fullType": "Base.Antibelok",
+        "tag": "MILITARY_CLOTHING",
+        "price": 850
+    },
+    {
+        "fullType": "Base.Antibelok",
+        "tag": "MILITARY_CLOTHING",
+        "price": 850
     },
     {
         "fullType": "Base.Antibelok_ON",
-        "price": 35000,
-        "tag": "CLOTHING"
+        "price": 200,
+        "tag": "MILITARY_CLOTHING"
     },
     {
         "fullType": "Base.Antibiotics",
-        "price": 35,
-        "tag": "FIRST_AID"
+        "tag": "FIRST_AID",
+        "price": 65
     },
     {
         "fullType": "Base.Antique_Oven_Carry",
-        "price": 15,
-        "tag": "FURNITURE"
+        "tag": "VARIOUS",
+        "price": 150
     },
     {
         "fullType": "Base.Apple",
-        "price": 1,
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 5
     },
     {
         "fullType": "Base.Apron_Black",
-        "price": "50",
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 75
     },
     {
         "fullType": "Base.Apron_IceCream",
-        "price": 10,
-        "tag": "CLOTHING"
+        "tag": "FOOD",
+        "price": 150
     },
     {
         "fullType": "Base.Apron_Jay",
-        "price": 150,
-        "tag": "CLOTHING"
+        "tag": "FOOD",
+        "price": 150
     },
     {
         "fullType": "Base.Apron_PileOCrepe",
-        "price": 5,
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 150
     },
     {
         "fullType": "Base.Apron_PizzaWhirled",
-        "price": 10,
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 150
     },
     {
         "fullType": "Base.Apron_Side",
-        "price": "10",
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 85
     },
     {
         "fullType": "Base.Apron_Side_ON",
         "tag": "CLOTHING",
-        "price": "15"
+        "price": 95
     },
     {
         "fullType": "Base.Apron_Spiffos",
-        "price": 1000,
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 140
     },
     {
         "fullType": "Base.Apron_White",
-        "price": "5",
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 45
     },
     {
         "fullType": "Base.Apron_WhiteTEXTURE",
         "tag": "CLOTHING",
-        "price": "1"
+        "price": 45
     },
     {
         "fullType": "Base.Arm_Warmer",
-        "price": 5,
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 35
     },
     {
         "fullType": "Base.Armband",
-        "price": "15",
-        "tag": "VARIOUS"
+        "tag": "CLOTHING",
+        "price": 45
     },
     {
         "fullType": "Base.Armband_Long",
-        "price": "10",
-        "tag": "VARIOUS"
+        "tag": "CLOTHING",
+        "price": 50
     },
     {
         "fullType": "Base.Armband_Long_ON",
         "tag": "CLOTHING",
-        "price": 150
+        "price": 50
     },
     {
         "fullType": "Base.Armband_ON",
-        "price": 15,
-        "tag": "VARIOUS"
+        "tag": "CLOTHING",
+        "price": 50
     },
     {
         "fullType": "Base.Armband_Short",
-        "tag": "VARIOUS",
-        "price": 4500
+        "tag": "CLOTHING",
+        "price": 50
     },
     {
         "fullType": "Base.Armband_Short_ON",
-        "price": "50",
-        "tag": "VARIOUS"
+        "tag": "CLOTHING",
+        "price": 50
     },
     {
         "fullType": "Base.Armor_6B13",
-        "price": "75",
-        "tag": "MILITARY_CLOTHING"
+        "tag": "MILITARY_CLOTHING",
+        "price": 1000
     },
     {
         "fullType": "Base.Armor_Defender",
-        "price": "365",
-        "tag": "MILITARY_CLOTHING"
+        "tag": "MILITARY_CLOTHING",
+        "price": 800
     },
     {
         "fullType": "Base.Armor_Defender_Set",
-        "price": "150",
-        "tag": "MILITARY_CLOTHING"
+        "tag": "MILITARY_CLOTHING",
+        "price": 1600
     },
     {
         "fullType": "Base.Armor_Dozer",
-        "price": 45000,
-        "tag": "MILITARY_CLOTHING"
+        "tag": "MILITARY_CLOTHING",
+        "price": 1400
+    },
+    {
+        "fullType": "Base.Armor_Dozer",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1400
     },
     {
         "fullType": "Base.Army_Duffle_Bag",
-        "price": 500,
+        "price": 1000,
         "tag": "CLOTHING"
     },
     {
         "fullType": "Base.Ashe_Boots",
-        "price": 60,
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 500
     },
     {
         "fullType": "Base.Ashe_Cloak",
         "tag": "CLOTHING",
-        "price": 500
+        "price": 600
     },
     {
         "fullType": "Base.Ashe_Cloak_ON",
         "tag": "CLOTHING",
-        "price": "100"
+        "price": 700
     },
     {
         "fullType": "Base.Ashe_Gear",
-        "price": 5,
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Ashe_Gear_Loose",
-        "price": 55,
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Ashe_Hat",
-        "tag": "CLOTHING",
-        "price": 50
-    },
-    {
-        "fullType": "Base.Ashe_Jacket",
-        "price": "400",
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Ashe_Jacket_ON",
-        "price": "300",
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Ashe_Jeans",
-        "tag": "CLOTHING",
-        "price": 1000
-    },
-    {
-        "fullType": "Base.Ashe_Leg_Armor",
-        "price": "45",
-        "tag": "MILITARY_CLOTHING"
-    },
-    {
-        "fullType": "Base.Ashe_Necktie",
-        "price": "100",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.AssaultRifle",
-        "price": 450,
-        "tag": "WEAPON"
-    },
-    {
-        "fullType": "Base.AssaultRifle2",
-        "price": 15,
-        "tag": "WEAPON"
-    },
-    {
-        "fullType": "Base.AssaultRifleBayonet",
-        "tag": "WEAPON",
-        "price": 5000
-    },
-    {
-        "fullType": "Base.AssaultRifleM1",
-        "price": 45,
-        "tag": "WEAPON"
-    },
-    {
-        "fullType": "Base.Aviation_Headsets",
-        "tag": "VARIOUS",
-        "price": 100
-    },
-    {
-        "fullType": "Base.Aviation_Headsets_ON",
-        "tag": "AMMO",
-        "price": 450
-    },
-    {
-        "fullType": "Base.Avocado",
-        "price": "5",
-        "tag": "FOOD"
-    },
-    {
-        "fullType": "Base.Axe",
-        "price": 25,
-        "tag": "WEAPON"
-    },
-    {
-        "fullType": "Base.AxeStone",
-        "price": "10",
-        "tag": "WEAPON"
-    },
-    {
-        "fullType": "Base.BARS_Hoodie",
-        "price": "125",
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.BARS_Hoodie_ON",
-        "tag": "CLOTHING",
-        "price": "500"
-    },
-    {
-        "fullType": "Base.BF_EgenerexLite",
-        "price": 15,
-        "tag": "AMMO"
-    },
-    {
-        "fullType": "Base.BF_HeadLight",
-        "price": "150",
-        "tag": "FURNITURE"
-    },
-    {
-        "fullType": "Base.BF_OldFlashlight",
-        "price": 100,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.BF_SpiffoLite",
-        "tag": "VARIOUS",
-        "price": 10
-    },
-    {
-        "fullType": "Base.BR_Bunny_Suit",
-        "price": "15",
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.BR_Skirts",
-        "price": "15",
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.BR_Skirts_Long",
-        "price": "500",
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.BackgammonBoard",
-        "tag": "VARIOUS",
-        "price": 50
-    },
-    {
-        "fullType": "Base.BadmintonRacket",
-        "tag": "WEAPON",
-        "price": 450
-    },
-    {
-        "fullType": "Base.Bag_AK_Vest",
-        "price": 500,
-        "tag": "AMMO"
-    },
-    {
-        "fullType": "Base.Bag_AK_Vest_Loose",
-        "price": 150,
-        "tag": "MILITARY_CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_ALICEpack",
-        "price": 500,
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_ALICEpack_Army",
-        "price": "250",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.Bag_ARVN_Rucksack",
-        "tag": "MILITARY_CLOTHING",
-        "price": 3000
-    },
-    {
-        "fullType": "Base.Bag_BigHikingBag",
-        "price": "1000",
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_Blackhawk",
-        "price": "250",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.Bag_Blackhawk_Loose",
-        "price": "250",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.Bag_BowlingBallBag",
-        "price": 1000,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.Bag_Bush",
-        "price": 35,
-        "tag": "AMMO"
-    },
-    {
-        "fullType": "Base.Bag_Cat_Pack",
         "tag": "VARIOUS",
         "price": 150
     },
     {
-        "fullType": "Base.Bag_D3M",
-        "tag": "MILITARY_CLOTHING",
-        "price": 900
-    },
-    {
-        "fullType": "Base.Bag_D3M_Loose",
-        "price": 2000,
-        "tag": "MILITARY_CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_DoctorBag",
-        "tag": "MEDICAL",
-        "price": 2000
-    },
-    {
-        "fullType": "Base.DozerPack_MilitaryJuggernautAmmoPack",
-        "price": 50000,
-        "tag": "AMMO"
-    },
-    {
-        "fullType": "Base.DozerPack_MilitaryJuggernautBullet",
-        "price": 50,
-        "tag": "AMMO"
-    },
-    {
-        "fullType": "Base.Bag_DuffelBag",
-        "price": 500,
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_DuffelBagTINT",
-        "price": 500,
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_Duty_Belt_Back",
-        "tag": "MILITARY_CLOTHING",
-        "price": 500
-    },
-    {
-        "fullType": "Base.Bag_Duty_Belt_Front",
-        "price": 3000,
-        "tag": "MILITARY_CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_FannyPackBack",
-        "price": 100,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.Bag_FannyPackFront",
-        "price": "200",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.Bag_DuffelBagTINT",
-        "price": "500",
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_FoodSnacks",
-        "price": "250",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.Bag_GolfBag",
-        "tag": "CLOTHING",
-        "price": 600
-    },
-    {
-        "fullType": "Base.Bag_Hazard_Cross",
-        "price": "10",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.Bag_Hunting",
-        "tag": "CLOTHING",
-        "price": 500
-    },
-    {
-        "fullType": "Base.Bag_InmateEscapedBagTINT",
-        "price": 500,
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_JanitorToolboxTINT",
-        "price": "500",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.Bag_MedicalBag",
-        "price": "100",
-        "tag": "FIRST_AID"
-    },
-    {
-        "fullType": "Base.Bag_Military",
-        "price": "8",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.Bag_MoneyBagTINT",
+        "fullType": "Base.Ashe_Gear_Loose",
         "tag": "VARIOUS",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Ashe_Hat",
+        "tag": "CLOTHING",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Ashe_Jacket",
+        "tag": "CLOTHING",
+        "price": 300
+    },
+    {
+        "fullType": "Base.Ashe_Jacket_ON",
+        "tag": "CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Ashe_Jeans",
+        "tag": "CLOTHING",
+        "price": 200
+    },
+    {
+        "fullType": "Base.Ashe_Leg_Armor",
+        "tag": "MILITARY_CLOTHING",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Ashe_Necktie",
+        "tag": "CLOTHING",
         "price": 500
     },
     {
-        "fullType": "Base.Bag_NormalHikingBagTINT",
-        "tag": "CLOTHING",
-        "price": 600
-    },
-    {
-        "fullType": "Base.Bag_Plate_Carrier",
-        "price": 45000,
-        "tag": "WEAPON"
-    },
-    {
-        "fullType": "Base.Bag_Radio_Pack",
-        "tag": "VARIOUS",
-        "price": 3000
-    },
-    {
-        "fullType": "Base.Bag_Robbie_Pack",
-        "price": 15,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.Bag_SCBA",
-        "price": "5000",
-        "tag": "MILITARY_CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_SKS_Vest",
-        "tag": "AMMO",
-        "price": 100
-    },
-    {
-        "fullType": "Base.Chicom_Type56_ChestRig_Front",
-        "tag": "MILITARY_CLOTHING",
-        "price": 500
-    },
-    {
-        "fullType": "Base.Bag_SKS_Vest_Loose",
-        "price": "10",
-        "tag": "MILITARY_CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_SSO",
-        "price": "3000",
-        "tag": "MILITARY_CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_ST53_Set",
-        "price": "1000",
-        "tag": "AMMO"
-    },
-    {
-        "fullType": "Base.Bag_Satchel",
-        "price": 500,
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_Savotta",
-        "tag": "VARIOUS",
-        "price": 5000
-    },
-    {
-        "fullType": "Base.Bag_Schoolbag",
-        "price": "750",
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_ShotgunBag",
-        "price": "100",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.Bag_ShotgunDblBag",
-        "price": 500,
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_ShotgunDblSawnoffBag",
-        "price": 500,
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.Bag_ShotgunSawnoffBag",
-        "price": "500",
-        "tag": "VARIOUS"
-    },
-    {
-        "fullType": "Base.Bag_Sniper_Hood",
-        "price": "110",
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_Sniper_Hood_ON",
-        "price": 250,
-        "tag": "CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_Sniper_Pack",
-        "tag": "MILITARY_CLOTHING",
-        "price": 2000
-    },
-    {
-        "fullType": "Base.Bag_Sniper_Suit",
-        "price": "150",
-        "tag": "MILITARY_CLOTHING"
-    },
-    {
-        "fullType": "Base.Bag_Sniper_Suit_Off",
-        "tag": "MILITARY_CLOTHING",
-        "price": 2000
-    },
-    {
-        "fullType": "Base.Bag_SurvivorBag",
-        "tag": "CLOTHING",
+        "fullType": "Base.AssaultRifle",
+        "tag": "WEAPON",
         "price": 1000
     },
     {
-        "fullType": "Base.Bag_Tactical_Alice",
-        "tag": "FURNITURE",
-        "price": 20000
+        "fullType": "Base.AssaultRifle2",
+        "tag": "WEAPON",
+        "price": 1200
     },
     {
-        "fullType": "Base.Bag_Tactical_Belt_Back",
-        "price": "100",
+        "fullType": "Base.AssaultRifleBayonet",
+        "price": 1000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.AssaultRifleM1",
+        "price": 1000,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.Aviation_Headsets",
+        "price": 200,
         "tag": "VARIOUS"
     },
     {
-        "fullType": "Base.Bag_Tactical_Belt_Front",
-        "price": "100",
+        "fullType": "Base.Aviation_Headsets_ON",
+        "price": 300,
         "tag": "VARIOUS"
     },
     {
-        "fullType": "Base.Bag_DuffelBagTINT",
-        "price": 500,
-        "tag": "CLOTHING"
+        "fullType": "Base.Avocado",
+        "price": 200,
+        "tag": "FOOD"
     },
     {
-        "fullType": "Base.DuffelBag",
-        "price": 100,
+        "fullType": "Base.Axe",
+        "price": 850,
+        "tag": "TOOL_WEAPON"
+    },
+    {
+        "fullType": "Base.AxeStone",
+        "price": 250,
+        "tag": "TOOL_WEAPON"
+    },
+    {
+        "fullType": "Base.BARS_Hoodie",
+        "price": 550,
+        "tag": "MILITARY_CLOTHING"
+    },
+    {
+        "fullType": "Base.BARS_Hoodie_ON",
+        "price": 550,
+        "tag": "MILITARY_CLOTHING"
+    },
+    {
+        "fullType": "Base.BF_EgenerexLite",
+        "price": 25,
+        "tag": "LIGHT_SOURCE"
+    },
+    {
+        "fullType": "Base.BF_HeadLight",
+        "price": 350,
+        "tag": "LIGHT_SOURCE"
+    },
+    {
+        "fullType": "Base.BF_OldFlashlight",
+        "price": 200,
+        "tag": "LIGHT_SOURCE"
+    },
+    {
+        "fullType": "Base.BF_SpiffoLite",
+        "price": 200,
+        "tag": "LIGHT_SOURCE"
+    },
+    {
+        "fullType": "Base.BR_Bunny_Suit",
+        "price": 250,
         "tag": "VARIOUS"
     },
     {
-        "fullType": "Base.Bag_WorkerBagTINT",
+        "fullType": "Base.BR_Skirts",
         "price": 450,
         "tag": "CLOTHING"
     },
     {
-        "fullType": "Base.Bag_X_Vest",
-        "price": 1000,
+        "fullType": "Base.BR_Skirts_Long",
+        "price": 460,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.BackgammonBoard",
+        "price": 450,
         "tag": "VARIOUS"
     },
     {
-        "fullType": "Base.Bag_X_Vest_Loose",
-        "price": 15,
-        "tag": "WEAPON"
+        "fullType": "Base.BadmintonRacket",
+        "price": 200,
+        "tag": "VARIOUS"
     },
     {
-        "fullType": "Base.Bag_ZIP",
+        "fullType": "Base.Bag_AK_Vest",
+        "price": 450,
+        "tag": "MILITARY_CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_AK_Vest_Loose",
+        "price": 550,
+        "tag": "MILITARY_CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_ALICEpack",
+        "price": 1000,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_ALICEpack_Army",
+        "price": 1500,
+        "tag": "MILITARY_CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_ARVN_Rucksack",
+        "price": 1000,
+        "tag": "MILITARY_CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_BigHikingBag",
+        "price": 2500,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_Blackhawk",
+        "price": 1000,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_Blackhawk_Loose",
+        "price": 800,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_BowlingBallBag",
+        "price": 300,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_Bush",
+        "price": 750,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_Cat_Pack",
+        "price": 750,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_D3M",
+        "price": 500,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_D3M_Loose",
+        "price": 500,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_DoctorBag",
+        "price": 750,
+        "tag": "MEDICAL"
+    },
+    {
+        "fullType": "Base.Bag_Dozer_Pack",
+        "price": 600,
+        "tag": "AMMO"
+    },
+    {
+        "fullType": "Base.Bag_DuffelBag",
+        "price": 1200,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_DuffelBagTINT",
+        "price": 1300,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_Duty_Belt_Back",
+        "price": 450,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Bag_Duty_Belt_Front",
+        "price": 450,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Bag_FannyPackBack",
+        "price": 150,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_FannyPackFront",
+        "price": 150,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_FoodCanned",
+        "price": 200,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Bag_FoodSnacks",
+        "price": 400,
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.Bag_GolfBag",
+        "price": 800,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_Hazard_Cross",
+        "price": 300,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_Hunting",
+        "price": 400,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_InmateEscapedBag",
+        "price": 300,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_JanitorToolbox",
+        "price": 350,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Bag_MedicalBag",
+        "price": 450,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Bag_Military",
+        "price": 450,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Bag_MoneyBag",
+        "price": 500,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Bag_NormalHikingBag",
+        "price": 400,
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Bag_Plate_Carrier",
+        "tag": "MILITARY_CLOTHING",
+        "price": 800
+    },
+    {
+        "fullType": "Base.Bag_Radio_Pack",
+        "tag": "MILITARY_CLOTHING",
+        "price": 700
+    },
+    {
+        "fullType": "Base.Bag_Robbie_Pack",
+        "tag": "TOY",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Bag_SCBA",
+        "tag": "VARIOUS",
+        "price": 1000
+    },
+    {
+        "fullType": "Base.Bag_SKS_Vest",
+        "tag": "WEAPON",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Bag_SKS_Vest_Loose",
+        "tag": "WEAPON",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Bag_SSO",
+        "tag": "VARIOUS",
+        "price": 750
+    },
+    {
+        "fullType": "Base.Bag_ST53_Set",
+        "tag": "MILITARY_CLOTHING",
+        "price": 2500
+    },
+    {
+        "fullType": "Base.Bag_Satchel",
+        "tag": "CLOTHING",
+        "price": 300
+    },
+    {
+        "fullType": "Base.Bag_Savotta",
+        "tag": "CLOTHING",
+        "price": 400
+    },
+    {
+        "fullType": "Base.Bag_Schoolbag",
+        "tag": "VARIOUS",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Bag_ShotgunBag",
+        "tag": "VARIOUS",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Bag_ShotgunDblBag",
+        "tag": "VARIOUS",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Bag_ShotgunDblSawnoffBag",
+        "tag": "VARIOUS",
+        "price": 300
+    },
+    {
+        "fullType": "Base.Bag_ShotgunSawnoffBag",
+        "tag": "VARIOUS",
+        "price": 300
+    },
+    {
+        "fullType": "Base.Bag_Sniper_Hood",
+        "tag": "MILITARY_CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Bag_Sniper_Hood_ON",
+        "tag": "MILITARY_CLOTHING",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Bag_Sniper_Pack",
+        "tag": "MILITARY_CLOTHING",
+        "price": 990
+    },
+    {
+        "fullType": "Base.Bag_Sniper_Suit",
+        "tag": "MILITARY_CLOTHING",
+        "price": 895
+    },
+    {
+        "fullType": "Base.Bag_Sniper_Suit_Off",
+        "tag": "MILITARY_CLOTHING",
+        "price": 895
+    },
+    {
+        "fullType": "Base.Bag_SurvivorBag",
         "tag": "CLOTHING",
         "price": 700
     },
     {
+        "fullType": "Base.Bag_Tactical_Alice",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1000
+    },
+    {
+        "fullType": "Base.Bag_Tactical_Belt_Back",
+        "tag": "MILITARY_CLOTHING",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Bag_Tactical_Belt_Front",
+        "tag": "MILITARY_CLOTHING",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Bag_ToolBag",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1200
+    },
+    {
+        "fullType": "Base.Bag_WeaponBag",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1200
+    },
+    {
+        "fullType": "Base.Bag_WorkerBag",
+        "tag": "CLOTHING",
+        "price": 700
+    },
+    {
+        "fullType": "Base.Bag_X_Vest",
+        "tag": "MILITARY_CLOTHING",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Bag_X_Vest_Loose",
+        "tag": "MILITARY_CLOTHING",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Bag_ZIP",
+        "tag": "VARIOUS",
+        "price": 1200
+    },
+    {
         "fullType": "Base.BagelPlain",
-        "price": "50",
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 30
     },
     {
         "fullType": "Base.BagelPoppy",
         "tag": "FOOD",
-        "price": 10
+        "price": 30
     },
     {
         "fullType": "Base.BagelSesame",
-        "price": "2",
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 30
     },
     {
         "fullType": "Base.Baguette",
         "tag": "FOOD",
-        "price": 2
+        "price": 35
     },
     {
         "fullType": "Base.BaguetteDough",
         "tag": "FOOD",
-        "price": 5
+        "price": 35
+    },
+    {
+        "fullType": "Base.BaguetteDough",
+        "tag": "FOOD",
+        "price": 35
     },
     {
         "fullType": "Base.BaguetteSandwich",
-        "price": 250,
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 55
     },
     {
         "fullType": "Base.BaitFish",
-        "price": 5,
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 30
     },
     {
         "fullType": "Base.Baker_Tent",
-        "price": 150000000,
+        "price": 450,
         "tag": "FURNITURE"
     },
     {
         "fullType": "Base.Baker_Tent_2",
-        "price": 1500,
+        "price": 480,
         "tag": "FURNITURE"
     },
     {
         "fullType": "Base.Baker_Tent_3",
-        "price": "100",
+        "price": 480,
         "tag": "FURNITURE"
     },
     {
         "fullType": "Base.Baker_Tent_4",
-        "price": 1000,
+        "price": 480,
         "tag": "FURNITURE"
     },
     {
         "fullType": "Base.Baker_Tent_5",
-        "price": 1000,
+        "price": 480,
         "tag": "FURNITURE"
     },
     {
         "fullType": "Base.Baker_Tent_6",
-        "price": 1000,
+        "price": 480,
         "tag": "FURNITURE"
     },
     {
+        "fullType": "Base.Baker_Tent_Pattern_01",
+        "tag": "FURNITURE",
+        "price": 550
+    },
+    {
+        "fullType": "Base.Baker_Tent_Pattern_02",
+        "tag": "FURNITURE",
+        "price": 650
+    },
+    {
+        "fullType": "Base.Baker_Tent_Pattern_03",
+        "tag": "FURNITURE",
+        "price": 650
+    },
+    {
+        "fullType": "Base.Baker_Tent_Pattern_04",
+        "tag": "FURNITURE",
+        "price": 650
+    },
+    {
+        "fullType": "Base.Baker_Tent_Pattern_05",
+        "tag": "FURNITURE",
+        "price": 650
+    },
+    {
+        "fullType": "Base.Baker_Tent_Pattern_06",
+        "tag": "FURNITURE",
+        "price": 650
+    },
+    {
         "fullType": "Base.BakingPan",
-        "price": 5,
-        "tag": "FOOD"
+        "tag": "VARIOUS",
+        "price": 55
     },
     {
         "fullType": "Base.BakingSoda",
-        "price": 15,
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 25
     },
     {
         "fullType": "Base.BakingTray",
-        "price": 5,
-        "tag": "VARIOUS"
+        "tag": "FOOD",
+        "price": 250
     },
     {
         "fullType": "Base.BakingTrayBread",
-        "price": 150,
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 300
     },
     {
         "fullType": "Base.BakingTray_Muffin",
-        "price": "250",
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 600
     },
     {
         "fullType": "Base.BakingTray_Muffin_Recipe",
-        "price": 500,
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 800
     },
     {
         "fullType": "Base.Balaclava_Mask_1",
         "tag": "CLOTHING",
-        "price": 1000
+        "price": 250
     },
     {
         "fullType": "Base.Balaclava_Mask_2",
         "tag": "CLOTHING",
-        "price": 50
+        "price": 250
     },
     {
         "fullType": "Base.Balaclava_Mask_3",
-        "price": "50",
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 250
     },
     {
         "fullType": "Base.Balaclava_Mask_4",
         "tag": "CLOTHING",
-        "price": "100"
+        "price": 250
     },
     {
         "fullType": "Base.Balaclava_Mask_5",
         "tag": "CLOTHING",
-        "price": 100
+        "price": 250
     },
     {
         "fullType": "Base.Balaclava_Mask_6",
-        "price": "50",
-        "tag": "CLOTHING"
+        "tag": "CLOTHING",
+        "price": 250
     },
     {
         "fullType": "Base.BallPeenHammer",
-        "price": "15",
-        "tag": "TOOL_WEAPON"
+        "tag": "TOOL",
+        "price": 500
     },
     {
         "fullType": "Base.Baloney",
-        "price": 5,
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 250
     },
     {
         "fullType": "Base.BaloneySlice",
         "tag": "FOOD",
-        "price": 15
+        "price": 50
     },
     {
         "fullType": "Base.Banana",
-        "price": 3,
-        "tag": "FOOD"
+        "tag": "FOOD",
+        "price": 30
     },
     {
         "fullType": "Base.Bandage",
         "tag": "FIRST_AID",
-        "price": 10
+        "price": 100
     },
     {
         "fullType": "Base.BandageDirty",
         "tag": "FIRST_AID",
-        "price": 5
+        "price": 50
     },
     {
         "fullType": "Base.Bandaid",
         "tag": "FIRST_AID",
-        "price": 5
+        "price": 25
     },
     {
         "fullType": "Base.Bandana_Mask",
-        "tag": "CLOTHING",
-        "price": 10
+        "tag": "MILITARY_CLOTHING",
+        "price": 50
     },
     {
         "fullType": "Base.Bandana_Mask_Camo",
-        "tag": "CLOTHING",
-        "price": 15
+        "tag": "MILITARY_CLOTHING",
+        "price": 50
     },
     {
         "fullType": "Base.Bandana_Mask_Half",
-        "price": "10",
-        "tag": "CLOTHING"
+        "tag": "MILITARY_CLOTHING",
+        "price": 45
     },
     {
         "fullType": "Base.Bandana_Mask_Half_Camo",
+        "tag": "MILITARY_CLOTHING",
+        "price": 55
+    },
+    {
+        "fullType": "Base.Bandana_Mask_Half_Other",
+        "tag": "MILITARY_CLOTHING",
+        "price": 55
+    },
+    {
+        "fullType": "Base.Bandana_Mask_Other",
+        "tag": "MILITARY_CLOTHING",
+        "price": 55
+    },
+    {
+        "fullType": "Base.BandedWoolyBearCaterpillar",
+        "tag": "FOOD",
+        "price": 25
+    },
+    {
+        "fullType": "Base.Bandit_Coat",
+        "tag": "CLOTHING",
+        "price": 850
+    },
+    {
+        "fullType": "Base.Bandit_Coat_ON",
+        "tag": "CLOTHING",
+        "price": 950
+    },
+    {
+        "fullType": "Base.Bandit_Jacket",
+        "tag": "CLOTHING",
+        "price": 950
+    },
+    {
+        "fullType": "Base.Bandit_Jacket_ON",
+        "tag": "CLOTHING",
+        "price": 950
+    },
+    {
+        "fullType": "Base.Banjo",
+        "tag": "VARIOUS",
+        "price": 350
+    },
+    {
+        "fullType": "Base.BarBell",
+        "tag": "VARIOUS",
+        "price": 500
+    },
+    {
+        "fullType": "Base.BarbedWire",
+        "tag": "MATERIAL",
+        "price": 600
+    },
+    {
+        "fullType": "Base.BareHands",
+        "tag": "WEAPON",
+        "price": 50
+    },
+    {
+        "fullType": "Base.BarrelGreenCarry",
+        "tag": "FURNITURE",
+        "price": 350
+    },
+    {
+        "fullType": "Base.BarrelGreyCarry",
+        "tag": "FURNITURE",
+        "price": 350
+    },
+    {
+        "fullType": "Base.BarrelOrangeCarry",
+        "tag": "FURNITURE",
+        "price": 350
+    },
+    {
+        "fullType": "Base.BarrelTrashCarry",
+        "tag": "CONTAINER",
+        "price": 350
+    },
+    {
+        "fullType": "Base.BarrelYellowCarry",
+        "tag": "FURNITURE",
+        "price": 550
+    },
+    {
+        "fullType": "Base.Baseball",
+        "tag": "SPORTS_EQUIPMENT",
+        "price": 50
+    },
+    {
+        "fullType": "Base.BaseballBat",
+        "tag": "WEAPON",
+        "price": 200
+    },
+    {
+        "fullType": "Base.BaseballBatNails",
+        "tag": "WEAPON",
+        "price": 300
+    },
+    {
+        "fullType": "Base.Basil",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Basketball",
+        "tag": "VARIOUS",
+        "price": 25
+    },
+    {
+        "fullType": "Base.Bass",
+        "price": 250,
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.BathTowel",
+        "price": 50,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.BathTowelWet",
+        "price": 150,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Battery",
+        "price": 25,
+        "tag": "ELECTRONICS"
+    },
+    {
+        "fullType": "Base.Bayonnet",
+        "price": 75,
+        "tag": "WEAPON"
+    },
+    {
+        "fullType": "Base.BeanBowl",
+        "price": 25,
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.Bear_Mask",
+        "price": 500,
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.BeautyBerry",
+        "price": "2",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.BeefJerky",
+        "price": "5",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.Beer",
+        "price": "25",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.Beer2",
+        "price": "25",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.BeerBottle",
+        "price": "50",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.BeerCan",
+        "price": "250",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.BeerCanEmpty",
+        "price": "5",
+        "tag": "JUNK"
+    },
+    {
+        "fullType": "Base.BeerEmpty",
+        "price": "25",
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.BeerWaterFull",
+        "price": "50",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.Bell",
+        "tag": "VARIOUS",
+        "price": "50"
+    },
+    {
+        "fullType": "Base.BellPepper",
+        "tag": "FOOD",
+        "price": "15"
+    },
+    {
+        "fullType": "Base.Bellows",
+        "tag": "TOOL",
+        "price": "50"
+    },
+    {
+        "fullType": "Base.BellyButton_DangleGold",
+        "tag": "ACCESSORY",
+        "price": "250"
+    },
+    {
+        "fullType": "Base.BellyButton_DangleGoldRuby",
+        "tag": "ACCESSORY",
+        "price": "350"
+    },
+    {
+        "fullType": "Base.BellyButton_DangleSilver",
+        "tag": "ACCESSORY",
+        "price": "250"
+    },
+    {
+        "fullType": "Base.BellyButton_DangleSilverDiamond",
+        "tag": "ACCESSORY",
+        "price": "500"
+    },
+    {
+        "fullType": "Base.BellyButton_RingGold",
+        "tag": "ACCESSORY",
+        "price": "500"
+    },
+    {
+        "fullType": "Base.BellyButton_RingGoldDiamond",
+        "tag": "ACCESSORY",
+        "price": "1000"
+    },
+    {
+        "fullType": "Base.BellyButton_RingGoldRuby",
+        "tag": "ACCESSORY",
+        "price": "900"
+    },
+    {
+        "fullType": "Base.BellyButton_RingSilver",
+        "tag": "ACCESSORY",
+        "price": "750"
+    },
+    {
+        "fullType": "Base.BellyButton_RingSilverAmethyst",
+        "tag": "ACCESSORY",
+        "price": "800"
+    },
+    {
+        "fullType": "Base.BellyButton_RingSilverDiamond",
+        "tag": "ACCESSORY",
+        "price": "850"
+    },
+    {
+        "fullType": "Base.BellyButton_RingSilverRuby",
+        "tag": "ACCESSORY",
+        "price": "850"
+    },
+    {
+        "fullType": "Base.BellyButton_StudGold",
+        "tag": "ACCESSORY",
+        "price": "850"
+    },
+    {
+        "fullType": "Base.BellyButton_StudGoldDiamond",
+        "tag": "ACCESSORY",
+        "price": "1000"
+    },
+    {
+        "fullType": "Base.BellyButton_StudSilver",
+        "tag": "ACCESSORY",
+        "price": "500"
+    },
+    {
+        "fullType": "Base.BellyButton_StudSilverDiamond",
+        "tag": "ACCESSORY",
+        "price": "850"
+    },
+    {
+        "fullType": "Base.Belly_Turtleneck",
+        "tag": "CLOTHING",
+        "price": "350"
+    },
+    {
+        "fullType": "Base.Belt",
+        "tag": "CLOTHING",
+        "price": "100"
+    },
+    {
+        "fullType": "Base.Belt2",
+        "tag": "CLOTHING",
+        "price": "150"
+    },
+    {
+        "fullType": "Base.Belt_Pack_AR",
+        "tag": "AMMO",
+        "price": "100"
+    },
+    {
+        "fullType": "Base.Belt_Pack_AR_Loose",
+        "tag": "AMMO",
+        "price": "450"
+    },
+    {
+        "fullType": "Base.Belt_Pack_Duty",
+        "tag": "MILITARY_CLOTHING",
+        "price": "700"
+    },
+    {
+        "fullType": "Base.Belt_Pack_Duty_Loose",
+        "tag": "MILITARY_CLOTHING",
+        "price": "750"
+    },
+    {
+        "fullType": "Base.Belt_Pack_Gas",
+        "tag": "MILITARY_CLOTHING",
+        "price": "350"
+    },
+    {
+        "fullType": "Base.Belt_Pack_Gas_Loose",
+        "tag": "MILITARY_CLOTHING",
+        "price": "450"
+    },
+    {
+        "fullType": "Base.Belt_Pack_Pouch",
+        "tag": "VARIOUS",
+        "price": "200"
+    },
+    {
+        "fullType": "Base.Belt_Pack_Pouch_Loose",
+        "tag": "VARIOUS",
+        "price": "300"
+    },
+    {
+        "fullType": "Base.Belt_Pack_War",
+        "tag": "MILITARY_CLOTHING",
+        "price": "350"
+    },
+    {
+        "fullType": "Base.Belt_Pack_War_Loose",
+        "tag": "MILITARY_CLOTHING",
+        "price": "325"
+    },
+    {
+        "fullType": "Base.BerryBlack",
+        "tag": "FOOD",
+        "price": "2"
+    },
+    {
+        "fullType": "Base.BerryBlue",
+        "tag": "FOOD",
+        "price": "2"
+    },
+    {
+        "fullType": "Base.BerryGeneric1",
+        "tag": "FOOD",
+        "price": "2"
+    },
+    {
+        "fullType": "Base.BerryGeneric2",
+        "tag": "FOOD",
+        "price": "4"
+    },
+    {
+        "fullType": "Base.BerryGeneric3",
+        "tag": "FOOD",
+        "price": "5"
+    },
+    {
+        "fullType": "Base.BerryGeneric4",
+        "tag": "FOOD",
+        "price": "5"
+    },
+    {
+        "fullType": "Base.BerryGeneric5",
+        "tag": "FOOD",
+        "price": "5"
+    },
+    {
+        "fullType": "Base.BerryPoisonIvy",
+        "tag": "FOOD",
+        "price": "5"
+    },
+    {
+        "fullType": "Base.Beverage",
+        "tag": "FOOD",
+        "price": "25"
+    },
+    {
+        "fullType": "Base.Beverage2",
+        "tag": "FOOD",
+        "price": "25"
+    },
+    {
+        "fullType": "Base.BigGasTank1",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": "600"
+    },
+    {
+        "fullType": "Base.BigGasTank2",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": "800"
+    },
+    {
+        "fullType": "Base.BigGasTank3",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": "1200"
+    },
+    {
+        "fullType": "Base.BigTrunk1",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": "800"
+    },
+    {
+        "fullType": "Base.BigTrunk2",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": "900"
+    },
+    {
+        "fullType": "Base.BigTrunk3",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": "750"
+    },
+    {
+        "fullType": "Base.Bikini_Pattern01",
+        "tag": "CLOTHING",
+        "price": "50"
+    },
+    {
+        "fullType": "Base.Bikini_TINT",
+        "tag": "CLOTHING",
+        "price": "75"
+    },
+    {
+        "fullType": "Base.Bipod",
+        "tag": "WEAPON",
+        "price": "350"
+    },
+    {
+        "fullType": "Base.Bipod_Fake",
+        "tag": "WEAPON",
+        "price": "350"
+    },
+    {
+        "fullType": "Base.Biscuit",
+        "tag": "FOOD",
+        "price": "5"
+    },
+    {
+        "fullType": "Base.BlackSage",
+        "tag": "FIRST_AID",
+        "price": "100"
+    },
+    {
+        "fullType": "Base.Black_Long_Shirts",
+        "tag": "CLOTHING",
+        "price": "25"
+    },
+    {
+        "fullType": "Base.Blackbeans",
+        "price": "12",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.Bleach",
+        "tag": "VARIOUS",
+        "price": "12"
+    },
+    {
+        "fullType": "Base.BleachEmpty",
+        "tag": "WATER_CONTAINER",
+        "price": "2"
+    },
+    {
+        "fullType": "Base.Bloodsucker",
+        "tag": "MILITARY_CLOTHING",
+        "price": "950"
+    },
+    {
+        "fullType": "Base.BlowTorch",
+        "tag": "TOOL",
+        "price": "120"
+    },
+    {
+        "fullType": "Base.BluePen",
+        "tag": "VARIOUS",
+        "price": "10"
+    },
+    {
+        "fullType": "Base.BobPic",
+        "tag": "VARIOUS",
+        "price": "5"
+    },
+    {
+        "fullType": "Base.Boilersuit",
+        "tag": "CLOTHING",
+        "price": "150"
+    },
+    {
+        "fullType": "Base.Boilersuit_BlueRed",
+        "tag": "CLOTHING",
+        "price": "150"
+    },
+    {
+        "fullType": "Base.Boilersuit_Flying",
+        "tag": "CLOTHING",
+        "price": "150"
+    },
+    {
+        "fullType": "Base.Boilersuit_Prisoner",
+        "tag": "CLOTHING",
+        "price": "75"
+    },
+    {
+        "fullType": "Base.Boilersuit_PrisonerKhaki",
+        "tag": "CLOTHING",
+        "price": "75"
+    },
+    {
+        "fullType": "Base.Boilersuit_Yellow",
+        "tag": "CLOTHING",
+        "price": "75"
+    },
+    {
+        "fullType": "Base.BoobTube",
+        "tag": "CLOTHING",
+        "price": "75"
+    },
+    {
+        "fullType": "Base.BoobTubeSmall",
+        "tag": "CLOTHING",
+        "price": "50"
+    },
+    {
+        "fullType": "Base.Book",
+        "tag": "LITERATURE",
+        "price": "120"
+    },
+    {
+        "fullType": "Base.BookBlacksmith1",
+        "tag": "SKILL_BOOK",
+        "price": "150"
+    },
+    {
+        "fullType": "Base.BookBlacksmith2",
+        "tag": "SKILL_BOOK",
+        "price": "400"
+    },
+    {
+        "fullType": "Base.BookBlacksmith3",
+        "tag": "SKILL_BOOK",
+        "price": "600"
+    },
+    {
+        "fullType": "Base.BookBlacksmith4",
+        "tag": "SKILL_BOOK",
+        "price": "900"
+    },
+    {
+        "fullType": "Base.BookBlacksmith5",
+        "tag": "SKILL_BOOK",
+        "price": "2400"
+    },
+    {
+        "fullType": "Base.BookCarpentry1",
+        "tag": "SKILL_BOOK",
+        "price": "150"
+    },
+    {
+        "fullType": "Base.BookCarpentry2",
+        "tag": "SKILL_BOOK",
+        "price": "300"
+    },
+    {
+        "fullType": "Base.BookCarpentry3",
+        "tag": "SKILL_BOOK",
+        "price": "600"
+    },
+    {
+        "fullType": "Base.BookCarpentry4",
+        "tag": "SKILL_BOOK",
+        "price": "900"
+    },
+    {
+        "fullType": "Base.BookCarpentry5",
+        "tag": "SKILL_BOOK",
+        "price": "900"
+    },
+    {
+        "fullType": "Base.BookCooking1",
+        "tag": "SKILL_BOOK",
+        "price": "750"
+    },
+    {
+        "fullType": "Base.BookCooking2",
+        "tag": "SKILL_BOOK",
+        "price": "750"
+    },
+    {
+        "fullType": "Base.BookCooking3",
+        "tag": "SKILL_BOOK",
+        "price": "950"
+    },
+    {
+        "fullType": "Base.BookCooking4",
+        "tag": "SKILL_BOOK",
+        "price": "1100"
+    },
+    {
+        "fullType": "Base.BookCooking5",
+        "tag": "SKILL_BOOK",
+        "price": "1200"
+    },
+    {
+        "fullType": "Base.BookElectrician1",
+        "tag": "SKILL_BOOK",
+        "price": "750"
+    },
+    {
+        "fullType": "Base.BookElectrician2",
+        "tag": "SKILL_BOOK",
+        "price": "950"
+    },
+    {
+        "fullType": "Base.BookElectrician3",
+        "tag": "SKILL_BOOK",
+        "price": "950"
+    },
+    {
+        "fullType": "Base.BookElectrician4",
+        "tag": "SKILL_BOOK",
+        "price": "1150"
+    },
+    {
+        "fullType": "Base.BookElectrician5",
+        "tag": "SKILL_BOOK",
+        "price": "1300"
+    },
+    {
+        "fullType": "Base.BookFarming1",
+        "tag": "SKILL_BOOK",
+        "price": "450"
+    },
+    {
+        "fullType": "Base.BookFarming2",
+        "tag": "SKILL_BOOK",
+        "price": "550"
+    },
+    {
+        "fullType": "Base.BookFarming3",
+        "tag": "SKILL_BOOK",
+        "price": "600"
+    },
+    {
+        "fullType": "Base.BookFarming4",
+        "tag": "SKILL_BOOK",
+        "price": "700"
+    },
+    {
+        "fullType": "Base.BookFarming5",
+        "tag": "SKILL_BOOK",
+        "price": "750"
+    },
+    {
+        "fullType": "Base.BookFirstAid1",
+        "tag": "SKILL_BOOK",
+        "price": "250"
+    },
+    {
+        "fullType": "Base.BookFirstAid2",
+        "tag": "SKILL_BOOK",
+        "price": "350"
+    },
+    {
+        "fullType": "Base.BookFirstAid3",
+        "tag": "SKILL_BOOK",
+        "price": "450"
+    },
+    {
+        "fullType": "Base.BookFirstAid4",
+        "tag": "SKILL_BOOK",
+        "price": "500"
+    },
+    {
+        "fullType": "Base.BookFirstAid5",
+        "tag": "SKILL_BOOK",
+        "price": "700"
+    },
+    {
+        "fullType": "Base.BookFishing1",
+        "tag": "SKILL_BOOK",
+        "price": "400"
+    },
+    {
+        "fullType": "Base.BookFishing2",
+        "tag": "SKILL_BOOK",
+        "price": "500"
+    },
+    {
+        "fullType": "Base.BookFishing3",
+        "tag": "SKILL_BOOK",
+        "price": "600"
+    },
+    {
+        "fullType": "Base.BookFishing4",
+        "tag": "SKILL_BOOK",
+        "price": "700"
+    },
+    {
+        "fullType": "Base.BookFishing5",
+        "tag": "SKILL_BOOK",
+        "price": "750"
+    },
+    {
+        "fullType": "Base.BookForaging1",
+        "tag": "SKILL_BOOK",
+        "price": "525"
+    },
+    {
+        "fullType": "Base.BookForaging2",
+        "tag": "SKILL_BOOK",
+        "price": "750"
+    },
+    {
+        "fullType": "Base.BookForaging3",
+        "tag": "SKILL_BOOK",
+        "price": "950"
+    },
+    {
+        "fullType": "Base.BookForaging4",
+        "tag": "SKILL_BOOK",
+        "price": "1050"
+    },
+    {
+        "fullType": "Base.BookForaging5",
+        "tag": "SKILL_BOOK",
+        "price": "1100"
+    },
+    {
+        "fullType": "Base.BookMechanic1",
+        "tag": "SKILL_BOOK",
+        "price": "850"
+    },
+    {
+        "fullType": "Base.BookMechanic2",
+        "tag": "SKILL_BOOK",
+        "price": "950"
+    },
+    {
+        "fullType": "Base.BookMechanic3",
+        "tag": "SKILL_BOOK",
+        "price": "950"
+    },
+    {
+        "fullType": "Base.BookMechanic4",
+        "tag": "SKILL_BOOK",
+        "price": "1050"
+    },
+    {
+        "fullType": "Base.BookMechanic5",
+        "tag": "SKILL_BOOK",
+        "price": "1100"
+    },
+    {
+        "fullType": "Base.BookMetalWelding1",
+        "tag": "SKILL_BOOK",
+        "price": "450"
+    },
+    {
+        "fullType": "Base.BookMetalWelding2",
+        "tag": "SKILL_BOOK",
+        "price": "450"
+    },
+    {
+        "fullType": "Base.BookMetalWelding3",
+        "tag": "SKILL_BOOK",
+        "price": "650"
+    },
+    {
+        "fullType": "Base.BookMetalWelding4",
+        "tag": "SKILL_BOOK",
+        "price": "750"
+    },
+    {
+        "fullType": "Base.BookMetalWelding5",
+        "tag": "SKILL_BOOK",
+        "price": "750"
+    },
+    {
+        "fullType": "Base.BookTailoring1",
+        "tag": "SKILL_BOOK",
+        "price": "450"
+    },
+    {
+        "fullType": "Base.BookTailoring2",
+        "tag": "SKILL_BOOK",
+        "price": "550"
+    },
+    {
+        "fullType": "Base.BookTailoring3",
+        "tag": "SKILL_BOOK",
+        "price": "600"
+    },
+    {
+        "fullType": "Base.BookTailoring4",
+        "tag": "SKILL_BOOK",
+        "price": "600"
+    },
+    {
+        "fullType": "Base.BookTailoring5",
+        "tag": "SKILL_BOOK",
+        "price": "600"
+    },
+    {
+        "fullType": "Base.BookTrapping1",
+        "tag": "SKILL_BOOK",
+        "price": "600"
+    },
+    {
+        "fullType": "Base.BookTrapping2",
+        "tag": "SKILL_BOOK",
+        "price": "600"
+    },
+    {
+        "fullType": "Base.BookTrapping3",
+        "tag": "SKILL_BOOK",
+        "price": "600"
+    },
+    {
+        "fullType": "Base.BookTrapping4",
+        "tag": "SKILL_BOOK",
+        "price": "1200"
+    },
+    {
+        "fullType": "Base.BookTrapping5",
+        "tag": "SKILL_BOOK",
+        "price": "1400"
+    },
+    {
+        "fullType": "Base.Boots_Bennett",
+        "tag": "CLOTHING",
+        "price": "250"
+    },
+    {
+        "fullType": "Base.Boots_Heather",
+        "tag": "CLOTHING",
+        "price": "250"
+    },
+    {
+        "fullType": "Base.Boots_James",
+        "tag": "CLOTHING",
+        "price": "250"
+    },
+    {
+        "fullType": "Base.Boots_Maria",
+        "tag": "CLOTHING",
+        "price": "250"
+    },
+    {
+        "fullType": "Base.Boots_Trackstar",
+        "tag": "CLOTHING",
+        "price": "275"
+    },
+    {
+        "fullType": "Base.BorisBadger",
+        "tag": "VARIOUS",
+        "price": "45"
+    },
+    {
+        "fullType": "Base.Bottle_Bag",
+        "tag": "VARIOUS",
+        "price": "15"
+    },
+    {
+        "fullType": "Base.Bottle_Bag_Loose",
+        "tag": "VARIOUS",
+        "price": "15"
+    },
+    {
+        "fullType": "Base.BouillonCube",
+        "tag": "FOOD",
+        "price": "1"
+    },
+    {
+        "fullType": "Base.Bowl",
+        "tag": "VARIOUS",
+        "price": "15"
+    },
+    {
+        "fullType": "Base.Bowman_Headsets",
+        "tag": "MILITARY_CLOTHING",
+        "price": "250"
+    },
+    {
+        "fullType": "Base.Bowman_Headsets_ON",
+        "tag": "MILITARY_CLOTHING",
+        "price": "225"
+    },
+    {
+        "fullType": "Base.BoxOfJars",
+        "tag": "FOOD",
+        "price": "155"
+    },
+    {
+        "fullType": "Base.Boxers_Hearts",
+        "tag": "CLOTHING",
+        "price": "100"
+    },
+    {
+        "fullType": "Base.Boxers_RedStripes",
+        "tag": "CLOTHING",
+        "price": "150"
+    },
+    {
+        "fullType": "Base.Boxers_Silk_Black",
+        "tag": "CLOTHING",
+        "price": "175"
+    },
+    {
+        "fullType": "Base.Boxers_Silk_Red",
+        "tag": "CLOTHING",
+        "price": "175"
+    },
+    {
+        "fullType": "Base.Boxers_White",
+        "tag": "CLOTHING",
+        "price": "150"
+    },
+    {
+        "fullType": "Base.Bra_Strapless_AnimalPrint",
+        "tag": "CLOTHING",
+        "price": "250"
+    },
+    {
+        "fullType": "Base.Bra_Strapless_Black",
+        "tag": "CLOTHING",
+        "price": "250"
+    },
+    {
+        "fullType": "Base.Bra_Strapless_FrillyBlack",
+        "tag": "CLOTHING",
+        "price": "300"
+    },
+    {
+        "fullType": "Base.Bra_Strapless_FrillyPink",
+        "tag": "CLOTHING",
+        "price": "300"
+    },
+    {
+        "fullType": "Base.Bra_Strapless_FrillyRed",
+        "tag": "CLOTHING",
+        "price": "300"
+    },
+    {
+        "fullType": "Base.Bra_Strapless_RedSpots",
+        "tag": "CLOTHING",
+        "price": "350"
+    },
+    {
+        "fullType": "Base.Bra_Strapless_White",
+        "tag": "CLOTHING",
+        "price": "350"
+    },
+    {
+        "fullType": "Base.Bra_Straps_AnimalPrint",
+        "tag": "CLOTHING",
+        "price": "350"
+    },
+    {
+        "fullType": "Base.Bra_Straps_Black",
+        "tag": "CLOTHING",
+        "price": "350"
+    },
+    {
+        "fullType": "Base.Bra_Straps_FrillyBlack",
+        "tag": "CLOTHING",
+        "price": "400"
+    },
+    {
+        "fullType": "Base.Bra_Straps_FrillyPink",
+        "tag": "CLOTHING",
+        "price": "400"
+    },
+    {
+        "fullType": "Base.Bra_Straps_FrillyRed",
+        "tag": "CLOTHING",
+        "price": "400"
+    },
+    {
+        "fullType": "Base.Bra_Straps_White",
+        "tag": "CLOTHING",
+        "price": "450"
+    },
+    {
+        "fullType": "Base.Bracelet_BangleLeftGold",
+        "tag": "ACCESSORY",
+        "price": "400"
+    },
+    {
+        "fullType": "Base.Bracelet_BangleLeftSilver",
+        "tag": "ACCESSORY",
+        "price": "300"
+    },
+    {
+        "fullType": "Base.Bracelet_BangleRightGold",
+        "tag": "ACCESSORY",
+        "price": "400"
+    },
+    {
+        "fullType": "Base.Bracelet_BangleRightSilver",
+        "tag": "ACCESSORY",
+        "price": "300"
+    },
+    {
+        "fullType": "Base.Bracelet_ChainLeftGold",
+        "tag": "ACCESSORY",
+        "price": "400"
+    },
+    {
+        "fullType": "Base.Bracelet_ChainLeftSilver",
+        "tag": "ACCESSORY",
+        "price": "350"
+    },
+    {
+        "fullType": "Base.Bracelet_ChainRightGold",
+        "tag": "ACCESSORY",
+        "price": "400"
+    },
+    {
+        "fullType": "Base.Bracelet_ChainRightSilver",
+        "tag": "ACCESSORY",
+        "price": "300"
+    },
+    {
+        "fullType": "Base.Bracelet_LeftFriendshipTINT",
+        "tag": "ACCESSORY",
+        "price": "400"
+    },
+    {
+        "fullType": "Base.Bracelet_RightFriendshipTINT",
+        "tag": "ACCESSORY",
+        "price": "400"
+    },
+    {
+        "fullType": "Base.Bread",
+        "tag": "FOOD",
+        "price": "25"
+    },
+    {
+        "fullType": "Base.BreadDough",
+        "tag": "FOOD",
+        "price": "25"
+    },
+    {
+        "fullType": "Base.BreadKnife",
+        "tag": "VARIOUS",
+        "price": "50"
+    },
+    {
+        "fullType": "Base.BreadSlices",
+        "tag": "FOOD",
+        "price": "50"
+    },
+    {
+        "fullType": "Base.Bread_Bag",
+        "tag": "FOOD",
+        "price": "25"
+    },
+    {
+        "fullType": "Base.Bread_Sack",
+        "tag": "FOOD",
+        "price": "25"
+    },
+    {
+        "fullType": "Base.Bricktoys",
+        "tag": "JUNK",
+        "price": "5"
+    },
+    {
+        "fullType": "Base.Briefcase",
+        "tag": "CONTAINER",
+        "price": "250"
+    },
+    {
+        "fullType": "Base.Briefs_AnimalPrints",
+        "tag": "CLOTHING",
+        "price": "100"
+    },
+    {
+        "fullType": "Base.Briefs_SmallTrunks_Black",
+        "tag": "CLOTHING",
+        "price": "100"
+    },
+    {
+        "fullType": "Base.Briefs_SmallTrunks_Blue",
+        "tag": "CLOTHING",
+        "price": "100"
+    },
+    {
+        "fullType": "Base.Briefs_SmallTrunks_Red",
+        "tag": "CLOTHING",
+        "price": "100"
+    },
+    {
+        "fullType": "Base.Briefs_SmallTrunks_WhiteTINT",
+        "tag": "CLOTHING",
+        "price": "100"
+    },
+    {
+        "fullType": "Base.Briefs_White",
+        "tag": "CLOTHING",
+        "price": "100"
+    },
+    {
+        "fullType": "Base.Brig_Shirts",
+        "tag": "CLOTHING",
+        "price": "300"
+    },
+    {
+        "fullType": "Base.Broccoli",
+        "tag": "FOOD",
+        "price": "120"
+    },
+    {
+        "fullType": "Base.BrokenFishingNet",
+        "tag": "FISHING",
+        "price": "300"
+    },
+    {
+        "fullType": "Base.Broom",
+        "tag": "IMPROVISED",
+        "price": "175"
+    },
+    {
+        "fullType": "Base.BucketConcreteFull",
+        "tag": "MATERIAL",
+        "price": "650"
+    },
+    {
+        "fullType": "Base.BucketEmpty",
+        "tag": "MATERIAL",
+        "price": "25"
+    },
+    {
+        "fullType": "Base.BucketPlasterFull",
+        "tag": "MATERIAL",
+        "price": "150"
+    },
+    {
+        "fullType": "Base.BucketWaterFull",
+        "tag": "VARIOUS",
+        "price": "50"
+    },
+    {
+        "fullType": "Base.Bullets38",
+        "tag": "AMMO",
+        "price": "25"
+    },
+    {
+        "fullType": "Base.Bullets38Box",
+        "tag": "AMMO",
+        "price": "550"
+    },
+    {
+        "fullType": "Base.Bullets44",
+        "tag": "AMMO",
+        "price": "125"
+    },
+    {
+        "fullType": "Base.Bullets44Box",
+        "tag": "AMMO",
+        "price": "550"
+    },
+    {
+        "fullType": "Base.Bullets45",
+        "tag": "AMMO",
+        "price": "15"
+    },
+    {
+        "fullType": "Base.Bullets45Box",
+        "tag": "AMMO",
+        "price": "600"
+    },
+    {
+        "fullType": "Base.Bullets9mm",
+        "tag": "AMMO",
+        "price": "30"
+    },
+    {
+        "fullType": "Base.Bullets9mmBox",
+        "tag": "AMMO",
+        "price": "600"
+    },
+    {
+        "fullType": "Base.BunnySuitBlack",
+        "tag": "CLOTHING",
+        "price": "300"
+    },
+    {
+        "fullType": "Base.BunnySuitPink",
+        "tag": "CLOTHING",
+        "price": "300"
+    },
+    {
+        "fullType": "Base.BunnyTail",
+        "tag": "CLOTHING",
+        "price": "200"
+    },
+    {
+        "fullType": "Base.Burger",
+        "tag": "FOOD",
+        "price": 450
+    },
+    {
+        "fullType": "Base.BurgerRecipe",
+        "tag": "FOOD",
+        "price": 450
+    },
+    {
+        "fullType": "Base.BurritoRecipe",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Bushcraft_BagRecipe",
+        "tag": "VARIOUS",
+        "price": 550
+    },
+    {
+        "fullType": "Base.ButterKnifeRecipe",
+        "tag": "COOKING",
+        "price": 500
+    },
+    {
+        "fullType": "Base.ButterRecipe",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.ButtonRecipe",
+        "tag": "VARIOUS",
+        "price": 100
+    },
+    {
+        "fullType": "Base.C420PAPR",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1000
+    },
+    {
+        "fullType": "Base.C420PAPR",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1000
+    },
+    {
+        "fullType": "Base.C420PAPRBag",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1000
+    },
+    {
+        "fullType": "Base.C420PAPRFilter",
+        "tag": "MILITARY_CLOTHING",
+        "price": 500
+    },
+    {
+        "fullType": "Base.C420PAPRFilter",
+        "tag": "MILITARY_CLOTHING",
+        "price": 500
+    },
+    {
+        "fullType": "Base.CAR15",
+        "tag": "WEAPON",
+        "price": 2500
+    },
+    {
+        "fullType": "Base.CAR15D",
+        "tag": "WEAPON",
+        "price": 3500
+    },
+    {
+        "fullType": "Base.CAR15DFolded",
+        "tag": "WEAPON",
+        "price": 3250
+    },
+    {
+        "fullType": "Base.CAR15DMagazine",
+        "tag": "AMMO",
+        "price": 300
+    },
+    {
+        "fullType": "Base.CAR15DMagazine",
+        "tag": "AMMO",
+        "price": 300
+    },
+    {
+        "fullType": "Base.CAR15DSuppressor",
+        "tag": "WEAPON",
+        "price": 650
+    },
+    {
+        "fullType": "Base.CAR15DSuppressor",
+        "tag": "WEAPON",
+        "price": 650
+    },
+    {
+        "fullType": "Base.CAR15FMagazine",
+        "tag": "AMMO",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CAR15FSuppressor",
+        "tag": "WEAPON",
+        "price": 650
+    },
+    {
+        "fullType": "Base.CAR15Folded",
+        "tag": "WEAPON",
+        "price": 3250
+    },
+    {
+        "fullType": "Base.CAR15Magazine",
+        "tag": "AMMO",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CAR15Suppressor",
+        "tag": "WEAPON",
+        "price": 550
+    },
+    {
+        "fullType": "Base.CRYE_Gloves",
+        "tag": "CLOTHING",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CRYE_Pants",
+        "tag": "MILITARY_CLOTHING",
+        "price": 450
+    },
+    {
+        "fullType": "Base.CRYE_Pants_Rolled",
+        "tag": "MILITARY_CLOTHING",
+        "price": 450
+    },
+    {
+        "fullType": "Base.CRYE_Pants_Unrolled",
+        "tag": "MILITARY_CLOTHING",
+        "price": 455
+    },
+    {
+        "fullType": "Base.CZ75",
+        "tag": "WEAPON",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CZ75Holster",
+        "tag": "VARIOUS",
+        "price": 12
+    },
+    {
+        "fullType": "Base.CZ75Magazine",
+        "tag": "AMMO",
+        "price": 175
+    },
+    {
+        "fullType": "Base.CakeBatter",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.CakeBlackForest",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.CakeCarrot",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.CakeCheeseCake",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.CakeChocolate",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.CakePrep",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CakeRaw",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CakeRedVelvet",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CakeSlice",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CakeStrawberryShortcake",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Calvin_Bra",
+        "tag": "CLOTHING",
+        "price": 550
+    },
+    {
+        "fullType": "Base.Calvin_Panties",
+        "tag": "CLOTHING",
+        "price": 550
+    },
+    {
+        "fullType": "Base.Camera",
+        "tag": "JUNK",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CameraDisposable",
+        "tag": "JUNK",
+        "price": 150
+    },
+    {
+        "fullType": "Base.CameraExpensive",
+        "tag": "JUNK",
+        "price": 500
+    },
+    {
+        "fullType": "Base.CameraFilm",
+        "tag": "JUNK",
+        "price": 100
+    },
+    {
+        "fullType": "Base.CampCarbine",
+        "tag": "WEAPON",
+        "price": 600
+    },
+    {
+        "fullType": "Base.Candle",
+        "tag": "LIGHT_SOURCE",
+        "price": 50
+    },
+    {
+        "fullType": "Base.CandleLit",
+        "tag": "LIGHT_SOURCE",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CandleLit",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.CandleLit",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.CandyPackage",
+        "tag": "FOOD",
+        "price": 300
+    },
+    {
+        "fullType": "Base.Candycane",
+        "tag": "FOOD",
+        "price": 300
+    },
+    {
+        "fullType": "Base.CannedBellPepper",
+        "tag": "FOOD",
+        "price": 400
+    },
+    {
+        "fullType": "Base.CannedBolognese",
+        "tag": "FOOD",
+        "price": 600
+    },
+    {
+        "fullType": "Base.CannedBologneseOpen",
+        "tag": "FOOD",
+        "price": 500
+    },
+    {
+        "fullType": "Base.CannedBroccoli",
+        "tag": "FOOD",
+        "price": 300
+    },
+    {
+        "fullType": "Base.CannedCabbage",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CannedCarrots",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CannedCarrots2",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CannedCarrotsOpen",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CannedChili",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CannedChiliOpen",
+        "tag": "FOOD",
+        "price": 300
+    },
+    {
+        "fullType": "Base.CannedCorn",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CannedCornOpen",
+        "tag": "FOOD",
+        "price": 300
+    },
+    {
+        "fullType": "Base.CannedCornedBeef",
+        "tag": "FOOD",
+        "price": 300
+    },
+    {
+        "fullType": "Base.CannedCornedBeefOpen",
+        "tag": "FOOD",
+        "price": 200
+    },
+    {
+        "fullType": "Base.CannedEggplant",
+        "tag": "FOOD",
+        "price": 300
+    },
+    {
+        "fullType": "Base.CannedFruitBeverage",
+        "tag": "FOOD",
+        "price": 400
+    },
+    {
+        "fullType": "Base.CannedFruitBeverageOpen",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CannedFruitCocktail",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CannedFruitCocktailOpen",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CannedLeek",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CannedMilk",
+        "tag": "FOOD",
+        "price": 450
+    },
+    {
+        "fullType": "Base.CannedMilkOpen",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CannedMushroomSoup",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CannedMushroomSoupOpen",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CannedPeaches",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CannedPeachesOpen",
+        "tag": "FOOD",
+        "price": 325
+    },
+    {
+        "fullType": "Base.CannedPeas",
+        "tag": "FOOD",
+        "price": 325
+    },
+    {
+        "fullType": "Base.CannedPeasOpen",
+        "tag": "FOOD",
+        "price": 275
+    },
+    {
+        "fullType": "Base.CannedPineapple",
+        "tag": "FOOD",
+        "price": 275
+    },
+    {
+        "fullType": "Base.CannedPineappleOpen",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CannedPotato",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CannedPotato2",
+        "tag": "FOOD",
+        "price": 500
+    },
+    {
+        "fullType": "Base.CannedPotatoOpen",
+        "tag": "FOOD",
+        "price": 450
+    },
+    {
+        "fullType": "Base.CannedRedRadish",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CannedSardines",
+        "tag": "FOOD",
+        "price": 450
+    },
+    {
+        "fullType": "Base.CannedSardinesOpen",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CannedTomato",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CannedTomato2",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CannedTomatoOpen",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CanoePadel",
+        "tag": "SPORTS",
+        "price": 500
+    },
+    {
+        "fullType": "Base.CanoePadelX2",
+        "tag": "SPORTS",
+        "price": 550
+    },
+    {
+        "fullType": "Base.CarBattery1",
+        "tag": "VARIOUS",
+        "price": 550
+    },
+    {
+        "fullType": "Base.CarBattery2",
+        "tag": "VARIOUS",
+        "price": 650
+    },
+    {
+        "fullType": "Base.CarBattery3",
+        "tag": "VARIOUS",
+        "price": 750
+    },
+    {
+        "fullType": "Base.CarBatteryCharger",
+        "tag": "TOOL",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CarKey",
+        "tag": "SECURITY",
+        "price": 50
+    },
+    {
+        "fullType": "Base.CardDeck",
+        "tag": "JUNK",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CardboardBox2Carry",
+        "tag": "CONTAINER",
+        "price": 65
+    },
+    {
+        "fullType": "Base.CardboardBoxCarry",
+        "tag": "CONTAINER",
+        "price": 55
+    },
+    {
+        "fullType": "Base.Cardigan_Short",
+        "tag": "CLOTHING",
+        "price": 145
+    },
+    {
+        "fullType": "Base.Cardigan_Short_ON",
+        "tag": "CLOTHING",
+        "price": 155
+    },
+    {
+        "fullType": "Base.Cargo_Pants",
+        "tag": "CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Cargo_Pants_Rolled",
+        "tag": "CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Carrots",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.CarvingFork",
+        "tag": "VARIOUS",
+        "price": 150
+    },
+    {
+        "fullType": "Base.CaseyPic",
+        "tag": "JUNK",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Casual_Bag",
+        "tag": "VARIOUS",
+        "price": 100
+    },
+    {
+        "fullType": "Base.Casual_Stocking",
+        "tag": "CLOTHING",
+        "price": 100
+    },
+    {
+        "fullType": "Base.Casual_Stocking",
+        "tag": "CLOTHING",
+        "price": 100
+    },
+    {
+        "fullType": "Base.Casual_Stocking",
+        "tag": "CLOTHING",
+        "price": 200
+    },
+    {
+        "fullType": "Base.Casual_Stocking",
+        "tag": "CLOTHING",
+        "price": 200
+    },
+    {
+        "fullType": "Base.Casual_Stocking",
+        "tag": "CLOTHING",
+        "price": 200
+    },
+    {
+        "fullType": "Base.CatToy",
+        "tag": "JUNK",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Catfish",
+        "tag": "FOOD",
+        "price": 100
+    },
+    {
+        "fullType": "Base.Centipede",
+        "tag": "FOOD",
+        "price": 100
+    },
+    {
+        "fullType": "Base.Centipede2",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Cereal",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CerealBowl",
+        "tag": "FOOD",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Chain_Coat",
+        "tag": "CLOTHING",
+        "price": 1500
+    },
+    {
+        "fullType": "Base.Chain_Mask",
+        "tag": "CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Chain_Pants",
+        "tag": "MILITARY_CLOTHING",
+        "price": 650
+    },
+    {
+        "fullType": "Base.Chain_Pants_Rolled",
+        "tag": "MILITARY_CLOTHING",
+        "price": 550
+    },
+    {
+        "fullType": "Base.Chainsaw",
+        "tag": "WEAPON",
+        "price": 950
+    },
+    {
+        "fullType": "Base.ChairLeg",
+        "tag": "HOUSEHOLD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Chara_Jacket",
+        "tag": "CLOTHING",
+        "price": 750
+    },
+    {
+        "fullType": "Base.Chara_Jacket_ON",
+        "tag": "CLOTHING",
+        "price": 750
+    },
+    {
+        "fullType": "Base.Charcoal",
+        "tag": "MATERIAL",
+        "price": 35
+    },
+    {
+        "fullType": "Base.Check_Pants",
+        "tag": "CLOTHING",
+        "price": 135
+    },
+    {
+        "fullType": "Base.Check_Pants_Rolled",
+        "tag": "CLOTHING",
+        "price": 130
+    },
+    {
+        "fullType": "Base.Check_Shirts",
+        "tag": "CLOTHING",
+        "price": 140
+    },
+    {
+        "fullType": "Base.Check_Shirts_ON",
+        "tag": "CLOTHING",
+        "price": 140
+    },
+    {
+        "fullType": "Base.CheckerBoard",
+        "tag": "VARIOUS",
+        "price": 15
+    },
+    {
+        "fullType": "Base.Cheese",
+        "tag": "FOOD",
+        "price": 35
+    },
+    {
+        "fullType": "Base.CheeseSandwich",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Chempak_BRN",
+        "tag": "MILITARY_CLOTHING",
+        "price": 600
+    },
+    {
+        "fullType": "Base.Chempak_BRN_ON",
+        "tag": "MILITARY_CLOTHING",
+        "price": 700
+    },
+    {
+        "fullType": "Base.Chempak_Blauer",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1150
+    },
+    {
+        "fullType": "Base.Chempak_Blauer_ON",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1150
+    },
+    {
+        "fullType": "Base.Chempak_Level",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1150
+    },
+    {
+        "fullType": "Base.Chempak_Tychem",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1400
+    },
+    {
+        "fullType": "Base.Chempak_Tychem_ON",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1600
+    },
+    {
+        "fullType": "Base.Cherry",
+        "tag": "FOOD",
+        "price": 5
+    },
+    {
+        "fullType": "Base.ChessBlack",
+        "tag": "JUNK",
+        "price": 15
+    },
+    {
+        "fullType": "Base.ChessWhite",
+        "tag": "JUNK",
+        "price": 15
+    },
+    {
+        "fullType": "Base.Chicken",
+        "tag": "FOOD",
+        "price": 400
+    },
+    {
+        "fullType": "Base.ChickenFoot",
+        "tag": "FOOD",
+        "price": 200
+    },
+    {
+        "fullType": "Base.ChickenFried",
+        "tag": "FOOD",
+        "price": 300
+    },
+    {
+        "fullType": "Base.ChickenNuggets",
+        "tag": "FOOD",
+        "price": 550
+    },
+    {
+        "fullType": "Base.Chives",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.ChocoCakes",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Chocolate",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.ChocolateChips",
+        "tag": "FOOD",
+        "price": 120
+    },
+    {
+        "fullType": "Base.ChocolateCoveredCoffeeBeans",
+        "tag": "FOOD",
+        "price": 140
+    },
+    {
+        "fullType": "Base.ChokeTubeFull",
+        "tag": "AMMO",
+        "price": 50
+    },
+    {
+        "fullType": "Base.ChokeTubeImproved",
+        "tag": "AMMO",
+        "price": 400
+    },
+    {
+        "fullType": "Base.Choker_Maria",
+        "tag": "CLOTHING",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Chopsticks",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Chopsticks",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Cigarettes",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Cilantro",
+        "tag": "FOOD",
+        "price": 45
+    },
+    {
+        "fullType": "Base.CinnamonRoll",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.CleaningKit",
+        "tag": "FIRST_AID",
+        "price": 550
+    },
+    {
+        "fullType": "Base.CleaningLiquid",
+        "tag": "VARIOUS",
+        "price": 55
+    },
+    {
+        "fullType": "Base.CleaningLiquid2",
+        "tag": "VARIOUS",
+        "price": 60
+    },
+    {
+        "fullType": "Base.ClosedUmbrellaBlack",
+        "tag": "VARIOUS",
+        "price": 100
+    },
+    {
+        "fullType": "Base.ClosedUmbrellaBlue",
+        "tag": "VARIOUS",
+        "price": 100
+    },
+    {
+        "fullType": "Base.ClosedUmbrellaRed",
+        "tag": "VARIOUS",
+        "price": 100
+    },
+    {
+        "fullType": "Base.ClosedUmbrellaWhite",
+        "tag": "VARIOUS",
+        "price": 100
+    },
+    {
+        "fullType": "Base.ClubHammer",
+        "tag": "WEAPON",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Coal",
+        "tag": "MATERIAL",
+        "price": 35
+    },
+    {
+        "fullType": "Base.Coast_Jacket",
+        "tag": "CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Coast_Jacket_ON",
+        "tag": "CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Coat_Long",
+        "tag": "CLOTHING",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Coat_Long_ON",
+        "tag": "CLOTHING",
+        "price": 550
+    },
+    {
+        "fullType": "Base.Cockroach",
+        "tag": "FOOD",
+        "price": 20
+    },
+    {
+        "fullType": "Base.CocoaPowder",
+        "tag": "FOOD",
+        "price": 20
+    },
+    {
+        "fullType": "Base.Coffee2",
+        "tag": "FOOD",
+        "price": 45
+    },
+    {
+        "fullType": "Base.ColdCuppa",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.ColdCuppa",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.ColdCuppa",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.ColdCuppa",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.ColdPack",
+        "tag": "FIRST_AID",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Cologne",
+        "tag": "JUNK",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Comb",
+        "tag": "JUNK",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Combat_Jumper",
         "tag": "CLOTHING",
         "price": 500
     },
     {
-        "fullType": "Base.Bandana_Mask_Half_Other",
-        "price": 50000,
+        "fullType": "Base.Combat_Pants",
+        "tag": "MILITARY_CLOTHING",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Combat_Pants_Rolled",
+        "tag": "MILITARY_CLOTHING",
+        "price": 165
+    },
+    {
+        "fullType": "Base.CombinationPadlock",
+        "tag": "SECURITY",
+        "price": 35
+    },
+    {
+        "fullType": "Base.ComboCarry",
+        "tag": "CONTAINER",
+        "price": 155
+    },
+    {
+        "fullType": "Base.Comfrey",
+        "tag": "FIRST_AID",
+        "price": 35
+    },
+    {
+        "fullType": "Base.ComfreyCataplasm",
+        "tag": "FIRST_AID",
+        "price": 35
+    },
+    {
+        "fullType": "Base.ComicBook",
+        "tag": "LITERATURE",
+        "price": 25
+    },
+    {
+        "fullType": "Base.CommonMallow",
+        "tag": "FIRST_AID",
+        "price": 100
+    },
+    {
+        "fullType": "Base.CompostBag",
+        "tag": "GARDENING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Comtac4_Headsets",
+        "tag": "WEAPON",
+        "price": 3500
+    },
+    {
+        "fullType": "Base.Comtac4_Headsets_ON",
+        "tag": "WEAPON",
+        "price": 4500
+    },
+    {
+        "fullType": "Base.Comtac4_Headsets_ON",
+        "tag": "WEAPON",
+        "price": 4500
+    },
+    {
+        "fullType": "Base.Comtac4_Headsets_ON",
+        "tag": "MILITARY_CLOTHING",
+        "price": 900
+    },
+    {
+        "fullType": "Base.ConcretePowder",
+        "tag": "MATERIAL",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Cone",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Cone2Carry",
+        "tag": "VARIOUS",
+        "price": 160
+    },
+    {
+        "fullType": "Base.ConeCarry",
+        "tag": "VARIOUS",
+        "price": 160
+    },
+    {
+        "fullType": "Base.ConeIcecream",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.ConeIcecreamMelted",
+        "tag": "FOOD",
+        "price": 200
+    },
+    {
+        "fullType": "Base.ConeIcecreamToppings",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.CookieChocolateChip",
+        "tag": "FOOD",
+        "price": 400
+    },
+    {
+        "fullType": "Base.CookieChocolateChipDough",
+        "tag": "FOOD",
+        "price": 600
+    },
+    {
+        "fullType": "Base.CookieJelly",
+        "tag": "FOOD",
+        "price": 650
+    },
+    {
+        "fullType": "Base.CookiesChocolate",
+        "tag": "FOOD",
+        "price": 650
+    },
+    {
+        "fullType": "Base.CookiesChocolateDough",
+        "tag": "FOOD",
+        "price": 715
+    },
+    {
+        "fullType": "Base.CookiesOatmeal",
+        "tag": "FOOD",
+        "price": 180
+    },
+    {
+        "fullType": "Base.CookiesOatmealDough",
+        "tag": "FOOD",
+        "price": 550
+    },
+    {
+        "fullType": "Base.CookiesShortbread",
+        "tag": "FOOD",
+        "price": 550
+    },
+    {
+        "fullType": "Base.CookiesShortbreadDough",
+        "tag": "FOOD",
+        "price": 600
+    },
+    {
+        "fullType": "Base.CookiesSugar",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.CookiesSugarDough",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.CookingMag1",
+        "tag": "SKILL_BOOK",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CookingMag2",
+        "tag": "SKILL_BOOK",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Cooler",
+        "tag": "CONTAINER",
+        "price": 150
+    },
+    {
+        "fullType": "Base.CordlessPhone",
+        "tag": "ELECTRONICS",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Cork",
+        "tag": "VARIOUS",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Corkscrew",
+        "tag": "VARIOUS",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Corn",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.CornFrozen",
+        "tag": "FOOD",
+        "price": 90
+    },
+    {
+        "fullType": "Base.Cornbread",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Corndog",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Cornflour",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Cornmeal",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.CorpseFemale",
+        "tag": "VARIOUS",
+        "price": 135
+    },
+    {
+        "fullType": "Base.CorpseMale",
+        "tag": "VARIOUS",
+        "price": 135
+    },
+    {
+        "fullType": "Base.Corset",
+        "tag": "CLOTHING",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Corset_Black",
+        "tag": "CLOTHING",
+        "price": 175
+    },
+    {
+        "fullType": "Base.Corset_Medical",
+        "tag": "CLOTHING",
+        "price": 175
+    },
+    {
+        "fullType": "Base.Corset_Red",
+        "tag": "CLOTHING",
+        "price": 150
+    },
+    {
+        "fullType": "Base.CortmanPic",
+        "tag": "VARIOUS",
+        "price": 50
+    },
+    {
+        "fullType": "Base.CottonBalls",
+        "tag": "FIRST_AID",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Coupled556",
+        "tag": "AMMO",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Coupled762",
+        "tag": "AMMO",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Crackers",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.CraftedFishingRod",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.CraftedFishingRodTwineLine",
+        "tag": "FOOD",
+        "price": 200
+    },
+    {
+        "fullType": "Base.Crappie",
+        "tag": "FOOD",
+        "price": 55
+    },
+    {
+        "fullType": "Base.Crayfish",
+        "tag": "FOOD",
+        "price": 25
+    },
+    {
+        "fullType": "Base.Crayons",
+        "tag": "JUNK",
+        "price": 25
+    },
+    {
+        "fullType": "Base.CreditCard",
+        "tag": "JUNK",
+        "price": 5
+    },
+    {
+        "fullType": "Base.Cricket",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Crisps",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Crisps2",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Crisps3",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Crisps4",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Croissant",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Cropped_Sweater",
+        "tag": "CLOTHING",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Crowbar",
+        "tag": "WEAPON",
+        "price": 65
+    },
+    {
+        "fullType": "Base.Cube",
+        "tag": "JUNK",
+        "price": 25
+    },
+    {
+        "fullType": "Base.Cupcake",
+        "tag": "FOOD",
+        "price": 100
+    },
+    {
+        "fullType": "Base.Cut_Dress",
+        "tag": "CLOTHING",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Cut_Dress_ON",
+        "tag": "CLOTHING",
+        "price": 250
+    },
+    {
+        "fullType": "Base.CuttingBoardPlastic",
+        "tag": "VARIOUS",
+        "price": 50
+    },
+    {
+        "fullType": "Base.CuttingBoardWooden",
+        "tag": "VARIOUS",
+        "price": 50
+    },
+    {
+        "fullType": "Base.D3CR",
+        "tag": "WEAPON",
+        "price": 450
+    },
+    {
+        "fullType": "Base.D3CR_Loose",
+        "tag": "WEAPON",
+        "price": 420
+    },
+    {
+        "fullType": "Base.Daikon",
+        "tag": "FOOD",
+        "price": 25
+    },
+    {
+        "fullType": "Base.Dandelions",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Dart",
+        "tag": "TOOL",
+        "price": 50
+    },
+    {
+        "fullType": "Base.DeadBird",
+        "tag": "FOOD",
+        "price": 25
+    },
+    {
+        "fullType": "Base.DeadMouse",
+        "tag": "FOOD",
+        "price": 25
+    },
+    {
+        "fullType": "Base.DeadRabbit",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.DeadRat",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.DeadSquirrel",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.DehydratedMeatStick",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.DenimStrips",
+        "tag": "CLOTHING",
+        "price": 100
+    },
+    {
+        "fullType": "Base.DenimStripsDirty",
+        "tag": "CLOTHING",
+        "price": 100
+    },
+    {
+        "fullType": "Base.Dice",
+        "tag": "JUNK",
+        "price": 200
+    },
+    {
+        "fullType": "Base.DigitalWatch",
+        "tag": "ACCESSORY",
+        "price": 500
+    },
+    {
+        "fullType": "Base.DigitalWatch2",
+        "tag": "ACCESSORY",
+        "price": 600
+    },
+    {
+        "fullType": "Base.Dirtbag",
+        "tag": "MATERIAL",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Disc",
+        "tag": "ENTERTAINMENT",
+        "price": 300
+    },
+    {
+        "fullType": "Base.Disc_Retail",
+        "tag": "ENTERTAINMENT",
+        "price": 300
+    },
+    {
+        "fullType": "Base.DishCloth",
+        "tag": "HOUSEHOLD",
+        "price": 500
+    },
+    {
+        "fullType": "Base.DishClothWet",
+        "tag": "HOUSEHOLD",
+        "price": 550
+    },
+    {
+        "fullType": "Base.Disinfectant",
+        "tag": "FIRST_AID",
+        "price": 350
+    },
+    {
+        "fullType": "Base.DogChew",
+        "tag": "JUNK",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Dogfood",
+        "tag": "FOOD",
+        "price": 500
+    },
+    {
+        "fullType": "Base.DogfoodOpen",
+        "tag": "FOOD",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Doll",
+        "tag": "JUNK",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Doodle",
+        "tag": "SKILL_BOOK",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Doorknob",
+        "tag": "MATERIAL",
+        "price": 150
+    },
+    {
+        "fullType": "Base.DoubleBarrelShotgun",
+        "tag": "WEAPON",
+        "price": 2500
+    },
+    {
+        "fullType": "Base.DoubleBarrelShotgunSawnoff",
+        "tag": "WEAPON",
+        "price": 1500
+    },
+    {
+        "fullType": "Base.DoubleBarrelShotgunSawnoffNoStock",
+        "tag": "WEAPON",
+        "price": 1600
+    },
+    {
+        "fullType": "Base.Dough",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.DoughRolled",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.DoughnutChocolate",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.DoughnutFrosted",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.DoughnutJelly",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.DoughnutPlain",
+        "tag": "FOOD",
+        "price": 40
+    },
+    {
+        "fullType": "Base.Drawer",
+        "tag": "VARIOUS",
+        "price": 150
+    },
+    {
+        "fullType": "Base.DressKnees_Straps",
+        "tag": "CLOTHING",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Dress_Cardigan",
+        "tag": "CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Dress_Cardigan_ON",
+        "tag": "CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Dress_Knees",
+        "tag": "CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Dress_Long",
+        "tag": "CLOTHING",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Dress_Normal",
+        "tag": "CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Dress_SatinNegligee",
+        "tag": "CLOTHING",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Dress_Short",
+        "tag": "CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Dress_SmallBlackStrapless",
+        "tag": "CLOTHING",
+        "price": 385
+    },
+    {
+        "fullType": "Base.Dress_SmallBlackStraps",
+        "tag": "CLOTHING",
+        "price": 385
+    },
+    {
+        "fullType": "Base.Dress_SmallStrapless",
+        "tag": "CLOTHING",
+        "price": 385
+    },
+    {
+        "fullType": "Base.Dress_SmallStraps",
+        "tag": "CLOTHING",
+        "price": 375
+    },
+    {
+        "fullType": "Base.Dress_Straps",
+        "tag": "CLOTHING",
+        "price": 375
+    },
+    {
+        "fullType": "Base.Dress_long_Straps",
+        "tag": "CLOTHING",
+        "price": 450
+    },
+    {
+        "fullType": "Base.DriedBlackBeans",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.DriedChickpeas",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.DriedKidneyBeans",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.DriedLentils",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.DriedSplitPeas",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.DriedWhiteBeans",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Drumstick",
+        "tag": "VARIOUS",
+        "price": 350
+    },
+    {
+        "fullType": "Base.DryerCarry",
+        "tag": "FURNITURE",
+        "price": 1100
+    },
+    {
+        "fullType": "Base.DuctTape",
+        "tag": "VARIOUS",
+        "price": 50
+    },
+    {
+        "fullType": "Base.DumbBell",
+        "tag": "SPORTS",
+        "price": 100
+    },
+    {
+        "fullType": "Base.Dungarees",
+        "tag": "CLOTHING",
+        "price": 200
+    },
+    {
+        "fullType": "Base.ELA_Bag",
+        "tag": "VARIOUS",
+        "price": 800
+    },
+    {
+        "fullType": "Base.ELA_Bomber",
+        "tag": "MILITARY_CLOTHING",
+        "price": 400
+    },
+    {
+        "fullType": "Base.ELA_Bomber_ON",
+        "tag": "MILITARY_CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.ELA_Cap",
+        "tag": "MILITARY_CLOTHING",
+        "price": 100
+    },
+    {
+        "fullType": "Base.ELA_Cap_Back",
+        "tag": "MILITARY_CLOTHING",
+        "price": 110
+    },
+    {
+        "fullType": "Base.ELA_Goggles",
+        "tag": "MILITARY_CLOTHING",
+        "price": 315
+    },
+    {
+        "fullType": "Base.ELA_Goggles_ON",
+        "tag": "MILITARY_CLOTHING",
+        "price": 315
+    },
+    {
+        "fullType": "Base.EOD_Armor",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1865
+    },
+    {
+        "fullType": "Base.EOD_Helmet",
+        "tag": "MILITARY_CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.EOD_Jacket",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1500
+    },
+    {
+        "fullType": "Base.EOD_Pants",
+        "tag": "MILITARY_CLOTHING",
+        "price": 850
+    },
+    {
+        "fullType": "Base.EOD_Shield",
+        "tag": "MILITARY_CLOTHING",
+        "price": 550
+    },
+    {
+        "fullType": "Base.EOD_Visor",
+        "tag": "MILITARY_CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.EOD_Visor_UP",
+        "tag": "MILITARY_CLOTHING",
+        "price": 550
+    },
+    {
+        "fullType": "Base.EXO_Suit",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1200
+    },
+    {
+        "fullType": "Base.EXO_Suit_ON",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1200
+    },
+    {
+        "fullType": "Base.Earbuds",
+        "tag": "ELECTRONICS",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Earing_Lisa",
+        "tag": "VARIOUS",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Earring_Dangly_Diamond",
+        "tag": "VARIOUS",
+        "price": 750
+    },
+    {
+        "fullType": "Base.Earring_Dangly_Emerald",
+        "tag": "VARIOUS",
+        "price": 750
+    },
+    {
+        "fullType": "Base.Earring_Dangly_Pearl",
+        "tag": "VARIOUS",
+        "price": 750
+    },
+    {
+        "fullType": "Base.Earring_Dangly_Ruby",
+        "tag": "VARIOUS",
+        "price": 750
+    },
+    {
+        "fullType": "Base.Earring_Dangly_Sapphire",
+        "tag": "VARIOUS",
+        "price": 750
+    },
+    {
+        "fullType": "Base.Earring_LoopLrg_Gold",
+        "tag": "VARIOUS",
+        "price": 850
+    },
+    {
+        "fullType": "Base.Earring_LoopLrg_Silver",
+        "tag": "VARIOUS",
+        "price": 650
+    },
+    {
+        "fullType": "Base.Earring_LoopMed_Gold",
+        "tag": "VARIOUS",
+        "price": 550
+    },
+    {
+        "fullType": "Base.Earring_LoopMed_Silver",
+        "tag": "VARIOUS",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Earring_LoopSmall_Gold_Both",
+        "tag": "VARIOUS",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Earring_LoopSmall_Gold_Top",
+        "tag": "VARIOUS",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Earring_LoopSmall_Silver_Both",
+        "tag": "VARIOUS",
+        "price": 300
+    },
+    {
+        "fullType": "Base.Earring_LoopSmall_Silver_Top",
+        "tag": "VARIOUS",
+        "price": 300
+    },
+    {
+        "fullType": "Base.Earring_Pearl",
+        "tag": "VARIOUS",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Earring_Stone_Emerald",
+        "tag": "VARIOUS",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Earring_Stone_Ruby",
+        "tag": "VARIOUS",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Earring_Stone_Sapphire",
+        "tag": "VARIOUS",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Earring_Stud_Gold",
+        "tag": "VARIOUS",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Earring_Stud_Silver",
+        "tag": "VARIOUS",
+        "price": 125
+    },
+    {
+        "fullType": "Base.Earrings",
+        "tag": "VARIOUS",
+        "price": 125
+    },
+    {
+        "fullType": "Base.Edamame",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Egg",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.EggBoiled",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.EggCarton",
+        "tag": "FOOD",
+        "price": 450
+    },
+    {
+        "fullType": "Base.EggOmelette",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.EggPoached",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.EggScrambled",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Eggplant",
+        "tag": "FOOD",
+        "price": 200
+    },
+    {
+        "fullType": "Base.Ela_Jacket",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1000
+    },
+    {
+        "fullType": "Base.Ela_Pants",
+        "tag": "MILITARY_CLOTHING",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Ela_Skinny_Pants",
+        "tag": "MILITARY_CLOTHING",
+        "price": 700
+    },
+    {
+        "fullType": "Base.ElectronicsMag1",
+        "tag": "SKILL_BOOK",
+        "price": 25
+    },
+    {
+        "fullType": "Base.ElectronicsMag2",
+        "tag": "SKILL_BOOK",
+        "price": 25
+    },
+    {
+        "fullType": "Base.ElectronicsMag3",
+        "tag": "SKILL_BOOK",
+        "price": 30
+    },
+    {
+        "fullType": "Base.ElectronicsMag4",
+        "tag": "SKILL_BOOK",
+        "price": 35
+    },
+    {
+        "fullType": "Base.ElectronicsMag5",
+        "tag": "SKILL_BOOK",
+        "price": 35
+    },
+    {
+        "fullType": "Base.ElectronicsScrap",
+        "tag": "VARIOUS",
+        "price": 5
+    },
+    {
+        "fullType": "Base.EmptyJar",
+        "tag": "FOOD",
+        "price": 5
+    },
+    {
+        "fullType": "Base.EmptyPetrolCan",
+        "tag": "FUEL",
+        "price": 10
+    },
+    {
+        "fullType": "Base.EmptySandbag",
+        "tag": "CONTAINER",
+        "price": 5
+    },
+    {
+        "fullType": "Base.EngineDoor1",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": 250
+    },
+    {
+        "fullType": "Base.EngineDoor2",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": 250
+    },
+    {
+        "fullType": "Base.EngineDoor3",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": 350
+    },
+    {
+        "fullType": "Base.EngineParts",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": 600
+    },
+    {
+        "fullType": "Base.EngineerMagazine1",
+        "tag": "SKILL_BOOK",
+        "price": 200
+    },
+    {
+        "fullType": "Base.EngineerMagazine2",
+        "tag": "SKILL_BOOK",
+        "price": 300
+    },
+    {
+        "fullType": "Base.Eraser",
+        "tag": "VARIOUS",
+        "price": 100
+    },
+    {
+        "fullType": "Base.Extinguisher",
+        "tag": "VARIOUS",
+        "price": 600
+    },
+    {
+        "fullType": "Base.FAL",
+        "tag": "WEAPON",
+        "price": 3000
+    },
+    {
+        "fullType": "Base.FALClassic",
+        "tag": "WEAPON",
+        "price": 3500
+    },
+    {
+        "fullType": "Base.FALClip",
+        "tag": "AMMO",
+        "price": 200
+    },
+    {
+        "fullType": "Base.FakeItemSights",
+        "tag": "JUNK",
+        "price": 10
+    },
+    {
+        "fullType": "Base.FakeItemSling",
+        "tag": "JUNK",
+        "price": 85
+    },
+    {
+        "fullType": "Base.FarmingMag1",
+        "tag": "SKILL_BOOK",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Fast_Pants",
+        "tag": "CLOTHING",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Fast_Pants_Rolled",
+        "tag": "CLOTHING",
+        "price": 400
+    },
+    {
+        "fullType": "Base.Fertilizer",
+        "tag": "GARDENING",
+        "price": 150
+    },
+    {
+        "fullType": "Base.FertilizerEmpty",
+        "tag": "GARDENING",
+        "price": 25
+    },
+    {
+        "fullType": "Base.FiberglassStock",
+        "tag": "WEAPON",
+        "price": 100
+    },
+    {
+        "fullType": "Base.Field_Jacket",
+        "tag": "MILITARY_CLOTHING",
+        "price": 850
+    },
+    {
+        "fullType": "Base.FireKlean",
+        "tag": "FIRST_AID",
+        "price": 150
+    },
+    {
+        "fullType": "Base.FireWoodKit",
+        "tag": "CAMPING",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Fire_Helmet",
+        "tag": "MILITARY_CLOTHING",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Fire_Jacket",
+        "tag": "MILITARY_CLOTHING",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Fire_Pants",
+        "tag": "MILITARY_CLOTHING",
+        "price": 145
+    },
+    {
+        "fullType": "Base.Fire_Pants_Rolled",
+        "tag": "MILITARY_CLOTHING",
+        "price": 135
+    },
+    {
+        "fullType": "Base.Fire_Visor",
+        "tag": "MILITARY_CLOTHING",
+        "price": 85
+    },
+    {
+        "fullType": "Base.Fire_Visor_UP",
+        "tag": "MILITARY_CLOTHING",
+        "price": 95
+    },
+    {
+        "fullType": "Base.FirstAidKit",
+        "tag": "FIRST_AID",
+        "price": 45
+    },
+    {
+        "fullType": "Base.FishFillet",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.FishFried",
+        "tag": "FOOD",
+        "price": 200
+    },
+    {
+        "fullType": "Base.FishRoe",
+        "tag": "FOOD",
+        "price": 200
+    },
+    {
+        "fullType": "Base.Fish_raw",
+        "tag": "FOOD",
+        "price": 15
+    },
+    {
+        "fullType": "Base.Fisher_Rope",
+        "tag": "VARIOUS",
+        "price": 150
+    },
+    {
+        "fullType": "Base.FishingLine",
+        "tag": "FISHING",
+        "price": 200
+    },
+    {
+        "fullType": "Base.FishingMag1",
+        "tag": "SKILL_BOOK",
+        "price": 100
+    },
+    {
+        "fullType": "Base.FishingMag2",
+        "tag": "SKILL_BOOK",
+        "price": 100
+    },
+    {
+        "fullType": "Base.FishingNet",
+        "tag": "FISHING",
+        "price": 250
+    },
+    {
+        "fullType": "Base.FishingRod",
+        "tag": "FISHING",
+        "price": 250
+    },
+    {
+        "fullType": "Base.FishingRodBreak",
+        "tag": "FISHING",
+        "price": 100
+    },
+    {
+        "fullType": "Base.FishingRodTwineLine",
+        "tag": "FISHING",
+        "price": 500
+    },
+    {
+        "fullType": "Base.FishingTackle",
+        "tag": "FISHING",
+        "price": 50
+    },
+    {
+        "fullType": "Base.FishingTackle2",
+        "tag": "FISHING",
+        "price": 550
+    },
+    {
+        "fullType": "Base.FlameTrap",
+        "tag": "WEAPON",
+        "price": 450
+    },
+    {
+        "fullType": "Base.FlameTrapRemote",
+        "tag": "WEAPON",
+        "price": 465
+    },
+    {
+        "fullType": "Base.FlameTrapSensorV1",
+        "tag": "WEAPON",
+        "price": 555
+    },
+    {
+        "fullType": "Base.FlameTrapSensorV2",
+        "tag": "WEAPON",
+        "price": 675
+    },
+    {
+        "fullType": "Base.FlameTrapSensorV3",
+        "tag": "WEAPON",
+        "price": 750
+    },
+    {
+        "fullType": "Base.FlameTrapTriggered",
+        "tag": "WEAPON",
+        "price": 650
+    },
+    {
+        "fullType": "Base.Flex_Pants",
+        "tag": "CLOTHING",
+        "price": 60
+    },
+    {
+        "fullType": "Base.Flex_Pants_Rolled",
+        "tag": "CLOTHING",
+        "price": 65
+    },
+    {
+        "fullType": "Base.Flightcase",
+        "tag": "CONTAINER",
+        "price": 150
+    },
+    {
+        "fullType": "Base.FlintKnife",
+        "tag": "WEAPON",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Flour",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.FluffyfootBunny",
+        "tag": "VARIOUS",
+        "price": 100
+    },
+    {
+        "fullType": "Base.Flute",
+        "tag": "VARIOUS",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Football",
+        "tag": "VARIOUS",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Football2",
+        "tag": "VARIOUS",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Fork",
+        "tag": "CLOTHING",
+        "price": 100
+    },
+    {
+        "fullType": "Base.Formal_Shirts",
+        "tag": "CLOTHING",
+        "price": 150
+    },
+    {
+        "fullType": "Base.FountainCup",
+        "tag": "VARIOUS",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Frame",
+        "tag": "VARIOUS",
+        "price": 50
+    },
+    {
+        "fullType": "Base.FreddyFox",
+        "tag": "ANIMAL",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Fridge2TealCarry",
+        "tag": "CONTAINER",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Fridge2WhiteCarry",
+        "tag": "CONTAINER",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Fridge3SilverCarry",
+        "tag": "CONTAINER",
+        "price": 350
+    },
+    {
+        "fullType": "Base.FridgeGreenCarry",
+        "tag": "CONTAINER",
+        "price": 350
+    },
+    {
+        "fullType": "Base.FridgeRedCarry",
+        "tag": "CONTAINER",
+        "price": 350
+    },
+    {
+        "fullType": "Base.FridgeWhiteCarry",
+        "tag": "CONTAINER",
+        "price": 350
+    },
+    {
+        "fullType": "Base.FriedOnionRings",
+        "tag": "FOOD",
+        "price": 300
+    },
+    {
+        "fullType": "Base.FriedOnionRingsCraft",
+        "tag": "FOOD",
+        "price": 200
+    },
+    {
+        "fullType": "Base.Fries",
+        "tag": "FOOD",
+        "price": 125
+    },
+    {
+        "fullType": "Base.FrillyUnderpants_Black",
+        "tag": "CLOTHING",
+        "price": 550
+    },
+    {
+        "fullType": "Base.FrillyUnderpants_Pink",
+        "tag": "CLOTHING",
+        "price": 550
+    },
+    {
+        "fullType": "Base.FrillyUnderpants_Red",
+        "tag": "CLOTHING",
+        "price": 550
+    },
+    {
+        "fullType": "Base.Frog",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.FrogMeat",
+        "tag": "FOOD",
+        "price": 100
+    },
+    {
+        "fullType": "Base.FrontCarDoor1",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": 150
+    },
+    {
+        "fullType": "Base.FrontCarDoor2",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": 150
+    },
+    {
+        "fullType": "Base.FrontCarDoor3",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": 175
+    },
+    {
+        "fullType": "Base.FrontWindow1",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": 125
+    },
+    {
+        "fullType": "Base.FrontWindow2",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": 125
+    },
+    {
+        "fullType": "Base.FrontWindow3",
+        "tag": "VEHICLE_MAINTENANCE",
+        "price": 150
+    },
+    {
+        "fullType": "Base.FruitSalad",
+        "tag": "FOOD",
+        "price": 350
+    },
+    {
+        "fullType": "Base.FullKettle",
+        "tag": "FOOD",
+        "price": 125
+    },
+    {
+        "fullType": "Base.Fur_Jacket",
+        "tag": "CLOTHING",
+        "price": 1000
+    },
+    {
+        "fullType": "Base.Fur_Jacket_ON",
+        "tag": "CLOTHING",
+        "price": 1000
+    },
+    {
+        "fullType": "Base.FurbertSquirrel",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.G17Holster",
+        "tag": "VARIOUS",
+        "price": 12
+    },
+    {
+        "fullType": "Base.G17Holster",
+        "tag": "VARIOUS",
+        "price": 12
+    },
+    {
+        "fullType": "Base.G17Holster",
+        "tag": "VARIOUS",
+        "price": 12
+    },
+    {
+        "fullType": "Base.G17Magazine",
+        "tag": "AMMO",
+        "price": 150
+    },
+    {
+        "fullType": "Base.G17Magazine",
+        "tag": "AMMO",
+        "price": 150
+    },
+    {
+        "fullType": "Base.G17Magazine",
+        "tag": "AMMO",
+        "price": 150
+    },
+    {
+        "fullType": "Base.G3_Pants",
+        "tag": "CLOTHING",
+        "price": 1500
+    },
+    {
+        "fullType": "Base.G3_Pants_Rolled",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1400
+    },
+    {
+        "fullType": "Base.GEN2_Pants",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1500
+    },
+    {
+        "fullType": "Base.GEN2_Pants_Rolled",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1650
+    },
+    {
+        "fullType": "Base.GM15_Canister",
+        "tag": "FIRST_AID",
+        "price": 350
+    },
+    {
+        "fullType": "Base.GM15_Canister_Loose",
+        "tag": "FIRST_AID",
+        "price": 350
+    },
+    {
+        "fullType": "Base.GM15_Gasmask",
+        "tag": "FIRST_AID",
+        "price": 700
+    },
+    {
+        "fullType": "Base.GM17_Gasmask",
+        "tag": "FIRST_AID",
+        "price": 700
+    },
+    {
+        "fullType": "Base.GP4U_Gasmask",
+        "tag": "FIRST_AID",
+        "price": 700
+    },
+    {
+        "fullType": "Base.GP5M_Gasmask",
+        "tag": "FIRST_AID",
+        "price": 700
+    },
+    {
+        "fullType": "Base.GamePieceBlack",
+        "tag": "VARIOUS",
+        "price": 150
+    },
+    {
+        "fullType": "Base.GamePieceRed",
+        "tag": "VARIOUS",
+        "price": 150
+    },
+    {
+        "fullType": "Base.GamePieceWhite",
+        "tag": "VARIOUS",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Garbagebag",
+        "tag": "CONTAINER",
+        "price": 50
+    },
+    {
+        "fullType": "Base.GardenFork",
+        "tag": "GARDENING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.GardenHoe",
+        "tag": "GARDENING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.GardenSaw",
+        "tag": "TOOL",
+        "price": 450
+    },
+    {
+        "fullType": "Base.GarriageCarry",
+        "tag": "CONTAINER",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Garter",
+        "tag": "CLOTHING",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Generator",
+        "tag": "ELECTRONICS",
+        "price": 1000
+    },
+    {
+        "fullType": "Base.Ghillie_Top",
+        "tag": "CLOTHING",
+        "price": 65
+    },
+    {
+        "fullType": "Base.Ghillie_Trousers",
+        "tag": "CLOTHING",
+        "price": 35
+    },
+    {
+        "fullType": "Base.GingerPickled",
+        "tag": "FOOD",
+        "price": 25
+    },
+    {
+        "fullType": "Base.GingerRoot",
+        "tag": "FOOD",
+        "price": 5
+    },
+    {
+        "fullType": "Base.Ginseng",
+        "tag": "FIRST_AID",
+        "price": 25
+    },
+    {
+        "fullType": "Base.GlassTumbler",
+        "tag": "VARIOUS",
+        "price": 50
+    },
+    {
+        "fullType": "Base.GlassTumblerWater",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.GlassWine",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.GlassWineWater",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Glasses",
+        "tag": "ACCESSORY",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Glasses_Aviators",
+        "tag": "ACCESSORY",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Glasses_Crewman_Goggles",
+        "tag": "VARIOUS",
+        "price": 185
+    },
+    {
+        "fullType": "Base.Glasses_Crewman_Goggles_OFF",
+        "tag": "MILITARY_CLOTHING",
+        "price": 195
+    },
+    {
+        "fullType": "Base.Glasses_Eyepatch_Left",
+        "tag": "ACCESSORIES",
+        "price": 300
+    },
+    {
+        "fullType": "Base.Glasses_Eyepatch_Right",
+        "tag": "ACCESSORIES",
+        "price": 300
+    },
+    {
+        "fullType": "Base.Glasses_Napier",
+        "tag": "ACCESSORIES",
+        "price": 1500
+    },
+    {
+        "fullType": "Base.Glasses_Normal",
+        "tag": "ACCESSORIES",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Glasses_Reading",
+        "tag": "ACCESSORIES",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Glasses_SafetyGoggles",
+        "tag": "ACCESSORIES",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Glasses_Shooting",
+        "tag": "ACCESSORIES",
+        "price": 750
+    },
+    {
+        "fullType": "Base.Glasses_SkiGoggles",
+        "tag": "ACCESSORIES",
+        "price": 750
+    },
+    {
+        "fullType": "Base.Glasses_Sun",
+        "tag": "ACCESSORIES",
+        "price": 550
+    },
+    {
+        "fullType": "Base.Glasses_SwimmingGoggles",
+        "tag": "ACCESSORIES",
+        "price": 300
+    },
+    {
+        "fullType": "Base.Glasses_X1000",
+        "tag": "ACCESSORIES",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Glasses_X1000_OFF",
+        "tag": "ACCESSORIES",
+        "price": 425
+    },
+    {
+        "fullType": "Base.Glock",
+        "tag": "WEAPON",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Glock18",
+        "tag": "WEAPON",
+        "price": 450
+    },
+    {
+        "fullType": "Base.GloveBox1",
+        "tag": "TOOLS",
+        "price": 500
+    },
+    {
+        "fullType": "Base.GloveBox2",
+        "tag": "TOOLS",
+        "price": 650
+    },
+    {
+        "fullType": "Base.GloveBox3",
+        "tag": "TOOLS",
+        "price": 550
+    },
+    {
+        "fullType": "Base.Glove_3M",
+        "tag": "CLOTHING",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Glove_Fisher",
+        "tag": "CLOTHING",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Glove_Leather",
+        "tag": "CLOTHING",
+        "price": 550
+    },
+    {
+        "fullType": "Base.Glove_Mechanix",
+        "tag": "CLOTHING",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Glove_Mechanix_Pact",
+        "tag": "MILITARY_CLOTHING",
+        "price": 430
+    },
+    {
+        "fullType": "Base.Glove_Mustang",
+        "tag": "MILITARY_CLOTHING",
+        "price": 440
+    },
+    {
+        "fullType": "Base.Gloves_BoxingBlue",
+        "tag": "ACCESSORY",
+        "price": 355
+    },
+    {
+        "fullType": "Base.Gloves_BoxingRed",
+        "tag": "ACCESSORY",
+        "price": 355
+    },
+    {
+        "fullType": "Base.Gloves_FingerlessGloves",
+        "tag": "ACCESSORY",
+        "price": 355
+    },
+    {
+        "fullType": "Base.Gloves_LeatherGloves",
+        "tag": "ACCESSORY",
+        "price": 355
+    },
+    {
+        "fullType": "Base.Gloves_LeatherGlovesBlack",
+        "tag": "ACCESSORY",
+        "price": 365
+    },
+    {
+        "fullType": "Base.Gloves_LongWomenGloves",
+        "tag": "ACCESSORY",
+        "price": 385
+    },
+    {
+        "fullType": "Base.Gloves_Surgical",
+        "tag": "FIRST_AID",
+        "price": 155
+    },
+    {
+        "fullType": "Base.Gloves_WhiteTINT",
+        "tag": "ACCESSORY",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Glue",
+        "tag": "VARIOUS",
+        "price": 500
+    },
+    {
+        "fullType": "Base.GnomeCarry",
+        "tag": "VARIOUS",
+        "price": 100
+    },
+    {
+        "fullType": "Base.GolfBall",
+        "tag": "AMMO",
+        "price": 100
+    },
+    {
+        "fullType": "Base.Golfclub",
+        "tag": "WEAPON",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Gorka5_Jacket",
+        "tag": "MILITARY_CLOTHING",
+        "price": 200
+    },
+    {
+        "fullType": "Base.Gorka5_Jacket_ON",
+        "tag": "MILITARY_CLOTHING",
+        "price": 200
+    },
+    {
+        "fullType": "Base.Gorka6_Hoodie",
+        "tag": "MILITARY_CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Gorka6_Hoodie_ON",
+        "tag": "MILITARY_CLOTHING",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Gorka_Jacket_New",
+        "tag": "MILITARY_CLOTHING",
+        "price": 1600
+    },
+    {
+        "fullType": "Base.Gorka_Pants_New",
+        "tag": "MILITARY_CLOTHING",
+        "price": 800
+    },
+    {
+        "fullType": "Base.Gorka_Pants_New_Rolled",
+        "tag": "MILITARY_CLOTHING",
+        "price": 800
+    },
+    {
+        "fullType": "Base.GrahamCrackers",
+        "tag": "FOOD",
+        "price": 10
+    },
+    {
+        "fullType": "Base.GranolaBar",
+        "tag": "FOOD",
+        "price": 25
+    },
+    {
+        "fullType": "Base.GrapeLeaves",
+        "tag": "FOOD",
+        "price": 15
+    },
+    {
+        "fullType": "Base.Grapefruit",
+        "tag": "FOOD",
+        "price": 35
+    },
+    {
+        "fullType": "Base.Grapes",
+        "tag": "FOOD",
+        "price": 30
+    },
+    {
+        "fullType": "Base.Grasshopper",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Gravelbag",
+        "tag": "MATERIAL",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Gravy",
+        "tag": "FOOD",
+        "price": 35
+    },
+    {
+        "fullType": "Base.GravyMix",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.GriddlePan",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.GriddlePanFriedVegetables",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.GrillBrush",
+        "tag": "FOOD",
+        "price": 35
+    },
+    {
+        "fullType": "Base.GrilledCheese",
+        "tag": "FOOD",
+        "price": 15
+    },
+    {
+        "fullType": "Base.GroceryBag1",
+        "tag": "VARIOUS",
+        "price": 5
+    },
+    {
+        "fullType": "Base.GroceryBag2",
+        "tag": "VARIOUS",
+        "price": 5
+    },
+    {
+        "fullType": "Base.GroceryBag3",
+        "tag": "VARIOUS",
+        "price": 5
+    },
+    {
+        "fullType": "Base.GroceryBag4",
+        "tag": "VARIOUS",
+        "price": 5
+    },
+    {
+        "fullType": "Base.GroceryBag5",
+        "tag": "VARIOUS",
+        "price": 5
+    },
+    {
+        "fullType": "Base.Guacamole",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.GuitarAcoustic",
+        "tag": "WEAPON",
+        "price": 500
+    },
+    {
+        "fullType": "Base.GuitarElectricBassBlack",
+        "tag": "WEAPON",
+        "price": 450
+    },
+    {
+        "fullType": "Base.GuitarElectricBassBlue",
+        "tag": "MUSICAL_INSTRUMENT",
+        "price": 450
+    },
+    {
+        "fullType": "Base.GuitarElectricBassRed",
+        "tag": "MUSICAL_INSTRUMENT",
+        "price": 450
+    },
+    {
+        "fullType": "Base.GuitarElectricBlack",
+        "tag": "MUSICAL_INSTRUMENT",
+        "price": 450
+    },
+    {
+        "fullType": "Base.GuitarElectricBlue",
+        "tag": "MUSICAL_INSTRUMENT",
+        "price": 450
+    },
+    {
+        "fullType": "Base.GuitarElectricRed",
+        "tag": "MUSICAL_INSTRUMENT",
+        "price": 450
+    },
+    {
+        "fullType": "Base.Guitarcase",
+        "tag": "CONTAINER",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Gum",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.GummyBears",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.GummyWorms",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.GunLight",
+        "tag": "WEAPON",
+        "price": 450
+    },
+    {
+        "fullType": "Base.GunPowder",
+        "tag": "AMMO",
+        "price": 45
+    },
+    {
+        "fullType": "Base.Gunsmith_Jacket",
+        "tag": "CLOTHING",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Gunsmith_Jacket_ON",
+        "tag": "CLOTHING",
+        "price": 300
+    },
+    {
+        "fullType": "Base.HairDyeBlack",
+        "tag": "SKILL_BOOK",
+        "price": 50
+    },
+    {
+        "fullType": "Base.HairDyeBlonde",
+        "tag": "SKILL_BOOK",
+        "price": 50
+    },
+    {
+        "fullType": "Base.HairDyeBlue",
+        "tag": "SKILL_BOOK",
+        "price": 50
+    },
+    {
+        "fullType": "Base.HairDyeGinger",
+        "tag": "SKILL_BOOK",
+        "price": 250
+    },
+    {
+        "fullType": "Base.HairDyeGreen",
+        "tag": "SKILL_BOOK",
+        "price": 250
+    },
+    {
+        "fullType": "Base.HairDyeLightBrown",
+        "tag": "SKILL_BOOK",
+        "price": 150
+    },
+    {
+        "fullType": "Base.HairDyePink",
+        "tag": "SKILL_BOOK",
+        "price": 350
+    },
+    {
+        "fullType": "Base.HairDyeRed",
+        "tag": "SKILL_BOOK",
+        "price": 350
+    },
+    {
+        "fullType": "Base.HairDyeWhite",
+        "tag": "SKILL_BOOK",
+        "price": 350
+    },
+    {
+        "fullType": "Base.HairDyeYellow",
+        "tag": "SKILL_BOOK",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Hairgel",
+        "tag": "VARIOUS",
+        "price": 250
+    },
+    {
+        "fullType": "Base.Hairspray",
+        "tag": "VARIOUS",
+        "price": 250
+    },
+    {
+        "fullType": "Base.HalloweenPumpkin",
+        "tag": "FOOD",
+        "price": 150
+    },
+    {
+        "fullType": "Base.Ham",
+        "tag": "FOOD",
+        "price": 250
+    },
+    {
+        "fullType": "Base.HamSlice",
+        "tag": "FOOD",
+        "price": 50
+    },
+    {
+        "fullType": "Base.Ham_Radio",
+        "tag": "WEAPON",
+        "price": 850
+    },
+    {
+        "fullType": "Base.Hammer",
+        "tag": "WEAPON",
+        "price": 50
+    },
+    {
+        "fullType": "Base.HammerStone",
+        "tag": "WEAPON",
+        "price": 250
+    },
+    {
+        "fullType": "Base.HandAxe",
+        "tag": "WEAPON",
+        "price": 500
+    },
+    {
+        "fullType": "Base.Junk",
+        "tag": "VARIOUS",
+        "price": 25
+    },
+    {
+        "fullType": "Base.P229Holster",
+        "tag": "VARIOUS",
+        "price": 15
+    },
+    {
+        "fullType": "Base.P229Magazine",
+        "tag": "AMMO",
+        "price": 200
+    },
+    {
+        "fullType": "Base.SmallBlade",
+        "tag": "WEAPON",
+        "price": 350
+    },
+    {
+        "fullType": "Base.Burrito",
+        "price": "350",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.Bushcraft_Bag",
+        "price": "550",
         "tag": "VARIOUS"
     },
     {
-        "fullType": "Base.Bandana_Mask_Other",
-        "price": 5,
+        "fullType": "Base.Butter",
+        "price": "15",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.ButterKnife",
+        "price": "50",
+        "tag": "VARIOUS"
+    },
+    {
+        "fullType": "Base.Button",
+        "price": "1",
+        "tag": "JUNK"
+    },
+    {
+        "fullType": "Base.C420_PAPR",
+        "price": "1500",
+        "tag": "MILITARY_CLOTHING"
+    },
+    {
+        "fullType": "Base.C420_PAPR",
+        "price": "400",
+        "tag": "MILITARY_CLOTHING"
+    },
+    {
+        "fullType": "Base.CandyCorn",
+        "price": "25",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.CandyFruitSlices",
+        "price": "25",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.Casual_Stocking_Below",
+        "price": "50",
         "tag": "CLOTHING"
     },
     {
-        "fullType": "Base.BandedWoolyBearCaterpillar",
-        "price": 10,
+        "fullType": "Base.Casual_Stocking_Half",
+        "price": "60",
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Casual_Stocking_Mismatch",
+        "price": "60",
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Casual_Stocking_Ripped",
+        "price": "60",
+        "tag": "CLOTHING"
+    },
+    {
+        "fullType": "Base.Chilli_Plant_Cooked",
+        "price": "18",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.ColdDrinkRed",
+        "price": "18",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.ColdDrinkSpiffo",
+        "price": "20",
+        "tag": "FOOD"
+    },
+    {
+        "fullType": "Base.ColdDrinkWhite",
+        "price": "20",
         "tag": "FOOD"
     }
 ]

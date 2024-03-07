@@ -3,8 +3,9 @@ from thefuzz import fuzz
 import json
 
 class FullTypeSelector(BaseExampleSelector):
-    def __init__(self, examples):
+    def __init__(self, examples, amount):
         self.examples = examples
+        self.amount = amount
 
     def add_example(self, example):
         self.examples.append(example)
@@ -12,13 +13,16 @@ class FullTypeSelector(BaseExampleSelector):
 
     def select_examples(self, input_variables):
         # compare fulltype
+
+        ratio_list = []
+
         new_full_type = input_variables['fullType']
-        best_match = None
-        prev_best_ratio = -1
         for example in self.examples:
             r = fuzz.ratio(example['fullType'], new_full_type)
-            if r > prev_best_ratio:
-                prev_best_ratio = r
-                best_match = example
+            ratio_list.append({'ratio': r, 'example': example})
 
-        return [best_match]
+        # sort it
+        sorted_list = sorted(ratio_list, key=lambda d: d['ratio'])[-self.amount:]
+        best_matches = [x['example'] for x in sorted_list]
+
+        return best_matches
