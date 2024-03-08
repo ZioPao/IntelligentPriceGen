@@ -9,7 +9,8 @@ class OutputJsonData(BaseModel):
         "FURNITURE", "VARIOUS",
         "CLOTHING", "CAR_PARTS",
         "FOOD", "SKILL_BOOK",
-        "WEAPON", "MILITARY_CLOTHING"]
+        "WEAPON", "MILITARY_CLOTHING",
+        "TOOL"]
 
 
 
@@ -84,6 +85,9 @@ examples = [
 
     ExamplesModel(fullType="ATA2.ATA2ItemContainer", name="ATA2ItemContainer", weight='2', categories="[Tuning]",
                   output=r"{{'price':'150', 'tag':'CAR_PARTS'}}").dict(),
+
+    ExamplesModel(fullType="Base.CanoePadel", name="Canoe Paddle", weight='2', categories="[Improvised, Blunt, Sports]",
+                  output=r"{{'price':'250', 'tag':'WEAPON'}}").dict(),
 
 
     ### Guns

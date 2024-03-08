@@ -20,8 +20,10 @@ data = sorted(data, key=lambda d: d['fullType'])
 prices = sorted(prices, key=lambda d: d['fullType'])
 
 
-#model_path="F:/models/llm/gguf/tinyllama-1.1b-1t-openorca.Q8_0.gguf"
-model_path = "F:/models/llm/gguf/capybarahermes-2.5-mistral-7b.Q5_K_M.gguf"
+model_path="F:/models/llm/gguf/Nous-Hermes-2-Mistral-7B-DPO.Q5_K_M.gguf"
+#model_path = "F:/models/llm/gguf/capybarahermes-2.5-mistral-7b.Q5_K_M.gguf"
+
+
 example_template ="""
 Input:
 - FullType = {fullType}, 
@@ -67,8 +69,8 @@ suffix = """
 Based on the data I'm giving you try to guess a price.
 Price must be an integer.
 
-Also, choose only one of the following TAGS:
-# [START TAGS] #
+You must also choose a tag. You can only choose between these tags:
+[START TAGS]
 - WEAPON
 - AMMO
 - CLOTHING
@@ -79,9 +81,8 @@ Also, choose only one of the following TAGS:
 - CAR_PARTS
 - SKILL_BOOK
 - FURNITURE
-# [END TAGS] #
-
-If no tag makes sense, use VARIOUS.
+- TOOL
+[END TAGS]
 
 Keep in mind the following rules when deciding the price:
 - Price can never be 0
@@ -190,7 +191,7 @@ while i < len(data):
                 OutputJsonData.validate(new_j[0])
             except ValidationError:
                 print("Data not valid")
-                raise Exception
+                continue
 
             new_j[0]['fullType'] = fullType
 
@@ -204,6 +205,7 @@ while i < len(data):
                 file.write(json.dumps(prices, indent=4))
         except Exception:
             print("Failed execution, retrying")
+            print(new_j[0])
             continue
 
 
@@ -213,5 +215,4 @@ while i < len(data):
 
     i+=1
     pbar.update(1)
-    #print("________________")
 
