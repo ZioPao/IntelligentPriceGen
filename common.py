@@ -1,6 +1,6 @@
 import json
 
-PRICES_JSON_PATH = 'output/prices_test_new.json'
+PRICES_JSON_PATH = 'output/prices_test_new2.json'
 
 
 def get_data():

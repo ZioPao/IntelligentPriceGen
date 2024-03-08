@@ -67,11 +67,23 @@ suffix = """
 
 ########## [END PREVIOUS DATA] ############
 
-Based on the data I'm giving you try to guess a price and choose a tag.
+Based on the data I'm giving you try to guess a price.
 Price must be an integer.
-Choose only one of the following TAGS:
-(WEAPON, AMMO, CLOTHING, MILITARY_CLOTHING, FOOD, FIRST_AID, VARIOUS, SKILL_BOOK, FURNITURE).
-Never make up a tag, choose only one that exist in the previous list.
+
+Also, choose only one of the following TAGS:
+# [START TAGS] #
+- WEAPON
+- AMMO
+- CLOTHING
+- MILITARY_CLOTHING
+- FOOD
+- FIRST_AID
+- VARIOUS
+- CAR_PARTS
+- SKILL_BOOK
+- FURNITURE
+# [END TAGS] #
+Never make up a tag, choose only one that exist in the list.
 
 Keep in mind the following rules when deciding the price:
 - Price can never be 0
@@ -121,8 +133,8 @@ llm = LlamaCpp(
     top_p=1,
     f16_kv=True,
     grammar_path ="json_grammar.gbnf", 
-    callback_manager=callback_manager,
-    verbose=True,  # Verbose is required to pass to the callback manager
+    #callback_manager=callback_manager,
+    verbose=False,  # Verbose is required to pass to the callback manager
     
 )
 
@@ -131,7 +143,7 @@ llm = LlamaCpp(
 llm_chain = LLMChain(
     prompt=similar_prompt,
     llm=llm,
-    verbose=True,
+    verbose=False,
     )
 
 prev_output = None
@@ -175,6 +187,12 @@ while i < len(data):
                 raise ValueError("Generated more than one price")
 
             new_j[0]['fullType'] = fullType
+
+            pbar.set_description(json.dumps(new_j), refresh=True)
+
+            #print(new_j)
+
+
             prices = [*prices, *new_j]
             with open(PRICES_JSON_PATH, 'w') as file:
                 file.write(json.dumps(prices, indent=4))
@@ -190,5 +208,5 @@ while i < len(data):
 
     i+=1
     pbar.update(1)
-    print("________________")
+    #print("________________")
 
