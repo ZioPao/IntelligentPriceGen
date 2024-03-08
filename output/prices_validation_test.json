@@ -1,0 +1,851 @@
+[
+    {
+        "tag": "CAR_PARTS",
+        "price": 150,
+        "fullType": "ATA2.ATA2ItemContainer"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 150,
+        "fullType": "ATA2.ATABullbar1Item"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 250,
+        "fullType": "ATA2.ATABullbar2Item"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 350,
+        "fullType": "ATA2.ATABullbar3Item"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 550,
+        "fullType": "ATA2.ATABullbarPoliceItem1"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 350,
+        "fullType": "ATA2.ATAFendersWideItem"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 500,
+        "fullType": "ATA2.ATAFrontRoofLightItem"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 500,
+        "fullType": "ATA2.ATASkirtsSideItem"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 350,
+        "fullType": "ATA2.ATASpoilerFrontItem"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 350,
+        "fullType": "ATA2.ATASpoilerRear1Item"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 450,
+        "fullType": "ATA2.ATASpoilerRear2Item"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 450,
+        "fullType": "BBB.MugBattery"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 450,
+        "fullType": "BBB.MugNoCoffee"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 1500,
+        "fullType": "BBB.Shirt_BBB_FS_Logo"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 1800,
+        "fullType": "BBB.Tshirt_BBB_24KGoldBeevar"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 1500,
+        "fullType": "BBB.Tshirt_BBB_BusyBeaver"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 1500,
+        "fullType": "BBB.Tshirt_BBB_Griefed"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 1500,
+        "fullType": "BBB.Tshirt_BBB_HailToTheBeaver"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 2000,
+        "fullType": "BBB.Tshirt_BBB_HangingwSpiffo"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 2000,
+        "fullType": "BBB.Tshirt_BBB_JokinAround"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 2000,
+        "fullType": "BBB.Tshirt_BBB_SittingBeaver"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 2500,
+        "fullType": "BBB.Tshirt_BBB_Slay"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 150,
+        "fullType": "BBB.WaterMugBattery"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 150,
+        "fullType": "BBB.WaterMugNoCoffee"
+    },
+    {
+        "tag": "WEAPON",
+        "price": 300,
+        "fullType": "BCGRareWeapons.ReinforcedBaseballBat"
+    },
+    {
+        "tag": "WEAPON",
+        "price": 450,
+        "fullType": "BCGRareWeapons.VikingAxe"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 1500,
+        "fullType": "Base.1000Tank1"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 2200,
+        "fullType": "Base.1000Tank2"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 1400,
+        "fullType": "Base.1000Tank3"
+    },
+    {
+        "tag": "WEAPON",
+        "price": 250,
+        "fullType": "Base.1022"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "price": 150,
+        "fullType": "Base.1916_Helmet"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "price": 150,
+        "fullType": "Base.1916_Helmet_ON"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "price": 350,
+        "fullType": "Base.1916_Helmet_Visor"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "price": 350,
+        "fullType": "Base.1916_Helmet_Visor_2"
+    },
+    {
+        "tag": "AMMO",
+        "price": 550,
+        "fullType": "Base.223Box"
+    },
+    {
+        "tag": "WEAPON",
+        "price": 35,
+        "fullType": "Base.223Bullets"
+    },
+    {
+        "tag": "AMMO",
+        "price": 150,
+        "fullType": "Base.223BulletsMold"
+    },
+    {
+        "tag": "AMMO",
+        "price": 200,
+        "fullType": "Base.223Clip"
+    },
+    {
+        "tag": "AMMO",
+        "price": 200,
+        "fullType": "Base.223Clip20"
+    },
+    {
+        "tag": "AMMO",
+        "price": 650,
+        "fullType": "Base.22Box"
+    },
+    {
+        "tag": "AMMO",
+        "price": 55,
+        "fullType": "Base.22Bullets"
+    },
+    {
+        "tag": "AMMO",
+        "price": 180,
+        "fullType": "Base.22ClipPistol"
+    },
+    {
+        "tag": "AMMO",
+        "price": 250,
+        "fullType": "Base.22ClipRifle"
+    },
+    {
+        "tag": "AMMO",
+        "price": 600,
+        "fullType": "Base.308Box"
+    },
+    {
+        "tag": "AMMO",
+        "price": 15,
+        "fullType": "Base.308Bullets"
+    },
+    {
+        "tag": "AMMO",
+        "price": 18,
+        "fullType": "Base.308BulletsLinked"
+    },
+    {
+        "tag": "AMMO",
+        "price": 85,
+        "fullType": "Base.308BulletsMold"
+    },
+    {
+        "tag": "AMMO",
+        "price": 200,
+        "fullType": "Base.308Clip"
+    },
+    {
+        "tag": "AMMO",
+        "price": 200,
+        "fullType": "Base.44Clip"
+    },
+    {
+        "tag": "AMMO",
+        "price": 200,
+        "fullType": "Base.45Clip"
+    },
+    {
+        "tag": "AMMO",
+        "price": 200,
+        "fullType": "Base.45Clip12"
+    },
+    {
+        "tag": "AMMO",
+        "price": 200,
+        "fullType": "Base.45Clip32"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 1000,
+        "fullType": "Base.500Tank1"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 1100,
+        "fullType": "Base.500Tank2"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 1100,
+        "fullType": "Base.500Tank3"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "price": 250,
+        "fullType": "Base.511_Pants"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "price": 250,
+        "fullType": "Base.511_Pants_Rolled"
+    },
+    {
+        "tag": "AMMO",
+        "price": 550,
+        "fullType": "Base.556Box"
+    },
+    {
+        "tag": "AMMO",
+        "price": 15,
+        "fullType": "Base.556Bullets"
+    },
+    {
+        "tag": "AMMO",
+        "price": 200,
+        "fullType": "Base.556Clip"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "price": 1500,
+        "fullType": "Base.6B6_Helmet"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "price": 150,
+        "fullType": "Base.6B6_Visor"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "price": 175,
+        "fullType": "Base.6B6_Visor_UP"
+    },
+    {
+        "tag": "AMMO",
+        "price": 550,
+        "fullType": "Base.762Box"
+    },
+    {
+        "tag": "AMMO",
+        "price": 45,
+        "fullType": "Base.762Bullets"
+    },
+    {
+        "tag": "AMMO",
+        "price": 200,
+        "fullType": "Base.762Clip"
+    },
+    {
+        "tag": "AMMO",
+        "price": 150,
+        "fullType": "Base.9mmBulletsMold"
+    },
+    {
+        "tag": "AMMO",
+        "price": 250,
+        "fullType": "Base.9mmClip"
+    },
+    {
+        "tag": "AMMO",
+        "price": 250,
+        "fullType": "Base.9mmClip13"
+    },
+    {
+        "tag": "AMMO",
+        "price": 250,
+        "fullType": "Base.9mmClip16"
+    },
+    {
+        "tag": "AMMO",
+        "price": 250,
+        "fullType": "Base.9mmClip17"
+    },
+    {
+        "tag": "AMMO",
+        "price": 250,
+        "fullType": "Base.9mmClip20"
+    },
+    {
+        "tag": "AMMO",
+        "price": 250,
+        "fullType": "Base.9mmClip30"
+    },
+    {
+        "tag": "WEAPON",
+        "price": 2750,
+        "fullType": "Base.AK47"
+    },
+    {
+        "tag": "WEAPON",
+        "price": 1850,
+        "fullType": "Base.AK47Folded"
+    },
+    {
+        "tag": "WEAPON",
+        "price": 2000,
+        "fullType": "Base.AK47Unfolded"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 2000,
+        "fullType": "Base.ANA_Classic"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 2000,
+        "fullType": "Base.ANA_Classic_ON"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 1000,
+        "fullType": "Base.ANA_Hood"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 1000,
+        "fullType": "Base.ANA_Hood_ON"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 850,
+        "fullType": "Base.ANA_Shirts"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 850,
+        "fullType": "Base.ANA_Shirts_ON"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "price": 1500,
+        "fullType": "Base.AP3"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1000,
+        "fullType": "Base.ATA1000Trunk"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1000,
+        "fullType": "Base.ATA1000Trunk1"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1000,
+        "fullType": "Base.ATA1000Trunk2"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1500,
+        "fullType": "Base.ATA1000Trunk3"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1500,
+        "fullType": "Base.ATA1100Trunk"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1500,
+        "fullType": "Base.ATA1100Trunk1"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1500,
+        "fullType": "Base.ATA1100Trunk2"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA1100Trunk3"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA1200Trunk"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA1200Trunk1"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA1200Trunk2"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA1200Trunk3"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA150Trunk"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA150Trunk1"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA150Trunk2"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA150Trunk3"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA200Trunk"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA200Trunk1"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA200Trunk2"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA200Trunk3"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA250Trunk"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA250Trunk1"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA250Trunk2"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA250Trunk3"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA300Trunk"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA300Trunk1"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA300Trunk2"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA300Trunk3"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA400Trunk"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA400Trunk1"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA400Trunk2"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1750,
+        "fullType": "Base.ATA400Trunk3"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1850,
+        "fullType": "Base.ATA500Trunk"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1850,
+        "fullType": "Base.ATA500Trunk1"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1850,
+        "fullType": "Base.ATA500Trunk2"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1850,
+        "fullType": "Base.ATA500Trunk3"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA600Trunk"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA600Trunk1"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA600Trunk2"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA600Trunk3"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA700Trunk"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA700Trunk1"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA700Trunk2"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA700Trunk3"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA800Trunk"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA800Trunk1"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA800Trunk2"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA800Trunk3"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA900Trunk"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA900Trunk1"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA900Trunk2"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1950,
+        "fullType": "Base.ATA900Trunk3"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1995,
+        "fullType": "Base.ATAFreestorageTrunk"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 1995,
+        "fullType": "Base.ATAProtectionWheelsChain"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 500,
+        "fullType": "Base.ATARoofLightItem"
+    },
+    {
+        "tag": "CAR_PARTS",
+        "price": 500,
+        "fullType": "Base.ATASleepingBag"
+    },
+    {
+        "tag": "FOOD",
+        "price": 20,
+        "fullType": "Base.Acorn"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 400,
+        "fullType": "Base.Adidas_Pad_Jacket"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 300,
+        "fullType": "Base.Adidas_Pad_Jacket_ON"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 100,
+        "fullType": "Base.Adidas_Track_Pants"
+    },
+    {
+        "tag": "CLOTHING",
+        "price": 100,
+        "fullType": "Base.Adidas_Track_Pants_Rolled"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 150,
+        "fullType": "Base.Aerosolbomb"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 250,
+        "fullType": "Base.AerosolbombRemote"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 350,
+        "fullType": "Base.AerosolbombSensorV1"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 375,
+        "fullType": "Base.AerosolbombSensorV2"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 375,
+        "fullType": "Base.AerosolbombSensorV3"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 375,
+        "fullType": "Base.AerosolbombTriggered"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 375,
+        "fullType": "Base.AlarmClock"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 375,
+        "fullType": "Base.AlarmClock2"
+    },
+    {
+        "tag": "FIRST_AID",
+        "price": 25,
+        "fullType": "Base.AlcoholBandage"
+    },
+    {
+        "tag": "FIRST_AID",
+        "price": 25,
+        "fullType": "Base.AlcoholRippedSheets"
+    },
+    {
+        "tag": "FIRST_AID",
+        "price": 100,
+        "fullType": "Base.AlcoholWipes"
+    },
+    {
+        "tag": "FIRST_AID",
+        "price": 150,
+        "fullType": "Base.AlcoholedCottonBalls"
+    },
+    {
+        "tag": "FOOD",
+        "price": 350,
+        "fullType": "Base.Allsorts"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 500,
+        "fullType": "Base.Aluminum"
+    },
+    {
+        "tag": "FOOD",
+        "price": 50,
+        "fullType": "Base.AmericanLadyCaterpillar"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 150,
+        "fullType": "Base.AmmoStrap_Bullets"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 150,
+        "fullType": "Base.AmmoStrap_Shells"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 150,
+        "fullType": "Base.AmmoStraps"
+    },
+    {
+        "tag": "VARIOUS",
+        "price": 150,
+        "fullType": "Base.Amplifier"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "price": 120,
+        "fullType": "Base.Anorak_Pants"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "price": 120,
+        "fullType": "Base.Anorak_Pants_Rolled"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "price": 275,
+        "fullType": "Base.Antibelok"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "price": 250,
+        "fullType": "Base.Antibelok_ON"
+    },
+    {
+        "tag": "FIRST_AID",
+        "price": 50,
+        "fullType": "Base.Antibiotics"
+    },
+    {
+        "tag": "FURNITURE",
+        "price": 250,
+        "fullType": "Base.Antique_Oven_Carry"
+    },
+    {
+        "tag": "FOOD",
+        "price": 15,
+        "fullType": "Base.Apple"
+    },

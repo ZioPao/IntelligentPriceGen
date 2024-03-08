@@ -22,3 +22,7 @@ def check_fulltypes(data, prices):
 def check_unique_tags(prices):
     tags = set([v['tag'] for v in prices])
     print(tags)
+
+
+
+check_unique_tags(prices=prices)

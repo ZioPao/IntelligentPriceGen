@@ -4,10 +4,10 @@ from langchain.chains import LLMChain
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.callbacks.manager import CallbackManager
 from langchain.prompts import PromptTemplate
-
+from pydantic import ValidationError
 from gen_selector import FullTypeSelector
 from common import get_data, PRICES_JSON_PATH
-from examples import examples
+from examples import examples, OutputJsonData
 import json
 import tqdm
 
@@ -20,7 +20,7 @@ data = sorted(data, key=lambda d: d['fullType'])
 prices = sorted(prices, key=lambda d: d['fullType'])
 
 
-
+#model_path="F:/models/llm/gguf/tinyllama-1.1b-1t-openorca.Q8_0.gguf"
 model_path = "F:/models/llm/gguf/capybarahermes-2.5-mistral-7b.Q5_K_M.gguf"
 example_template ="""
 Input:
@@ -123,7 +123,7 @@ similar_prompt = FewShotPromptTemplate(
 llm = LlamaCpp(
     model_path=model_path,
     temperature=0.5,
-    n_gpu_layers=25,
+    n_gpu_layers=-1,
     n_batch=1536,
     n_ctx=1536,
 
@@ -183,6 +183,14 @@ while i < len(data):
             # check amount of data, if more than one then throw error
             if len(new_j) > 1:
                 raise ValueError("Generated more than one price")
+            
+
+            # Validate
+            try:
+                OutputJsonData.validate(new_j[0])
+            except ValidationError:
+                print("Data not valid")
+                raise Exception
 
             new_j[0]['fullType'] = fullType
 
@@ -196,7 +204,6 @@ while i < len(data):
                 file.write(json.dumps(prices, indent=4))
         except Exception:
             print("Failed execution, retrying")
-            i -=1
             continue
 
 
