@@ -1,16 +1,13 @@
-from langchain_community.embeddings import LlamaCppEmbeddings
-from langchain_community.llms import LlamaCpp
+from langchain_community.llms.llamacpp import LlamaCpp
 from langchain.prompts import FewShotPromptTemplate, PromptTemplate
 from langchain.chains import LLMChain
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.callbacks.manager import CallbackManager
 from langchain.prompts import PromptTemplate
-from langchain_core.output_parsers import JsonOutputParser
 
-from lmformatenforcer import JsonSchemaParser
-from examples import examples, OutputJsonData
 from gen_selector import FullTypeSelector
 from common import get_data, PRICES_JSON_PATH
+from examples import examples
 import json
 import tqdm
 
@@ -83,7 +80,8 @@ Also, choose only one of the following TAGS:
 - SKILL_BOOK
 - FURNITURE
 # [END TAGS] #
-Never make up a tag, choose only one that exist in the list.
+
+If no tag makes sense, use VARIOUS.
 
 Keep in mind the following rules when deciding the price:
 - Price can never be 0
@@ -125,11 +123,11 @@ similar_prompt = FewShotPromptTemplate(
 llm = LlamaCpp(
     model_path=model_path,
     temperature=0.5,
-    n_gpu_layers=-1,
-    n_batch=2000,
+    n_gpu_layers=25,
+    n_batch=1536,
     n_ctx=1536,
 
-    max_tokens=2000,
+    max_tokens=1536,
     top_p=1,
     f16_kv=True,
     grammar_path ="json_grammar.gbnf", 
@@ -140,7 +138,7 @@ llm = LlamaCpp(
 
 
 
-llm_chain = LLMChain(
+llm_chain = LLMChain( 
     prompt=similar_prompt,
     llm=llm,
     verbose=False,

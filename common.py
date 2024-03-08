@@ -1,9 +1,9 @@
 import json
 
-PRICES_JSON_PATH = 'output/prices_test_new2.json'
+PRICES_JSON_PATH = 'output/prices_test_new3.json'
 
 
-def get_data():
+def get_data(path=PRICES_JSON_PATH):
     # Load data
     with open('data/items.json') as json_file:
         data = json.load(json_file)

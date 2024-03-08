@@ -1,9 +1,15 @@
 from pydantic.v1 import BaseModel, ConfigDict, Field
+from typing_extensions import Literal
 
 class OutputJsonData(BaseModel):
     #fullType: str
     price: int
-    tag : str
+    tag : Literal[
+        "AMMO", "FIRST_AID",
+        "FURNITURE", "VARIOUS",
+        "CLOTHING", "CAR_PARTS",
+        "FOOD", "SKILL_BOOK",
+        "WEAPON", "MILITARY_CLOTHING"]
 
 
 
