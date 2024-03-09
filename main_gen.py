@@ -1,5 +1,5 @@
 from langchain_community.llms.llamacpp import LlamaCpp
-from pydantic import ValidationError
+from pydantic.v1.error_wrappers import ValidationError
 import tqdm
 import json
 from gen_examples import setup_examples
@@ -10,9 +10,10 @@ from langchain.prompts import FewShotPromptTemplate
 from langchain.chains import LLMChain
 
 
-output_path = "output/prices.json"
 model_path = "F:/models/llm/gguf/capybarahermes-2.5-mistral-7b.Q5_K_M.gguf"
-t = OutputEnum.PRICE
+t = OutputEnum.TAG
+
+output_path = "output/prices.json" if t == OutputEnum.PRICE else "output/tags.json"
 
 #######################
 
@@ -38,7 +39,7 @@ llm = LlamaCpp(
     n_gpu_layers=-1,
     n_batch=1536,
     n_ctx=1536,
-    max_tokens=1536,
+    max_tokens=1536 if t == OutputEnum.PRICE else 150,
     top_p=1,
     f16_kv=True,
     grammar_path ="json_grammar.gbnf", 
@@ -87,17 +88,23 @@ while i < len(data):
             "weight": weight,
             "categories": categories}
         )
-        new_j = json.loads(result['text'])
 
-        # check amount of data, if more than one then throw error
+        try:
+            new_j = json.loads(result['text'])
+        except json.decoder.JSONDecodeError:
+            continue
+
+        # check amount of data, if more than one then get only the first one
         if len(new_j) > 1:
-            raise ValueError("Generated more than one val")
+            new_j = [new_j[0]]
         
         # Validate
         try:
             output_type.validate(new_j[0])
-        except ValidationError:
+        except ValidationError as e:
+            print(e)
             print("Data not valid")
+            i+=1        # skip
             continue
 
         new_j[0]['fullType'] = fullType
@@ -114,9 +121,10 @@ while i < len(data):
         #     continue
 
 
-        # SAVE PREVIOUS DATA
-        prev_input = spliced_data
-        prev_output = result['text']
+        # SAVE PREVIOUS DATA, only for prices
+        if t == OutputEnum.PRICE:
+            prev_input = spliced_data
+            prev_output = result['text']
 
     i+=1
     pbar.update(1)

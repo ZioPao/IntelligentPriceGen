@@ -14,27 +14,14 @@ Use this ONLY if it seems relevant to the current item
 
 ########## [END PREVIOUS DATA] ############
 
-Based on the data I'm giving you try to guess a tag for it.
-Choose one of the following tags
-[START TAGS]
-- WEAPON
-- AMMO
-- CLOTHING
-- MILITARY_CLOTHING
-- FOOD
-- FIRST_AID
-- VARIOUS
-- CAR_PARTS
-- SKILL_BOOK
-- FURNITURE
-- TOOL
-[END TAGS]
+Based on the data I'm giving you try to guess a tag for it, choosing from the following list of tags:
+
+WEAPON, AMMO, CLOTHING, MILITARY_CLOTHING, FOOD, FIRST_AID, VARIOUS, CAR_PARTS, SKILL_BOOK, FURNITURE, TOOL
 
 Keep in mind the following rules when deciding the price:
-- Don't just copy the category for the tag field
-- If the item in previous data same shares a lot of similiarity in the data, re-use the same tag
+- If there's no tag that seems correct in the list for that item, use VARIOUS.
 - If an item doesn't have Weapon in their category, it cannot have the tag WEAPON
-- If there's no tag that seems to make sense for that item, use VARIOUS.
+- #ELECTRONICS#, #SPORTS# and #LIGHT_SOURCE# are NOT allowed as tags.
 
 Format the output data as such: 
 [
