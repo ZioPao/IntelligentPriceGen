@@ -3,13 +3,11 @@ from pydantic import ValidationError
 import tqdm
 import json
 from gen_examples import setup_examples
-from old.examples import OutputJsonData
-from zomb_gen_common import OutputEnum, OutputJsonPrice, get_data
+from zomb_gen_common import OutputEnum, OutputJsonPrice,OutputJsonTag, get_data
 from gen_prompt import get_suffix
 
 from langchain.prompts import FewShotPromptTemplate
 from langchain.chains import LLMChain
-from langchain.output_parsers import PydanticOutputParser
 
 
 output_path = "output/prices.json"
@@ -18,9 +16,7 @@ t = OutputEnum.PRICE
 
 #######################
 
-
-
-output_type = OutputJsonPrice if t == OutputEnum.PRICE else OutputJsonData
+output_type = OutputJsonPrice if t == OutputEnum.PRICE else OutputJsonTag
 
 example_prompt, example_selector = setup_examples(t)
 example_template = example_prompt.template
@@ -50,13 +46,11 @@ llm = LlamaCpp(
     verbose=True,  # Verbose is required to pass to the callback manager
 )
 
-
 llm_chain = LLMChain( 
     prompt=similar_prompt,
     llm=llm,
     verbose=True,
 )
-
 
 data, prices = get_data(output_path)
 prev_output = None
@@ -126,6 +120,4 @@ while i < len(data):
 
     i+=1
     pbar.update(1)
-
-
 

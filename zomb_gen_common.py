@@ -1,5 +1,6 @@
 from pydantic.v1 import BaseModel, ConfigDict, Field
 from enum import Enum
+from typing_extensions import Literal
 import json
 
 ########### ...
@@ -7,7 +8,13 @@ class OutputJsonPrice(BaseModel):
     price: int
 
 class OutputJsonTag(BaseModel):
-    tag: str
+    tag : Literal[
+        "AMMO", "FIRST_AID",
+        "FURNITURE", "VARIOUS",
+        "CLOTHING", "CAR_PARTS",
+        "FOOD", "SKILL_BOOK",
+        "WEAPON", "MILITARY_CLOTHING",
+        "TOOL"]
 
 
 class OutputEnum(Enum):
