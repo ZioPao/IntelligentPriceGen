@@ -5,7 +5,7 @@ from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.callbacks.manager import CallbackManager
 from langchain.prompts import PromptTemplate
 from pydantic import ValidationError
-from gen_selector import FullTypeSelector
+from gen_selector import ZomboidItemSelector
 from common import get_data, PRICES_JSON_PATH
 from examples import examples, OutputJsonData
 import json
@@ -43,16 +43,8 @@ example_prompt = PromptTemplate(
     template=example_template
 )
 
-# Setup embeddings
-#embeddings = LlamaCppEmbeddings(model_path=model_path)
 
-# to_vectorize = [" ".join(example.values()) for example in examples]
-# vectorstore = Chroma.from_texts(to_vectorize, embeddings, metadatas=examples)
-
-# example_selector = SemanticSimilarityExampleSelector(vectorstore=vectorstore, k=4)
-
-
-example_selector = FullTypeSelector(examples, 2)
+example_selector = ZomboidItemSelector(examples, 2)
 
 # Setup prompt
 
@@ -61,6 +53,7 @@ suffix = """
 ########## [END EXAMPLES] ############
 
 ########## [START PREVIOUS DATA] ############
+Use this ONLY if it seems relevant to the current item
 
 {prevData}
 
@@ -69,7 +62,7 @@ suffix = """
 Based on the data I'm giving you try to guess a price.
 Price must be an integer.
 
-You must also choose a tag. You can only choose between these tags:
+Choose one of the following tags
 [START TAGS]
 - WEAPON
 - AMMO
@@ -85,13 +78,16 @@ You must also choose a tag. You can only choose between these tags:
 [END TAGS]
 
 Keep in mind the following rules when deciding the price:
+- Don't just copy the category for the tag field
 - Price can never be 0
-- Prices can't exceed 1,0000
+- Price for a single item can't exceed 10000
 - Clips should be priced at around 200
 - Ammo boxes should be priced at around 600
 - Bullet should be priced lower than 75
 - If the item in previous data same shares a lot of similiarity in the data, keep the price close
 - If an item doesn't have Weapon in their category, it cannot have the tag WEAPON
+- Consider the weight when choosing a price especially for FOOD items.
+- If there's no tag that seems to make sense for that item, use VARIOUS.
 
 Format the output data as such: [{{'tag': string, 'price' : integer}}].
 Return ONLY ONE ITEM, do not make up new items.
@@ -123,11 +119,10 @@ similar_prompt = FewShotPromptTemplate(
 
 llm = LlamaCpp(
     model_path=model_path,
-    temperature=0.5,
+    temperature=0.45,
     n_gpu_layers=-1,
     n_batch=1536,
     n_ctx=1536,
-
     max_tokens=1536,
     top_p=1,
     f16_kv=True,

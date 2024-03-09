@@ -1,0 +1,165 @@
+[
+    {
+        "price": 500,
+        "fullType": "ATA2.ATA2ItemContainer"
+    },
+    {
+        "price": 300,
+        "fullType": "ATA2.ATABullbar1Item"
+    },
+    {
+        "price": 400,
+        "fullType": "ATA2.ATABullbar2Item"
+    },
+    {
+        "price": 500,
+        "fullType": "ATA2.ATABullbar3Item"
+    },
+    {
+        "price": 500,
+        "fullType": "ATA2.ATABullbarPoliceItem1"
+    },
+    {
+        "price": 300,
+        "fullType": "ATA2.ATAFendersWideItem"
+    },
+    {
+        "price": 150,
+        "fullType": "ATA2.ATAFrontRoofLightItem"
+    },
+    {
+        "price": 500,
+        "fullType": "ATA2.ATASkirtsSideItem"
+    },
+    {
+        "price": 300,
+        "fullType": "ATA2.ATASpoilerFrontItem"
+    },
+    {
+        "price": 150,
+        "fullType": "ATA2.ATASpoilerRear1Item"
+    },
+    {
+        "price": 500,
+        "fullType": "ATA2.ATASpoilerRear2Item"
+    },
+    {
+        "price": 500,
+        "fullType": "BBB.MugBattery"
+    },
+    {
+        "price": 100,
+        "fullType": "BBB.MugNoCoffee"
+    },
+    {
+        "price": 200,
+        "fullType": "BBB.Shirt_BBB_FS_Logo"
+    },
+    {
+        "price": 2500,
+        "fullType": "BBB.Tshirt_BBB_24KGoldBeevar"
+    },
+    {
+        "price": 2500,
+        "fullType": "BBB.Tshirt_BBB_BusyBeaver"
+    },
+    {
+        "price": 450,
+        "fullType": "BBB.Tshirt_BBB_Griefed"
+    },
+    {
+        "price": 2500,
+        "fullType": "BBB.Tshirt_BBB_HailToTheBeaver"
+    },
+    {
+        "price": 2500,
+        "fullType": "BBB.Tshirt_BBB_HangingwSpiffo"
+    },
+    {
+        "price": 2500,
+        "fullType": "BBB.Tshirt_BBB_JokinAround"
+    },
+    {
+        "price": 2500,
+        "fullType": "BBB.Tshirt_BBB_SittingBeaver"
+    },
+    {
+        "price": 2500,
+        "fullType": "BBB.Tshirt_BBB_Slay"
+    },
+    {
+        "price": 500,
+        "fullType": "BBB.WaterMugBattery"
+    },
+    {
+        "price": 500,
+        "fullType": "BBB.WaterMugNoCoffee"
+    },
+    {
+        "price": 1000,
+        "fullType": "BCGRareWeapons.ReinforcedBaseballBat"
+    },
+    {
+        "price": 1500,
+        "fullType": "BCGRareWeapons.VikingAxe"
+    },
+    {
+        "price": 500,
+        "fullType": "Base.1000Tank1"
+    },
+    {
+        "price": 550,
+        "fullType": "Base.1000Tank2"
+    },
+    {
+        "price": 550,
+        "fullType": "Base.1000Tank3"
+    },
+    {
+        "price": 1550,
+        "fullType": "Base.1022"
+    },
+    {
+        "price": 150,
+        "fullType": "Base.1916_Helmet"
+    },
+    {
+        "price": 150,
+        "fullType": "Base.1916_Helmet_ON"
+    },
+    {
+        "price": 250,
+        "fullType": "Base.1916_Helmet_Visor"
+    },
+    {
+        "price": 250,
+        "fullType": "Base.1916_Helmet_Visor_2"
+    },
+    {
+        "price": 1000,
+        "fullType": "Base.223Box"
+    },
+    {
+        "price": 15,
+        "fullType": "Base.223Bullets"
+    },
+    {
+        "price": 150,
+        "fullType": "Base.223BulletsMold"
+    },
+    {
+        "price": 200,
+        "fullType": "Base.223Clip"
+    },
+    {
+        "price": 200,
+        "fullType": "Base.223Clip20"
+    },
+    {
+        "price": 600,
+        "fullType": "Base.22Box"
+    },
+    {
+        "price": 35,
+        "fullType": "Base.22Bullets"
+    },

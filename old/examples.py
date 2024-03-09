@@ -76,8 +76,12 @@ examples = [
     ExamplesModel(fullType="Base.Bag_BigHikingBag", name="Big Hiking Bag", weight='1.5', categories="[Bag]",
                 output=r"{{'price':'2500', 'tag':'CLOTHING'}}").dict(),
 
+    ### Food
+    ExamplesModel(fullType="Base.CookieChocolateChip", name="Chocolate Chip Cookie", categories="[Food]", weight='0.1',
+                output=r"{{'price':'5', 'tag':'FOOD'}}").dict(),
 
-
+    ExamplesModel(fullType="Base.Corn", name="Corn", categories="[Food]", weight='0.2',
+                output=r"{{'price':'2', 'tag':'FOOD'}}").dict(),
     ### Random Junk
     
     ExamplesModel(fullType="Base.ToiletPaper", name="Toilet Paper", weight='0.2', categories="[Junk]",
@@ -93,6 +97,8 @@ examples = [
     ### Guns
     ExamplesModel(fullType="Base.AssaultRifle", name="M16 Assault Rifle", weight='4', categories="[Weapon]",
                   output=r"{{'price':'2500', 'tag':'WEAPON'}}").dict(),
+    ExamplesModel(fullType="Base.AK47", name="AK47 Assault Rifle", weight='4.1', categories="[Weapon]",
+                  output=r"{{'price':'2400', 'tag':'WEAPON'}}").dict(),
 
 
     ## Beaver example
@@ -108,7 +114,12 @@ examples = [
                   output=r"{{'price':'10', 'tag':'FIRST_AID'}}").dict(),
 
 
+    # Stuff that shouldn't cost that much
+    ExamplesModel(fullType="Base.Jumper_DiamondPatternTINT", name="Diamond-pattern Sweater", weight='1', categories="[Clothing]",
+                  output=r"{{'price':'250', 'tag':'CLOTHING'}}").dict(),
 
+
+    
     # # - Items with FullType that starts with BBB. should have a price of at least 2000
     # {
     #     "input": InputJsonData(fullType="BBB.Tshirt_BBB_SittingBeaver", name="Sitting Beaver T-Shirt", weight=1, category="[Clothing]").model_dump_json(), 
