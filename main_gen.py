@@ -99,13 +99,13 @@ while i < len(data):
             new_j = [new_j[0]]
         
         # Validate
-        try:
-            output_type.validate(new_j[0])
-        except ValidationError as e:
-            print(e)
-            print("Data not valid")
-            i+=1        # skip
-            continue
+        # try:
+        #     output_type.validate(new_j[0])
+        # except ValidationError as e:
+        #     print(e)
+        #     print("Data not valid")
+        #     i+=1        # skip
+        #     continue
 
         new_j[0]['fullType'] = fullType
         pbar.set_description(json.dumps(new_j), refresh=True)

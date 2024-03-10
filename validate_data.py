@@ -1,7 +1,5 @@
 import tqdm
-from common import get_data
-
-data, prices = get_data()
+import json
 
 
 def check_fulltypes(data, prices):
@@ -19,10 +17,12 @@ def check_fulltypes(data, prices):
         if not isFound:
             print(fullType + " NOT FOUND!!!!!!!!!!!!!!!!!")
 
-def check_unique_tags(prices):
-    tags = set([v['tag'] for v in prices])
+def check_unique_tags(tags_json):
+    tags = set([v['tag'] for v in tags_json])
     print(tags)
 
+with open('output/tags.json') as json_file:
+    tags_json = json.load(json_file)
 
 
-check_unique_tags(prices=prices)
+check_unique_tags(tags_json=tags_json)

@@ -1909,23 +1909,23 @@
     },
     {
         "tag": "SKILL_BOOK",
-        "fullType": "Base.BookTrapping1"
+        "fullType": "Base.BookVARIOUS1"
     },
     {
         "tag": "SKILL_BOOK",
-        "fullType": "Base.BookTrapping2"
+        "fullType": "Base.BookVARIOUS2"
     },
     {
         "tag": "SKILL_BOOK",
-        "fullType": "Base.BookTrapping3"
+        "fullType": "Base.BookVARIOUS3"
     },
     {
         "tag": "SKILL_BOOK",
-        "fullType": "Base.BookTrapping4"
+        "fullType": "Base.BookVARIOUS4"
     },
     {
         "tag": "SKILL_BOOK",
-        "fullType": "Base.BookTrapping5"
+        "fullType": "Base.BookVARIOUS5"
     },
     {
         "tag": "CLOTHING",
@@ -3896,6 +3896,10 @@
         "fullType": "Base.Flute"
     },
     {
+        "tag": "WEAPON",
+        "fullType": "Base.Football2"
+    },
+    {
         "tag": "CLOTHING",
         "fullType": "Base.Formal_Shirts"
     },
@@ -4378,6 +4382,10 @@
     {
         "tag": "MILITARY_CLOTHING",
         "fullType": "Base.GuitarElectricBlack"
+    },
+    {
+        "tag": "MILITARY_CLOTHING",
+        "fullType": "Base.GuitarElectricRed"
     },
     {
         "tag": "VARIOUS",
@@ -7710,6 +7718,10 @@
         "fullType": "Base.PaintbucketEmpty"
     },
     {
+        "tag": "VARIOUS",
+        "fullType": "Base.Pan"
+    },
+    {
         "tag": "FOOD",
         "fullType": "Base.PanFriedVegetables"
     },
@@ -8943,7 +8955,7 @@
     },
     {
         "tag": "VARIOUS",
-        "fullType": "Base.SeedBag"
+        "fullType": "Base.VARIOUSBag"
     },
     {
         "tag": "VARIOUS",
@@ -9715,7 +9727,7 @@
     },
     {
         "tag": "CLOTHING",
-        "fullType": "Base.Sports_Bra"
+        "fullType": "Base.VARIOUS_Bra"
     },
     {
         "tag": "FOOD",
@@ -9859,7 +9871,7 @@
     },
     {
         "tag": "FOOD",
-        "fullType": "Base.SunflowerSeeds"
+        "fullType": "Base.SunflowerVARIOUS"
     },
     {
         "tag": "FOOD",
@@ -10231,11 +10243,11 @@
     },
     {
         "tag": "FURNITURE",
-        "fullType": "Base.TransportSeatBoxWooden"
+        "fullType": "Base.TranVARIOUSeatBoxWooden"
     },
     {
         "tag": "CAR_PARTS",
-        "fullType": "Base.TransportShelve"
+        "fullType": "Base.TranVARIOUShelve"
     },
     {
         "tag": "FIRST_AID",
@@ -10783,6 +10795,10 @@
     },
     {
         "tag": "VARIOUS",
+        "fullType": "Base.Vader_Cape"
+    },
+    {
+        "tag": "VARIOUS",
         "fullType": "Base.Vader_Helmet"
     },
     {
@@ -11263,27 +11279,11 @@
     },
     {
         "tag": "VARIOUS",
-        "fullType": "Base.WristWatch_Right_DigitalBlack"
-    },
-    {
-        "tag": "WEAPON",
-        "fullType": "Base.Football2"
-    },
-    {
-        "tag": "MILITARY_CLOTHING",
-        "fullType": "Base.GuitarElectricRed"
-    },
-    {
-        "tag": "VARIOUS",
-        "fullType": "Base.Pan"
-    },
-    {
-        "tag": "VARIOUS",
-        "fullType": "Base.Vader_Cape"
-    },
-    {
-        "tag": "VARIOUS",
         "fullType": "Base.WristWatch_Right_ClassicMilitary"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.WristWatch_Right_DigitalBlack"
     },
     {
         "tag": "CLOTHING",
@@ -11995,11 +11995,11 @@
     },
     {
         "tag": "FOOD",
-        "fullType": "farming.BroccoliBagSeed"
+        "fullType": "farming.BroccoliBagVARIOUS"
     },
     {
         "tag": "FOOD",
-        "fullType": "farming.BroccoliSeed"
+        "fullType": "farming.BroccoliVARIOUS"
     },
     {
         "tag": "FOOD",
@@ -12007,11 +12007,11 @@
     },
     {
         "tag": "FOOD",
-        "fullType": "farming.CabbageSeed"
+        "fullType": "farming.CabbageVARIOUS"
     },
     {
         "tag": "FOOD",
-        "fullType": "farming.CarrotSeed"
+        "fullType": "farming.CarrotVARIOUS"
     },
     {
         "tag": "VARIOUS",
@@ -12051,11 +12051,11 @@
     },
     {
         "tag": "CAR_PARTS",
-        "fullType": "farming.PotatoBagSeed"
+        "fullType": "farming.PotatoBagVARIOUS"
     },
     {
         "tag": "FOOD",
-        "fullType": "farming.PotatoSeed"
+        "fullType": "farming.PotatoVARIOUS"
     },
     {
         "tag": "FOOD",
@@ -12063,11 +12063,11 @@
     },
     {
         "tag": "VARIOUS",
-        "fullType": "farming.RedRadishBagSeed"
+        "fullType": "farming.RedRadishBagVARIOUS"
     },
     {
         "tag": "FOOD",
-        "fullType": "farming.RedRadishSeed"
+        "fullType": "farming.RedRadishVARIOUS"
     },
     {
         "tag": "FOOD",
@@ -12104,5 +12104,309 @@
     {
         "tag": "VARIOUS",
         "fullType": "farming.WateredCanFull"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Baseball"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Basketball"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Bear_Mask"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.BellyButton_RingSilverAmethyst"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.BellyButton_StudGold"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.BellyButton_StudSilverDiamond"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.BrokenFishingNet"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.CandleLit"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.CarvingFork"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.CompostBag"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Dart"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Earing_Lisa"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.FertilizerEmpty"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Football"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Fork"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Gloves_WhiteTINT"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.GolfBall"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Golfclub"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.GridlePan"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.GuitarElectricBassBlack"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.GuitarElectricBassBlue"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.GuitarElectricBassRed"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.GuitarElectricBlue"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.HandTorch"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.HandTorch_Army1"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.HandTorch_Army2"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.HandTorch_ManLite"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.HockeyStick"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.JacquesBeaver"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Matches"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.NecklaceLong_GoldDiamond"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Necklace_GoldDiamond"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Necklace_SilverDiamond"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Plunger"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.PoolBall"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Poolcue"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Ring_Left_MiddleFinger_GoldDiamond"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Ring_Left_MiddleFinger_GoldRuby"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Ring_Left_RingFinger_Gold"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Ring_Left_RingFinger_GoldDiamond"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Ring_Left_RingFinger_GoldRuby"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Ring_Right_MiddleFinger_Gold"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Ring_Right_MiddleFinger_GoldDiamond"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Ring_Right_MiddleFinger_GoldRuby"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Ring_Right_MiddleFinger_Silver"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Ring_Right_MiddleFinger_SilverDiamond"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Ring_Right_RingFinger_GoldDiamond"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Ring_Right_RingFinger_GoldRuby"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Ring_Right_RingFinger_Silver"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.SET_Goggles"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.Star_Cape_ON"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.TennisBall"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.TennisRacket"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Torch"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Torch1"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Torch2"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Torch3"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Torch4"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Torch7"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.TrapBox"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.TrapCage"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.TrapCrate"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.TrapMouse"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.TrapSnare"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.TrapStick"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Trumpet"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "Base.Violin"
+    },
+    {
+        "tag": "CLOTHING",
+        "fullType": "Base.WeddingRing_Woman"
+    },
+    {
+        "tag": "WEAPON",
+        "fullType": "MoreTraits.BloodyCrowbar"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "farming.CabbageBagVARIOUS"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "farming.CarrotBagVARIOUS"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "farming.GardeningSprayCigarettes"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "farming.StrewberrieBagVARIOUS"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "farming.StrewberrieVARIOUS"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "farming.TomatoBagVARIOUS"
+    },
+    {
+        "tag": "VARIOUS",
+        "fullType": "farming.TomatoVARIOUS"
     }
 ]
