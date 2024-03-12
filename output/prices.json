@@ -2076,35 +2076,35 @@
         "fullType": "Base.Bra_Straps_White"
     },
     {
-        "price": 50,
+        "price": 1500,
         "fullType": "Base.Bracelet_BangleLeftGold"
     },
     {
-        "price": 40,
+        "price": 1400,
         "fullType": "Base.Bracelet_BangleLeftSilver"
     },
     {
-        "price": 50,
+        "price": 1500,
         "fullType": "Base.Bracelet_BangleRightGold"
     },
     {
-        "price": 30,
+        "price": 1500,
         "fullType": "Base.Bracelet_BangleRightSilver"
     },
     {
-        "price": 200,
+        "price": 2000,
         "fullType": "Base.Bracelet_ChainLeftGold"
     },
     {
-        "price": 150,
+        "price": 1500,
         "fullType": "Base.Bracelet_ChainLeftSilver"
     },
     {
-        "price": 200,
+        "price": 2000,
         "fullType": "Base.Bracelet_ChainRightGold"
     },
     {
-        "price": 150,
+        "price": 1500,
         "fullType": "Base.Bracelet_ChainRightSilver"
     },
     {
@@ -2432,7 +2432,7 @@
         "fullType": "Base.CannedCarrots"
     },
     {
-        "price": "100",
+        "price": "50",
         "fullType": "Base.CannedCarrots2"
     },
     {
@@ -3120,11 +3120,11 @@
         "fullType": "Base.Cornmeal"
     },
     {
-        "price": "50",
+        "price": "0",
         "fullType": "Base.CorpseFemale"
     },
     {
-        "price": "50",
+        "price": "0",
         "fullType": "Base.CorpseMale"
     },
     {
@@ -3564,87 +3564,87 @@
         "fullType": "Base.Earbuds"
     },
     {
-        "price": "20",
+        "price": "2000",
         "fullType": "Base.Earing_Lisa"
     },
     {
-        "price": "20",
+        "price": "2000",
         "fullType": "Base.Earring_Dangly_Diamond"
     },
     {
-        "price": "20",
+        "price": 2500,
         "fullType": "Base.Earring_Dangly_Emerald"
     },
     {
-        "price": "20",
+        "price": "2000",
         "fullType": "Base.Earring_Dangly_Pearl"
     },
     {
-        "price": "20",
+        "price": "3500",
         "fullType": "Base.Earring_Dangly_Ruby"
     },
     {
-        "price": "20",
+        "price": "2500",
         "fullType": "Base.Earring_Dangly_Sapphire"
     },
     {
-        "price": "30",
+        "price": "3000",
         "fullType": "Base.Earring_LoopLrg_Gold"
     },
     {
-        "price": "30",
+        "price": "1525",
         "fullType": "Base.Earring_LoopLrg_Silver"
     },
     {
-        "price": "30",
+        "price": "1330",
         "fullType": "Base.Earring_LoopMed_Gold"
     },
     {
-        "price": "30",
+        "price": "1000",
         "fullType": "Base.Earring_LoopMed_Silver"
     },
     {
-        "price": "30",
+        "price": "2500",
         "fullType": "Base.Earring_LoopSmall_Gold_Both"
     },
     {
-        "price": 30,
+        "price": 2500,
         "fullType": "Base.Earring_LoopSmall_Gold_Top"
     },
     {
-        "price": 30,
+        "price": 1500,
         "fullType": "Base.Earring_LoopSmall_Silver_Both"
     },
     {
-        "price": 30,
+        "price": 1250,
         "fullType": "Base.Earring_LoopSmall_Silver_Top"
     },
     {
-        "price": 35,
+        "price": 2500,
         "fullType": "Base.Earring_Pearl"
     },
     {
-        "price": 35,
+        "price": 3500,
         "fullType": "Base.Earring_Stone_Emerald"
     },
     {
-        "price": 35,
+        "price": 2800,
         "fullType": "Base.Earring_Stone_Ruby"
     },
     {
-        "price": 35,
+        "price": 3500,
         "fullType": "Base.Earring_Stone_Sapphire"
     },
     {
-        "price": 50,
+        "price": 2550,
         "fullType": "Base.Earring_Stud_Gold"
     },
     {
-        "price": 50,
+        "price": 1550,
         "fullType": "Base.Earring_Stud_Silver"
     },
     {
-        "price": 50,
+        "price": 250,
         "fullType": "Base.Earrings"
     },
     {
@@ -9216,59 +9216,59 @@
         "fullType": "Base.Sheriff_Jumper"
     },
     {
-        "price": 1500,
+        "price": 500,
         "fullType": "Base.Sheriff_Vest"
     },
     {
-        "price": 2500,
+        "price": 250,
         "fullType": "Base.Sheriff_Vest_Full"
     },
     {
-        "price": 2500,
+        "price": 250,
         "fullType": "Base.Shirt_Baseball_KY"
     },
     {
-        "price": 2500,
+        "price": 250,
         "fullType": "Base.Shirt_Baseball_Rangers"
     },
     {
-        "price": 2500,
+        "price": 250,
         "fullType": "Base.Shirt_Baseball_Z"
     },
     {
-        "price": 2500,
+        "price": 250,
         "fullType": "Base.Shirt_Bowling_Blue"
     },
     {
-        "price": 2500,
+        "price": 250,
         "fullType": "Base.Shirt_Bowling_Brown"
     },
     {
-        "price": 2500,
+        "price": 250,
         "fullType": "Base.Shirt_Bowling_Green"
     },
     {
-        "price": 2500,
+        "price": 250,
         "fullType": "Base.Shirt_Bowling_LimeGreen"
     },
     {
-        "price": 2500,
+        "price": 250,
         "fullType": "Base.Shirt_Bowling_Pink"
     },
     {
-        "price": 2500,
+        "price": 250,
         "fullType": "Base.Shirt_Bowling_White"
     },
     {
-        "price": 1500,
+        "price": 150,
         "fullType": "Base.Shirt_CamoDesert"
     },
     {
-        "price": 1500,
+        "price": 150,
         "fullType": "Base.Shirt_CamoGreen"
     },
     {
-        "price": 1500,
+        "price": 150,
         "fullType": "Base.Shirt_CamoUrban"
     },
     {
@@ -9336,39 +9336,39 @@
         "fullType": "Base.Shirt_Lumberjack"
     },
     {
-        "price": 500,
+        "price": 250,
         "fullType": "Base.Shirt_OfficerWhite"
     },
     {
-        "price": 500,
+        "price": 250,
         "fullType": "Base.Shirt_PoliceBlue"
     },
     {
-        "price": 500,
+        "price": 250,
         "fullType": "Base.Shirt_PoliceGrey"
     },
     {
-        "price": 500,
+        "price": 300,
         "fullType": "Base.Shirt_Priest"
     },
     {
-        "price": 500,
+        "price": 100,
         "fullType": "Base.Shirt_PrisonGuard"
     },
     {
-        "price": 500,
+        "price": 250,
         "fullType": "Base.Shirt_Ranger"
     },
     {
-        "price": 1000,
+        "price": 250,
         "fullType": "Base.Shirt_Scrubs"
     },
     {
-        "price": 1000,
+        "price": 150,
         "fullType": "Base.Shirt_Workman"
     },
     {
-        "price": 400,
+        "price": 200,
         "fullType": "Base.Shirts_Bennett"
     },
     {
@@ -11716,7 +11716,7 @@
         "fullType": "MoreTraits.AntiqueAxe"
     },
     {
-        "price": 1000,
+        "price": 500,
         "fullType": "MoreTraits.AntiqueBoots"
     },
     {
@@ -11752,7 +11752,7 @@
         "fullType": "MoreTraits.AntiqueVest"
     },
     {
-        "price": 200,
+        "price": 300,
         "fullType": "MoreTraits.Bag_SmallHikingBag"
     },
     {
@@ -12232,7 +12232,7 @@
         "fullType": "camping.CampingTent"
     },
     {
-        "price": 2000,
+        "price": 1500,
         "fullType": "camping.CampingTentKit"
     },
     {
