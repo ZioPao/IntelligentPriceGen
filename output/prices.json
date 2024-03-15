@@ -3552,11 +3552,11 @@
         "fullType": "Base.EOD_Visor_UP"
     },
     {
-        "price": "150",
+        "price": "5500",
         "fullType": "Base.EXO_Suit"
     },
     {
-        "price": "250",
+        "price": "5500",
         "fullType": "Base.EXO_Suit_ON"
     },
     {
@@ -6016,19 +6016,19 @@
         "fullType": "Base.Locket"
     },
     {
-        "price": 5,
+        "price": 10,
         "fullType": "Base.Log"
     },
     {
-        "price": 10,
+        "price": 20,
         "fullType": "Base.LogStacks2"
     },
     {
-        "price": 15,
+        "price": 30,
         "fullType": "Base.LogStacks3"
     },
     {
-        "price": 30,
+        "price": 40,
         "fullType": "Base.LogStacks4"
     },
     {
@@ -8204,11 +8204,11 @@
         "fullType": "Base.PizzaWhole"
     },
     {
-        "price": 50,
+        "price": 2,
         "fullType": "Base.Plank"
     },
     {
-        "price": 300,
+        "price": 10,
         "fullType": "Base.PlankNail"
     },
     {
@@ -11408,19 +11408,19 @@
         "fullType": "Base.WinterBerry"
     },
     {
-        "price": "600",
+        "price": "250",
         "fullType": "Base.Winter_Jacket_Camo_Heavy"
     },
     {
-        "price": "650",
+        "price": "250",
         "fullType": "Base.Winter_Jacket_Camo_Heavy_ON"
     },
     {
-        "price": "600",
+        "price": "300",
         "fullType": "Base.Winter_Jacket_Heavy"
     },
     {
-        "price": "650",
+        "price": "300",
         "fullType": "Base.Winter_Jacket_Heavy_ON"
     },
     {
