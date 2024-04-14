@@ -11,7 +11,7 @@ from langchain.chains import LLMChain
 
 
 model_path = "F:/models/llm/gguf/capybarahermes-2.5-mistral-7b.Q5_K_M.gguf"
-t = OutputEnum.TAG
+t = OutputEnum.PRICE
 
 output_path = "output/prices.json" if t == OutputEnum.PRICE else "output/tags.json"
 
